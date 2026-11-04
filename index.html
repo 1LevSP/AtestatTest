@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Тест</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Тест</h1>
+    </header>
+
+    <main>
+        <div class="overlay" id="overlay">
+            <img id="overlay-img" src="" alt="Enlarged Image">
+        </div>
+
+        <section class="questions">
+        </section>
+
+        <section class="results">
+            <h2>Результаты</h2>
+            <p>Вы ответили верно на <span id="correct">0</span> из <span class="total">0</span> вопросов</p>
+            <button id="restart">Перезапустить</button>
+        </section>
+    </main>
+
+    <footer>
+        <div id="myProgress">
+            <div id="myBar"></div>
+        </div>
+        <p class="myProgressText"><span id="current">0</span>/<span class="total">0</span></p>
+        <button class="nextBtn" disabled>Следующий вопрос</button>
+    </footer>
+
+    <script src="./javascript.js"></script>
+</body>
+
+</html>

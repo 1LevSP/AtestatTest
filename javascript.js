@@ -5680,8 +5680,6 @@ function showQuestion() {
     // Create question image
     const quizImage = document.createElement("img");
     quizImage.src = currentQuestion.imgLink;
-    quizImage.style.width = "50%";
-    quizImage.style.height = "250px";
     quizImage.className = "questionImg";
     quizImage.id = "quiz-image";
     quizImage.alt = currentQuestion.question;
@@ -5822,4 +5820,3 @@ function startQuiz() {
 overlay.addEventListener("click", () => {
     overlay.style.display = "none";
 });
-

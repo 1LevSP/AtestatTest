@@ -18,17 +18,26 @@
             <img id="overlay-img" src="" alt="Enlarged Image">
         </div>
 
-        <section class="questions">
+        <section class="start-screen">
+            <h2>Выберите режим теста</h2>
+            <button class="startBtn" data-mode="random">30 случайных вопросов</button>
+            <button class="startBtn" data-mode="all">Все доступные вопросы</button>
         </section>
 
-        <section class="results">
+        <section class="questions" hidden>
+        </section>
+
+        <section class="results" hidden>
             <h2>Результаты</h2>
             <p>Вы ответили верно на <span id="correct">0</span> из <span class="total">0</span> вопросов</p>
-            <button id="restart">Перезапустить</button>
+            <div class="results-actions">
+                <button id="restart">Перезапустить</button>
+                <button id="menuBtn">Вернуться на главную</button>
+            </div>
         </section>
     </main>
 
-    <footer>
+    <footer hidden>
         <div id="myProgress">
             <div id="myBar"></div>
         </div>

@@ -1,11 +1,6 @@
-// Define the questions for the quiz
-// Чтобы сделать без указания правильного неправильного ответа найти red и greed и напистаь вметсо них none
-// Чтобы вопросы шли по порядку: в строке const j = Math.floor(Math.random() * (i + 1)); все что после равно заменить на i;
 // Добавить:
 // 1) чтобы можно было переходить между вопросами 
-// 2) откывая тест давалось 30 рандомных вопросов (Готово)
 // 3) добавить билеты с задачами 
-// 4) подтверждение ответа при помощи нажатия на enter или пробел , если первый пунк сделан по ещё при помощи стрелок переходит ьмежду вопросами (Готово)
 // Свободные вопросы:487
 
 const quizData = [
@@ -5626,7 +5621,11 @@ const quizData = [
 // Select the HTML elements
 const questionContainer = document.querySelector(".questions");
 const resultsContainer = document.querySelector(".results");
+const startScreen = document.querySelector(".start-screen");
+const startButtons = document.querySelectorAll(".startBtn");
+const footer = document.querySelector("footer");
 const restartButton = document.querySelector("#restart");
+const menuButton = document.querySelector("#menuBtn");
 const totalSpan = document.querySelectorAll(".total");
 const correctSpan = document.querySelector("#correct");
 const currentSpan = document.querySelector("#current");
@@ -5639,6 +5638,7 @@ let shuffledQuestions = [];
 let currentQuestionIndex = 0;
 let numCorrect = 0;
 let numCurrent = 0;
+let selectedMode = "random";
 
 const nextButton = document.querySelector(".nextBtn");
 nextButton.addEventListener("click", () => {
@@ -5648,6 +5648,13 @@ nextButton.addEventListener("click", () => {
         showResults();
     } else {
         showQuestion();
+    }
+});
+
+document.addEventListener("keydown", event => {
+    if (event.code === "Space" && !nextButton.disabled && !event.repeat) {
+        event.preventDefault();
+        nextButton.click();
     }
 });
 
@@ -5666,27 +5673,54 @@ function showQuestion() {
     // Shuffle answers
     shuffleArray(currentQuestion.answers);
 
-    questionContainer.innerHTML = `
-        <div class="container">
-            <img src=${currentQuestion.imgLink} width='50%' height='250px' class='questionImg' id="quiz-image"/>
-            <p class="question">${currentQuestion.question}</p>
-            <div>
-                <ul>
-                    ${currentQuestion.answers.map(answer => `
-                        <li>
-                            <button class="answerBtn">${answer.text}</button>
-                        </li>
-                    `).join("")}
-                </ul>
-            </div>
-        </div>`;
+    // Create question container
+    const container = document.createElement("div");
+    container.className = "container";
 
-    const answerButtons = document.querySelectorAll(".answerBtn");
-    answerButtons.forEach(button => {
-        button.addEventListener("click", checkAnswer);
+    // Create question image
+    const quizImage = document.createElement("img");
+    quizImage.src = currentQuestion.imgLink;
+    quizImage.style.width = "50%";
+    quizImage.style.height = "250px";
+    quizImage.className = "questionImg";
+    quizImage.id = "quiz-image";
+    quizImage.alt = currentQuestion.question;
+
+    // Create question text safely
+    const questionText = document.createElement("p");
+    questionText.className = "question";
+    questionText.textContent = currentQuestion.question;
+
+    // Create answers list
+    const answersWrapper = document.createElement("div");
+    const answersList = document.createElement("ul");
+
+    currentQuestion.answers.forEach(answer => {
+        const listItem = document.createElement("li");
+
+        const answerButton = document.createElement("button");
+        answerButton.type = "button";
+        answerButton.className = "answerBtn";
+
+        // Insert answer as plain text
+        answerButton.textContent = answer.text;
+
+        answerButton.addEventListener("click", checkAnswer);
+
+        listItem.appendChild(answerButton);
+        answersList.appendChild(listItem);
     });
 
-    const quizImage = document.querySelector("#quiz-image");
+    // Assemble question
+    answersWrapper.appendChild(answersList);
+    container.appendChild(quizImage);
+    container.appendChild(questionText);
+    container.appendChild(answersWrapper);
+
+    // Replace previous question
+    questionContainer.replaceChildren(container);
+
+    // Open enlarged image
     quizImage.addEventListener("click", () => {
         overlayImg.src = quizImage.src;
         overlay.style.display = "flex";
@@ -5732,35 +5766,55 @@ function checkAnswer(e) {
 
 // Function to display the final quiz results
 function showResults() {
-    questionContainer.style.display = "none";
-    resultsContainer.style.display = "flex";
+    questionContainer.hidden = true;
+    resultsContainer.hidden = false;
+    footer.hidden = true;
+}
+
+function showMenu() {
+    startScreen.hidden = false;
+    questionContainer.hidden = true;
+    resultsContainer.hidden = true;
+    footer.hidden = true;
 }
 
 // Add event listener to restart the quiz
 restartButton.addEventListener("click", () => {
+    selectedMode = "random";
     startQuiz();
+});
+
+menuButton.addEventListener("click", () => {
+    showMenu();
+});
+
+startButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        selectedMode = button.dataset.mode;
+        startQuiz();
+    });
 });
 
 // Function to start/restart the quiz
 function startQuiz() {
-    const arrNumbers = []
-    let i = 0
-    while (i < 30) {
-        const number = Math.floor(Math.random() * quizData.length)
-        if (!arrNumbers.includes(number)) {
-            arrNumbers.push(number);
-            i++;
-        }
-    }
-    for (let j = 0; j < 30; j++) {
-        shuffledQuestions.push(quizData[arrNumbers[j]])
-    }
+    shuffledQuestions = [...quizData];
     shuffleArray(shuffledQuestions);
+    if (selectedMode === "random") {
+        shuffledQuestions = shuffledQuestions.slice(0, 30);
+    }
     currentQuestionIndex = 0;
     numCorrect = 0;
     numCurrent = 0;
-    questionContainer.style.display = "block";
-    resultsContainer.style.display = "none";
+    startScreen.hidden = true;
+    questionContainer.hidden = false;
+    resultsContainer.hidden = true;
+    footer.hidden = false;
+    totalSpan.forEach(span => {
+        span.textContent = shuffledQuestions.length;
+    });
+    correctSpan.textContent = numCorrect;
+    currentSpan.textContent = numCurrent;
+    myBar.style.width = "0%";
     showQuestion();
 }
 
@@ -5769,5 +5823,3 @@ overlay.addEventListener("click", () => {
     overlay.style.display = "none";
 });
 
-// Initialize the quiz
-startQuiz();

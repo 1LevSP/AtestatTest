@@ -10,6 +10,27 @@ header {
     text-align: center;
 }
 
+.start-screen {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.start-screen h2 {
+    color: #191D63;
+}
+
+.startBtn {
+    width: min(360px, calc(100% - 32px));
+}
+
+[hidden] {
+    display: none !important;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -100,10 +121,29 @@ button:hover {
 }
 
 .results {
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.results-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+#restart {
+    width: 250px;
+    padding: 18px 28px;
+    font-size: 1.05rem;
+}
+
+#menuBtn {
+    margin-top: 0;
+    width: 220px;
+    padding: 16px 24px;
 }
 
 .myProgressText {

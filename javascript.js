@@ -267,8 +267,8 @@ const quizData = [
         question: " Второй ремонт это q29",
         imgLink: './q29.jpg',
         answers: [
-            { text: "ремонт сквозных повреждений шины", correct: true },
-            { text: "ремонт шины снятой с диска", correct: false },
+            { text: "ремонт сквозных повреждений шины", correct: false },
+            { text: "ремонт шины снятой с диска", correct: true },
             { text: "ремонт шины не снятой с диска", correct: false },
             { text: "ремонт поверхностных повреждений шины", correct: false },
         ],

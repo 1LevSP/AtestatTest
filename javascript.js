@@ -5609,6 +5609,16 @@ const quizData = [
             { text: "Перерасчитать без учета дефектов эксплуатации независимо от информации о заявленных ранее дефектах", correct: false },
         ],
     },
+    {
+        question: "q606 Что это?",
+        imgLink: './q606.jpg',
+        answers: [
+            { text: "модуль зажигания", correct: true }, 
+            { text: "крышка зажигания", correct: false },
+            { text: "датчик ускорения", correct: false },
+            { text: "датчик АБС", correct: false },
+        ],
+    },
 
  
 ];

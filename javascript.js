@@ -163,7 +163,6 @@ function showMenu() {
 
 // Add event listener to restart the quiz
 restartButton.addEventListener("click", () => {
-    selectedMode = "random";
     startQuiz();
 });
 
@@ -180,7 +179,18 @@ startButtons.forEach(button => {
 
 // Function to start/restart the quiz
 function startQuiz() {
-    shuffledQuestions = [...quizData];
+    const sourceData = selectedMode === "tasks" ? taskData : quizData;
+
+    if (sourceData.length === 0) {
+        startScreen.hidden = false;
+        questionContainer.hidden = true;
+        resultsContainer.hidden = true;
+        footer.hidden = true;
+        alert("Задачи пока не добавлены.");
+        return;
+    }
+
+    shuffledQuestions = [...sourceData];
     shuffleArray(shuffledQuestions);
     if (selectedMode === "random") {
         shuffledQuestions = shuffledQuestions.slice(0, 30);

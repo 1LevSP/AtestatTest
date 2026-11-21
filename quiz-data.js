@@ -1,7 +1,7 @@
 const quizData = [
     {
         question: "q1",
-        imgLink: './q1.jpg',
+        imgLink: 'IMG/q1.jpg',
         answers: [
             { text: "Бензиновый с прямым впрыском", correct: false },
             { text: "Бензиновый с распределенным впрыском", correct: true },
@@ -11,7 +11,7 @@ const quizData = [
     },
     {
         question: "q2",
-        imgLink: './q2.jpg',
+        imgLink: 'IMG/q2.jpg',
         answers: [
             { text: "Имеют одинаковый смысл", correct: true },
             { text: "Имеют разный смысл", correct: false },
@@ -20,7 +20,7 @@ const quizData = [
     },
     {
         question: "q3",
-        imgLink: './q3.jpg',
+        imgLink: 'IMG/q3.jpg',
         answers: [
             { text: "Как лак, так и базовая эмаль", correct: false },
             { text: "Только лак", correct: true },
@@ -28,7 +28,7 @@ const quizData = [
     },
         {
         question: "q4",
-        imgLink: './q4.jpg',
+        imgLink: 'IMG/q4.jpg',
         answers: [
             { text: "Допускается с ограничением по размеру повреждений, их количеству и расстоянию между ними", correct: true },
             { text: "Не допускается", correct: false },
@@ -37,7 +37,7 @@ const quizData = [
     },
     {
         question: "q5",
-        imgLink: './q5.jpg',
+        imgLink: 'IMG/q5.jpg',
         answers: [
             { text: "Подлежит сваркой или склейкой пластмассы, если повреждение не затронуло пластины и сепаратор АКБ, сохранился уровень электролита и трещина находится выше уровня электролита", correct: false },
             { text: "Не подлежит", correct: true },
@@ -45,7 +45,7 @@ const quizData = [
     },
     {
         question: "q6",
-        imgLink: './q6.jpg',
+        imgLink: 'IMG/q6.jpg',
         answers: [
             { text: "Деформация поворотного кулака", correct: false },
             { text: "Неправильное схождение колес", correct: true },
@@ -55,7 +55,7 @@ const quizData = [
     },
     {
         question: "q7",
-        imgLink: './q7.jpg',
+        imgLink: 'IMG/q7.jpg',
         answers: [
             { text: "Потерпевший вправе предъявить иск о возмещении вреда на сумму, превышающую указанные лимиты страховой организации, в которой он застраховал свою гражданскую ответственность", correct: false },
             { text: "Потерпевший вправе предъявить лицу, причинившему вред, иск о возмещении вреда на сумму, превышающую указанные лимиты", correct: true },
@@ -64,7 +64,7 @@ const quizData = [
     },
     {
         question: "q8",
-        imgLink: './q8.jpg',
+        imgLink: 'IMG/q8.jpg',
         answers: [
             { text: "Предоставленных потерпевшим документов, подтверждающих факт ремонта ТС в организации или у индивидуального предпринимателя, имеющих соответствующее разрешение", correct: false },
             { text: "Расчета стоимости восстановительного ремонта этого ТС на день наступления страхового случая за вычетом стоимости обновления без учета налога на добавленную стоимость", correct: true },
@@ -73,7 +73,7 @@ const quizData = [
     },
     {
         question: "q9",
-        imgLink: './q9.jpg',
+        imgLink: 'IMG/q9.jpg',
         answers: [
             { text: "Эвакуации ТС с места ДТП только в случае технической невзможности продолжить движение своим ходом или если это движение могло создать опасность имуществу или здоровью граждан", correct: true },
             { text: "Эвакуации ТС с места ДТП к месту, указанному сотрудниками Госавтоинспекции на территории Республики Беларусь", correct: false },
@@ -82,7 +82,7 @@ const quizData = [
     },
     {
         question: "q10 Исполнитель оценки должен иметь:",
-        imgLink: './q10.jpg',
+        imgLink: 'IMG/q10.jpg',
         answers: [
             { text: "Регулярно обновляемое информационное, методическое и программное обеспечение по определению стоимости ТС и стоимости ремонта ТС либо договор исполнителем оценки или страховщиком на право использование такого программного обеспечения", correct: false },
             { text: "Регулярно обновляемое программное обеспечение по определнию стоимости ремонта ТС", correct: false },
@@ -91,7 +91,7 @@ const quizData = [
     },
     {
         question: "q11",
-        imgLink: './q11.jpg',
+        imgLink: 'IMG/q11.jpg',
         answers: [
             { text: "Вручено заинтересованному лицу не позднее, чем за два дня до проведения осмотра, если приглашаемое лицо проживает в этом же городе (районе), и за X суток - иногороднему", correct: false },
             { text: "Направлено заинтересованному лицу потерпешим. Осмотр проводится в отсутствие заинтересованных лиц, по истечении 30 минут после назначенного времени, если приглашаемое лицо не явилось на осмотр", correct: false },
@@ -101,7 +101,7 @@ const quizData = [
     },
     {
         question: "q12 Заинтересованное лицо изъявило желание учавствовать в осмотре ТС, подав страховщику соответствующее заявление. Однако осмотр был уже проведен ранее. Заинтересованное лицо потребовало провести повторный осмотр ТС. Является ли такое требование правомерным?",
-        imgLink: './q12.jpg',
+        imgLink: 'IMG/q12.jpg',
         answers: [
             { text: "Нет", correct: false },
             { text: "Да, в случае проведения осмотра в составе комиссии оценщиков в соответствии с главой 26 Правил.", correct: true },
@@ -111,7 +111,7 @@ const quizData = [
     },
     {
         question: "q13",
-        imgLink: './q13.jpg',
+        imgLink: 'IMG/q13.jpg',
         answers: [
             { text: "должен составить акт осмотра с описанием повреждений, определить стоимость ремонта за вычетом обновления, определить стоимость ТС и сделать вывод о гибели ТС, если стоимость ремонта за вычетом стоимости обновления без НДС превысит стоимость ТС", correct: true },
             { text: "вправе составить акт осмотра с описанием повреждений, сделать в акте осмотра запись «Восстановление ТС технически невозможно» и рассчитать размер вреда как доварийную стоимость ТС без составления калькуляции ремонта", correct: true },
@@ -120,7 +120,7 @@ const quizData = [
     },
     {
         question: "q14",
-        imgLink: './q14.jpg',
+        imgLink: 'IMG/q14.jpg',
         answers: [
             { text: "полиэфирных шпатлевок, эпоксидных мастик холодного отверждения", correct: false },
             { text: "полиэфирных шпатлевок, термопластика, эпоксидных мастик холодного отверждения", correct: false },
@@ -129,7 +129,7 @@ const quizData = [
     },
     {
         question: "q15",
-        imgLink: './q15.jpg',
+        imgLink: 'IMG/q15.jpg',
         answers: [
             { text: "Да, влияет на стоимость ТС и размер вреда", correct: false },
             { text: "Да, но влияет только на стоимость ТС", correct: true },
@@ -138,7 +138,7 @@ const quizData = [
     },
     {
         question: "q16",
-        imgLink: './q16.jpg',
+        imgLink: 'IMG/q16.jpg',
         answers: [
             { text: "рекомендуемые, желательные, обязательные параметры и характеристики", correct: false },
             { text: "обязательные параметры и характеристики, желательные, рекомендуемые", correct: false },
@@ -147,7 +147,7 @@ const quizData = [
     },
     {
         question: "q17",
-        imgLink: './q17.jpg',
+        imgLink: 'IMG/q17.jpg',
         answers: [
             { text: "Верны все три ответа.", correct: false },
             { text: "Путем нанесения второго полупрозрачного слоя эмали.", correct: true },
@@ -157,7 +157,7 @@ const quizData = [
     },
     {
         question: "q18",
-        imgLink: './q18.jpg',
+        imgLink: 'IMG/q18.jpg',
         answers: [
             { text: "Нет", correct: true },
             { text: "Да, при повреждении, занимающем не более 5% площади детали", correct: false },
@@ -165,7 +165,7 @@ const quizData = [
     },
     {
         question: "q19",
-        imgLink: './q19.jpg',
+        imgLink: 'IMG/q19.jpg',
         answers: [
             { text: "Не допускается", correct: false },
             { text: "Допускается не более 2-х дефектов на шине", correct: false },
@@ -174,7 +174,7 @@ const quizData = [
     },
     {
         question: "q20",
-        imgLink: './q20.jpg',
+        imgLink: 'IMG/q20.jpg',
         answers: [
             { text: "генератор переменного тока", correct: false },
             { text: "генератор постоянного тока", correct: true },
@@ -183,7 +183,7 @@ const quizData = [
     },
     {
         question: "q21",
-        imgLink: './q21.jpg',
+        imgLink: 'IMG/q21.jpg',
         answers: [
             { text: "нет", correct: true },
             { text: "да", correct: false },
@@ -192,7 +192,7 @@ const quizData = [
     },
     {
         question: "q22",
-        imgLink: './q22.jpg',
+        imgLink: 'IMG/q22.jpg',
         answers: [
             { text: "амортизационная стойка с поворотными шарниром", correct: false },
             { text: "пружина", correct: false },
@@ -202,7 +202,7 @@ const quizData = [
     },
     {
         question: "q23",
-        imgLink: './q23.jpg',
+        imgLink: 'IMG/q23.jpg',
         answers: [
             { text: "Нет, так как Белорусское бюро при ДТП с участием двух нерезидентов вред не возмещает.", correct: false },
             { text: "Нет, так как вред возмещается согласно законодательству той страны, резидент которой является причинителем вреда.", correct: false },
@@ -212,7 +212,7 @@ const quizData = [
     },
     {
         question: "q24",
-        imgLink: './q24.jpg',
+        imgLink: 'IMG/q24.jpg',
         answers: [
             { text: "Вариаторная коробка передач", correct: true },
             { text: "Гидромеханическая коробка передач", correct: false },
@@ -222,7 +222,7 @@ const quizData = [
     },
     {
         question: "q25",
-        imgLink: './q25.jpg',
+        imgLink: 'IMG/q25.jpg',
         answers: [
             { text: "Стекло с акустическим датчиком движения", correct: false },
             { text: "Травмобезопасное стекло", correct: false },
@@ -232,7 +232,7 @@ const quizData = [
     },
     {
         question: "q26",
-        imgLink: './q26.jpg',
+        imgLink: 'IMG/q26.jpg',
         answers: [
             { text: "Изменение геометрических размеров пространственной конструкции, образующей каркас кузова, кабины, ходовой части и рамы ТС", correct: false },
             { text: "Изменение геометрических размеров конструкции, образующей каркас кузова, кабины и рамы, габаритных размеров ТС", correct: false },
@@ -241,7 +241,7 @@ const quizData = [
     },
     {
         question: "q27",
-        imgLink: './q27.jpg',
+        imgLink: 'IMG/q27.jpg',
         answers: [
             { text: "При освещении ультрафиолетовой лампой", correct: true },
             { text: "Без какого либо воздействия в течение 10 минут при температуре более 15 градусов", correct: false },
@@ -252,7 +252,7 @@ const quizData = [
     },
     {
         question: "q28",
-        imgLink: './q28.jpg',
+        imgLink: 'IMG/q28.jpg',
         answers: [
             { text: "Ремонтное", correct: true },
             { text: "Заводское", correct: false },
@@ -260,7 +260,7 @@ const quizData = [
     },
     {
         question: " Второй ремонт это q29",
-        imgLink: './q29.jpg',
+        imgLink: 'IMG/q29.jpg',
         answers: [
             { text: "ремонт сквозных повреждений шины", correct: true },
             { text: "ремонт шины снятой с диска", correct: false },
@@ -270,7 +270,7 @@ const quizData = [
     },
     {
         question: "q30",
-        imgLink: './q30.jpg',
+        imgLink: 'IMG/q30.jpg',
         answers: [
             { text: "Только с помощью сканера", correct: true },
             { text: "Обесточиванием энергообеспечения автомобиля при снятии минусовой клеммы АКБ", correct: false },
@@ -279,7 +279,7 @@ const quizData = [
     },
     {
         question: "q31 Пыль в краске возникает: ",
-        imgLink: './q31.jpg',
+        imgLink: 'IMG/q31.jpg',
         answers: [
             { text: "Верны все ответы", correct: false },
             { text: "б) При окраске ТС в грязной камере", correct: false },
@@ -291,7 +291,7 @@ const quizData = [
     },
     {
         question: "q32 ",
-        imgLink: './q32.jpg',
+        imgLink: 'IMG/q32.jpg',
         answers: [
             { text: "транспортное средство, предназначенное для эксплуатации преимущественно на автомобильных дорогах общего пользования всех категорий.", correct: true },
             { text: "транспортное средство, предназначенное для эксплуатации на дорогах общего пользования, приводимое в движение двигателем внутреннего сгорания", correct: false },
@@ -300,7 +300,7 @@ const quizData = [
     },
     {
         question: "q33",
-        imgLink: './q33.jpg',
+        imgLink: 'IMG/q33.jpg',
         answers: [
             { text: "Данный случай не считается страховым", correct: false },
             { text: "Должен обратиться с заявлением к страховщику, заключившему с ним договор страхования, а нерезидент - в моторное бюро страны проживания", correct: false },
@@ -311,7 +311,7 @@ const quizData = [
     },
     {
         question: "q34",
-        imgLink: './q34.jpg',
+        imgLink: 'IMG/q34.jpg',
         answers: [
             { text: "Если ТС повреждено в результате нескольких ДТП либо в результате осмотра ТС невозможно разделить эксплуатационные дефекты и повреждения ТС, причиненные в результате ДТП", correct: true },
             { text: "Если в справке ГАИ о ДТП не указаны все наружные повреждения ТС:", correct: false },
@@ -321,7 +321,7 @@ const quizData = [
     },
     {
         question: "q35",
-        imgLink: './q35.jpg',
+        imgLink: 'IMG/q35.jpg',
         answers: [
             { text: "Да, если все выплаты, произведенные страховщиком потерпевшему, в совокупности не превышают лимита ответственности.", correct: false },
             { text: "Да, так как при ремонте ТС предусмотрена такая оплата", correct: false },
@@ -331,7 +331,7 @@ const quizData = [
     },
     {
         question: "q36",
-        imgLink: './q36.jpg',
+        imgLink: 'IMG/q36.jpg',
         answers: [
             { text: "Нет, такое возмещение Положением о страховой деятельности не предусмотрено. Лица, понесшие такие затраты, вправе в соответствии с законодательством предъявить лицу, причинившему вред, иск об их возмещении", correct: false },
             { text: "Да, при этом степень участия и размер возмещения определяются соглашением указанных лиц и страховщика, а при отсутствии согласия сторон - судом", correct: true },
@@ -340,7 +340,7 @@ const quizData = [
     },
     {
         question: "q37",
-        imgLink: './q37.jpg',
+        imgLink: 'IMG/q37.jpg',
         answers: [
             { text: "Появился один индикатор износа, расположенный по дну канавки протектора, при равномерном износе", correct: true },
             { text: "Появился индикатор износа, расположенный по дну канавки протектора, при неравномерном износе", correct: false },
@@ -348,7 +348,7 @@ const quizData = [
     },
     {
         question: "q38",
-        imgLink: './q38.jpg',
+        imgLink: 'IMG/q38.jpg',
         answers: [
             { text: "окраска детали отдельно от ТС", correct: false },
             { text: "нет подготовительных заключительных работ", correct: false },
@@ -358,7 +358,7 @@ const quizData = [
     },
     {
         question: "q39",
-        imgLink: './q39.jpg',
+        imgLink: 'IMG/q39.jpg',
         answers: [
             { text: "Вводить отдельную надбавку и отдельный износ для каждой части ТС", correct: true },
             { text: "Вводить только общую надбавку для всех частей ТС и отдельный износ для каждой части ТС", correct: false },
@@ -367,7 +367,7 @@ const quizData = [
     },
     {
         question: "q40",
-        imgLink: './q40.jpg',
+        imgLink: 'IMG/q40.jpg',
         answers: [
             { text: "Доаварийная стоимость ТС не вносится", correct: false },
             { text: "Доаварийная стоимость ТС сохраняется", correct: true },
@@ -375,7 +375,7 @@ const quizData = [
     },
     {
         question: "q41",
-        imgLink: './q41.jpg',
+        imgLink: 'IMG/q41.jpg',
         answers: [
             { text: "На основе представительной, достоверной выборки цен сервисных станций технического обслуживания аналогичных ТС", correct: false },
             { text: "На основе представительной, достоверной выборки цен на первичном рынке Республики Беларусь", correct: true },
@@ -384,7 +384,7 @@ const quizData = [
     },
     {
         question: "q42",
-        imgLink: './q42.jpg',
+        imgLink: 'IMG/q42.jpg',
         answers: [
             { text: "Нет, в любом случае", correct: true },
             { text: "Да, в любом случае", correct: false },
@@ -393,7 +393,7 @@ const quizData = [
     },
     {
         question: "q43",
-        imgLink: './q43.jpg',
+        imgLink: 'IMG/q43.jpg',
         answers: [
             { text: "по месту его жительства (месту пребывания), указанному в страховом свидетельстве", correct: false },
             { text: "по месту проишествия (совершения ДТП)", correct: false },
@@ -401,7 +401,7 @@ const quizData = [
         ],
     }, {
         question: "q44",
-        imgLink: './q44.jpg',
+        imgLink: 'IMG/q44.jpg',
         answers: [
             { text: "контролеру КПП, как лицу, отвественному за выпуск ТС на линию", correct: false },
             { text: "представителю юридического лица, как владельца средства повышенной опасности", correct: true },
@@ -411,7 +411,7 @@ const quizData = [
     },
     {
         question: "q45",
-        imgLink: './q45.jpg',
+        imgLink: 'IMG/q45.jpg',
         answers: [
             { text: "таблицам среднестатистических пробегов, согласно приложению 3 к Правилам", correct: false },
             { text: "соответствующей категории пробега согласно таблице нормативных пробегов автомобилей, эксплуатируемых в Республике Беларусь, размещенной в отечественных информационных справочниках", correct: true },
@@ -419,7 +419,7 @@ const quizData = [
     },
     {
         question: "q46 Какие методы диагностики относятся к объективным",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "метод логического мышления", correct: false },
             { text: "визуальный осмотр и метод прослушивания", correct: false },
@@ -428,7 +428,7 @@ const quizData = [
     },
     {
         question: "q47 Эффект памяти формы - это",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Деформация формы предмета, имеющего упругую внутреннюю структуру", correct: false },
             { text: "Деформация формы предмета, исчезающая после прекращения действия силы", correct: false },
@@ -437,7 +437,7 @@ const quizData = [
     },
     //  {
     //      question:  "q48",
-    //      imgLink: './q.jpg',
+    //      imgLink: 'IMG/q.jpg',
     //      answers: [
     //          { text: "б) об окислении разъема жгута проводов", correct: false },
     //          { text: "верный ответы а, б, в", correct: false },
@@ -450,7 +450,7 @@ const quizData = [
     //  },
     {
         question: "q49",
-        imgLink: './q49.jpg',
+        imgLink: 'IMG/q49.jpg',
         answers: [
             { text: "ремонт боковины приклеивание нескольких слоев армированного прорезиненного полотна и балансировкой колеса", correct: false },
             { text: "замена шины", correct: false },
@@ -459,7 +459,7 @@ const quizData = [
     },
     {
         question: "q50 Какой предельно остаточный рисунок протектора мотоцикла",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "0,8", correct: true },
             { text: "1,0", correct: false },
@@ -468,7 +468,7 @@ const quizData = [
     },
     {
         question: "q51 Согласно ТКП 299-2011 Автомобильные шины. Нормы и правила обслуживания - первый вид ремонта это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "ремонт шины, снятой с диска колеса", correct: false },
             { text: "ремонт сквозных повреждений шины;", correct: false },
@@ -478,7 +478,7 @@ const quizData = [
     },
     {
         question: "q52 Согласно ТКП 299-2011 Автомобильные шины второй вид ремонта это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "ремонт шины, снятой с диска колеса", correct: true },
             { text: "ремонт сквозных повреждений шины;", correct: false },
@@ -488,7 +488,7 @@ const quizData = [
     },
     {
         question: "q53",
-        imgLink: './q53.jpg',
+        imgLink: 'IMG/q53.jpg',
         answers: [
             { text: "Допускается не более 2=х дефектов на шине", correct: false },
             { text: "Не допускается", correct: false },
@@ -497,7 +497,7 @@ const quizData = [
     },
     {
         question: "q54 Согласно ТКП 299-2011 Автомобильные шины. Нормы и правила обслуживания – допускается ли ремонт трещин, порезов, разрывов и других механических повреждений без оголения корда?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "допускается не более 2-х дефектов на шине", correct: false },
             { text: "не допускается", correct: false },
@@ -506,7 +506,7 @@ const quizData = [
     },
     {
         question: "q55 Согласно ТКП 299-2011 Автомобильные шины. Нормы и правила обслуживания – допускается ли ремонт сквозных проколов радиальных шин?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "допускается с ограничениями по размеру повреждений, их количеству и расстоянию между ними", correct: true },
             { text: "не допускается", correct: false },
@@ -515,7 +515,7 @@ const quizData = [
     },
     {
         question: "q56 Боковой износ шины происходит по причине:",
-        imgLink: './q56.jpg',
+        imgLink: 'IMG/q56.jpg',
         answers: [
             { text: "неправильного развала;", correct: false },
             { text: "неправильного схождения на рис б, д", correct: true },
@@ -524,7 +524,7 @@ const quizData = [
     },
     {
         question: "q57 Основной причиной пилообразного износа протектора обеих передних шин в поперечном направлении является",
-        imgLink: './q57.jpg',
+        imgLink: 'IMG/q57.jpg',
         answers: [
             { text: "деформация поворотного кулака", correct: false },
             { text: "неправильное схождение колес", correct: true },
@@ -534,7 +534,7 @@ const quizData = [
     },
     {
         question: "q58",
-        imgLink: './q58.jpg',
+        imgLink: 'IMG/q58.jpg',
         answers: [
             { text: "низкое давление в шине", correct: true },
             { text: "высокое давление в шине", correct: false },
@@ -544,7 +544,7 @@ const quizData = [
     },
     {
         question: "q59 Индекс грузоподъемности (несущей способности) шины",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Условное цифровое обозначение максимальной нагрузки, на которую рассчитана шина.", correct: true },
             { text: "Условное буквенное обозначение заглавными латинскими буквами максимальной нагрузки, на которую рассчитана шина (например, L, 0, X).", correct: false },
@@ -553,7 +553,7 @@ const quizData = [
     },
     {
         question: "q60",
-        imgLink: './q60.jpg',
+        imgLink: 'IMG/q60.jpg',
         answers: [
             { text: "Да, ими оборудованы все новые автомобили с 2014 года ", correct: false },
             { text: "Нет, это перспективная разработка", correct: false },
@@ -562,7 +562,7 @@ const quizData = [
     },
     {
         question: "q61 Амортизатор с автоматическим регулированием демпфирования (рис.)позволяет:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "изменять дорожный просвет (клиренс)", correct: false },
             { text: "изменять наклон автомобиля при поворотах", correct: false },
@@ -571,7 +571,7 @@ const quizData = [
     },
     {
         question: "q62 Угол развала регулируют",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "регулировочными шайбами, расположенными между осью нижнего рычага и поперечиной, снимая их с одной оси и добавляя в другую или эксцентриковыми болтами рычага подвески при ослабленных гайках крепления переднего болта", correct: false },
             { text: "регулировочными шайбами, добавляя либо убирая их одновременно с обеих осей, эксцентриковыми болтами, поворотом стойки влево или вправо, ослабив ее крепление, смещением отдельных деталей моста", correct: true },
@@ -580,7 +580,7 @@ const quizData = [
     },
     {
         question: "q63",
-        imgLink: './q63.jpg',
+        imgLink: 'IMG/q63.jpg',
         answers: [
             { text: "разность расстояний между внутренними поверхностями задней и передней частей шин переднего либо заднего моста", correct: false },
             { text: "угол, заключенный между плоскостью колеса и вертикальной плоскостью, параллельной оси автомобиля", correct: true },
@@ -589,7 +589,7 @@ const quizData = [
     },
     {
         question: "q64 Угол схождения регулируют",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "регулировочными шайбами, расположенными между осью нижнего рычага и поперечиной, снимая их с одной оси и добавляя в другую или эксцентриковыми болтами рычага подвески при ослабленных гайках крепления переднего болта", correct: false },
             { text: "регулировочными шайбами, добавляя либо убирая их одновременно с обеих осей, эксцентриковыми болтами, поворотом стойки влево или вправо, ослабив ее крепление", correct: false },
@@ -598,7 +598,7 @@ const quizData = [
     },
     {
         question: "q65 Статические стенды для проверки углов установки управляемых колес подразделяются на",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Электронные и лазерные", correct: false },
             { text: "Оптико-электрические, электронные и лазерные", correct: true },
@@ -607,7 +607,7 @@ const quizData = [
     },
     {
         question: "q66",
-        imgLink: './q66.jpg',
+        imgLink: 'IMG/q66.jpg',
         answers: [
             { text: "Передней", correct: false },
             { text: "Такая подвеска может использоваться как для передней, так и для задней оси", correct: false },
@@ -616,7 +616,7 @@ const quizData = [
     },
     {
         question: "q67",
-        imgLink: './q67.jpg',
+        imgLink: 'IMG/q67.jpg',
         answers: [
             { text: "горизонтальные перемещения", correct: false },
             { text: "вертикальные перемещения", correct: true },
@@ -625,7 +625,7 @@ const quizData = [
     },
     {
         question: "q68 Электро или пневматический детектор зазоров (рис.) предназначен для:",
-        imgLink: './q68.jpg',
+        imgLink: 'IMG/q68.jpg',
         answers: [
             { text: "проверки люфтов в деталях рулевого привода", correct: false },
             { text: "проверки люфтов в деталях ходовой части", correct: false },
@@ -634,7 +634,7 @@ const quizData = [
     },
     {
         question: "q69 При применении пневматической подвески (рис) дорожный просвет изменятся:",
-        imgLink: './q69.jpg',
+        imgLink: 'IMG/q69.jpg',
         answers: [
             { text: "автоматически", correct: false },
             { text: "вручную", correct: false },
@@ -643,7 +643,7 @@ const quizData = [
     },
     {
         question: "q70 Етсь ли у данного авто электромеханическое ТСУ (тягово-сцепное устройство):",
-        imgLink: './q70.jpg',
+        imgLink: 'IMG/q70.jpg',
         answers: [
             { text: "нет такого", correct: false },
             { text: "есть, механизм выдвигает раму ТСУ и фиксирует ее на палец", correct: false },
@@ -652,7 +652,7 @@ const quizData = [
     },
     {
         question: "q71 Мотор-колесо",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "нет такого понятия", correct: false },
             { text: "только в электропоездах", correct: false },
@@ -661,7 +661,7 @@ const quizData = [
     },
     {
         question: "q72 При одинаковом рабочем объеме двигателя длина блока цилиндров W12:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "больше длины блока цилиндров V12", correct: false },
             { text: "меньше длины блока цилиндров V12", correct: true },
@@ -670,7 +670,7 @@ const quizData = [
     },
     {
         question: "q73",
-        imgLink: './q73.jpg',
+        imgLink: 'IMG/q73.jpg',
         answers: [
             { text: "в 2 раза медленнее коленвала", correct: true },
             { text: "в 4 раза быстрее коленвала", correct: false },
@@ -681,7 +681,7 @@ const quizData = [
     },
     {
         question: "q74 Как можно увеличить компрессию при недостаточном ее значении?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "залить 30 г бензина в цилиндр", correct: false },
             { text: "залить 10 г моторного масла в цилиндр", correct: true },
@@ -690,7 +690,7 @@ const quizData = [
     },
     {
         question: "q75 На каком рисунке изображено сцепление?",
-        imgLink: './q75.jpg',
+        imgLink: 'IMG/q75.jpg',
         answers: [
             { text: "Рис 3", correct: true },
             { text: "Рис 1", correct: false },
@@ -699,7 +699,7 @@ const quizData = [
     },
     {
         question: "q76",
-        imgLink: './q76.jpg',
+        imgLink: 'IMG/q76.jpg',
         answers: [
             { text: "Корпус фильтра разорвется в месте отсутствия ребер, так как при работе ДВС в воздушном фильтре создается повышенное давление", correct: false },
             { text: "Корпус фильтра сомнется, так как при работе ДВС в воздушном фильтре создается разряжение", correct: true },
@@ -708,7 +708,7 @@ const quizData = [
     },
     {
         question: "q77 На двигателе ММЗ 4502 разломана крышка коренного подшипника коленчатого вала. Для восстановления работоспособности двигателя необходимо",
-        imgLink: './q77.jpg',
+        imgLink: 'IMG/q77.jpg',
         answers: [
             { text: "заменить одну крышку коренного подшипника коленчатого вала", correct: true },
             { text: "заменить комплект крышек коренных подшипников коленчатого вала", correct: false },
@@ -717,7 +717,7 @@ const quizData = [
     },
     {
         question: "q78",
-        imgLink: './q78.jpg',
+        imgLink: 'IMG/q78.jpg',
         answers: [
             { text: "с увеличения массы топлива, поступающего в цилиндры", correct: false },
             { text: "с облегчения самовоспламенения топлива", correct: false },
@@ -727,7 +727,7 @@ const quizData = [
     },
     {
         question: "q79 Охлаждение надувочного воздуха в двигателях применяется для",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "увеличения массы топлива, поступающего в цилиндры", correct: false },
             { text: "облегчения самовоспламенения топлива", correct: false },
@@ -737,7 +737,7 @@ const quizData = [
     },
     {
         question: "q80 Механический компрессор, показанный на рис. предназначен",
-        imgLink: './q80.jpg',
+        imgLink: 'IMG/q80.jpg',
         answers: [
             { text: "для нагнетания воздуха в пневмосистему ТС", correct: false },
             { text: "для нагнетания воздуха в тормозную систему ТС", correct: false },
@@ -747,7 +747,7 @@ const quizData = [
     },
     {
         question: "q80d",
-        imgLink: './q80d.jpg',
+        imgLink: 'IMG/q80d.jpg',
         answers: [
             { text: "по форсунке непосредственно в каждом цилиндре", correct: false },
             { text: "по форсунке на каждый цилиндр, которые расположены во впускном трубопроводе", correct: true },
@@ -756,7 +756,7 @@ const quizData = [
     },
     {
         question: "q81 Электронный привод дроссельной заслонки в системах впрыска бензиновых двигателей (рис.) позволяет:",
-        imgLink: './q81.jpg',
+        imgLink: 'IMG/q81.jpg',
         answers: [
             { text: "только увеличивать скорость движения автомобиля", correct: false },
             { text: "посредством перемещения дроссельной заслонки влиять на величину крутящего момента двигателя даже в том случае, когда водитель не меняет положения педали акселератора и прикрывать заслонку, если по сигналам датчиков скорость движения, например на повороте, критическая", correct: true },
@@ -765,7 +765,7 @@ const quizData = [
     },
     {
         question: "q82",
-        imgLink: './q82.jpg',
+        imgLink: 'IMG/q82.jpg',
         answers: [
             { text: "20 ... 30 кгс/см.кв.", correct: false },
             { text: "1600 ... 2600 кгс/см.кв.", correct: true },
@@ -774,7 +774,7 @@ const quizData = [
     },
     {
         question: "q83 Давление впрыска дизельного топлива в системах «CommonRail» составляет",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "1000…1200 кгс/см2", correct: false },
             { text: "1600…2600 кгс/см2", correct: true },
@@ -783,7 +783,7 @@ const quizData = [
     },
     {
         question: "q84 какой момент начинает работать сажевый фильтр",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "при скорости 60 км\час", correct: false },
             { text: "всегда", correct: true },
@@ -792,7 +792,7 @@ const quizData = [
     },
     {
         question: "q85",
-        imgLink: './q85.jpg',
+        imgLink: 'IMG/q85.jpg',
         answers: [
             { text: "обычный двухпроводной витой проводник", correct: false },
             { text: "последовательная система передачи данных в электронном цифровом формате", correct: true },
@@ -801,7 +801,7 @@ const quizData = [
     },
     {
         question: "q86",
-        imgLink: './q86.jpg',
+        imgLink: 'IMG/q86.jpg',
         answers: [
             { text: "окислять (беспламенно дожигать) СО и СН", correct: false },
             { text: "одновременно при восстановлении NOx окислять (беспламенно дожигать) СО и СН", correct: true },
@@ -810,7 +810,7 @@ const quizData = [
     },
     // {
     //     question: "q87",
-    //     imgLink: './q87.jpg',
+    //     imgLink: 'IMG/q87.jpg',
     //     answers: [
     //         { text: "", correct: true },
     //         { text: "", correct: false },
@@ -819,7 +819,7 @@ const quizData = [
     // },
     {
         question: "q88",
-        imgLink: './q88.jpg',
+        imgLink: 'IMG/q88.jpg',
         answers: [
             { text: "регулирования крутящего момента двигателя", correct: false },
             { text: "передачи информации о наличии в отработавших газах сажи", correct: false },
@@ -829,7 +829,7 @@ const quizData = [
     },
     {
         question: "q89",
-        imgLink: './q89.jpg',
+        imgLink: 'IMG/q89.jpg',
         answers: [
             { text: "при трогании с места и переключении передач имитирует работу сцепления", correct: false },
             { text: "для плавного трогания автомобиля с места и отсутствия рывков в движении при резком увеличении оборотов двигателя", correct: false },
@@ -839,7 +839,7 @@ const quizData = [
     },
     {
         question: "q90 vop-savich-nad115 При каком методе подготовки используется полиэфирная шпаклевка",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "При зачистке всухую", correct: true },
             { text: "При зачистке мокрую", correct: false },
@@ -847,7 +847,7 @@ const quizData = [
     },
     {
         question: "q91",
-        imgLink: './q91.jpg',
+        imgLink: 'IMG/q91.jpg',
         answers: [
             { text: "A", correct: true },
             { text: "B", correct: false },
@@ -855,7 +855,7 @@ const quizData = [
     },
     {
         question: "q92 Механические транспортные средства это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "мотоцикл, мопед, мотороллер, легковой автомобиль, автобус, троллейбус, грузовой автомобиль, автомобиль – тягач, седельный тягач, трактор.", correct: false },
             { text: "транспортные средства, имеющие двигатель внутреннего сгорания.", correct: true },
@@ -864,7 +864,7 @@ const quizData = [
     },
     {
         question: "q93 Какие ремни применяются в вариаторных АКП?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "резиновые", correct: false },
             { text: "металлические", correct: false },
@@ -873,7 +873,7 @@ const quizData = [
     },
     {
         question: "q94 Какой тип передачи применяется в вариаторной АКП?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "конический конус", correct: true },
             { text: "шкивы", correct: false },
@@ -882,7 +882,7 @@ const quizData = [
     },
     {
         question: "q95 Какой тип автоматической коробки позволяет при разгоне иметь постоянные обороты двигателя?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Гидроавтоматическая;", correct: false },
             { text: "Роботизированная;", correct: false },
@@ -892,7 +892,7 @@ const quizData = [
     },
     {
         question: "q96 Полноприводной автомобиль одно колесо буксует, какая сила на другом?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "25", correct: false },
             { text: "33", correct: true },
@@ -901,7 +901,7 @@ const quizData = [
     },
     {
         question: "q97 Демультипликатор",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Механизм трансмиссии, предназначенный для повышения крутящего момента", correct: true },
             { text: "Механизм трансмиссии, предназначенный для автоматического подключения второго ведущего моста.", correct: false },
@@ -910,7 +910,7 @@ const quizData = [
     },
     {
         question: "q98 Что такое делитель:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "раздаточная коробка передающая крутящий момент между колесами", correct: false },
             { text: "раздаточная коробка передающая момент между осями", correct: false },
@@ -919,7 +919,7 @@ const quizData = [
     },
     {
         question: "q99",
-        imgLink: './q99.jpg',
+        imgLink: 'IMG/q99.jpg',
         answers: [
             { text: "Шестерня, обозначенная на рисунке под номером 3", correct: false },
             { text: "Шестерня, обозначенная на рисунке под номером 2", correct: false },
@@ -930,7 +930,7 @@ const quizData = [
     },
     {
         question: "q100",
-        imgLink: './q100.jpg',
+        imgLink: 'IMG/q100.jpg',
         answers: [
             { text: "колесной передаче ТС.", correct: false },
             { text: "главной передаче переднеприводного ТС", correct: true },
@@ -940,7 +940,7 @@ const quizData = [
     },
     {
         question: "q101 Трансмиссия с двумя сцеплениями позволяет:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "верны оба ответа", correct: false },
             { text: "передавать поток мощности двигателя без разрывов", correct: true },
@@ -949,7 +949,7 @@ const quizData = [
     },
     {
         question: "q102 Специальный автомобиль это: ",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "автомобиль, по своей конструкции и оборудованию предназначенный для выполнения специальных рабочих функций или перевозки грузов определенной категории.", correct: false },
             { text: "автомобиль, по своей конструкции и оборудованию предназначенный для выполнения специальных рабочих функций.", correct: true },
@@ -958,7 +958,7 @@ const quizData = [
     },
     {
         question: "q103 Буксируемые транспортные средства это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "прицеп, полуприцеп.", correct: true },
             { text: "прицеп, полуприцеп, автопоезд", correct: false },
@@ -967,7 +967,7 @@ const quizData = [
     },
     {
         question: "q104 Что показано на рисунке под цифрой 5 (в тестах под номером 24 (больше позиций)?",
-        imgLink: './q104.jpg',
+        imgLink: 'IMG/q104.jpg',
         answers: [
             { text: "Вилка выключения сцепления", correct: true },
             { text: "двухплечевой рычаг", correct: false },
@@ -976,7 +976,7 @@ const quizData = [
     },
     {
         question: "q105 Раздатка отключена, подтормаживает переднее левое колесо. Определить крутящий момент на заднем правом колесе?",
-        imgLink: './q105.jpg',
+        imgLink: 'IMG/q105.jpg',
         answers: [
             { text: "25", correct: false },
             { text: "33", correct: false },
@@ -985,7 +985,7 @@ const quizData = [
     },
     {
         question: "q106 Современные дисковые тормоза массовых серий автомобилей имеют, как правильно:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "плавающий тормозной диск", correct: false },
             { text: "фиксированный суппорт", correct: false },
@@ -994,7 +994,7 @@ const quizData = [
     },
     {
         question: "q107 Чем подтормаживается ТС в ЕSР?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "вакуумным усилителем", correct: false },
             { text: "насосом в тормозной системе", correct: true },
@@ -1004,7 +1004,7 @@ const quizData = [
     },
     {
         question: "q108",
-        imgLink: './q108.jpg',
+        imgLink: 'IMG/q108.jpg',
         answers: [
             { text: "уменьшении давления в тормозной системе только задних колес", correct: false },
             { text: "уменьшении давления в тормозной системе всех колес", correct: false },
@@ -1013,7 +1013,7 @@ const quizData = [
     },
     {
         question: "q109 Какие виды стендов для проверки тормозных качеств автомобилей применяются при прохождении государственного технического осмотра",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "статические силовые стенды", correct: false },
             { text: "инерционные платформенные стенды", correct: false },
@@ -1023,7 +1023,7 @@ const quizData = [
     },
     {
         question: "q110 Какой параметр в полной мере предопределяет техническое состояние тормозной системы:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "тормозная сила", correct: false },
             { text: "удельная тормозная сила", correct: true },
@@ -1031,7 +1031,7 @@ const quizData = [
     },
     {
         question: "q111 Принцип измерения тормозных сил роликовых стендов для проверки тормозных систем автомобилей (рис.) основан на:",
-        imgLink: './q111.jpg',
+        imgLink: 'IMG/q111.jpg',
         answers: [
             { text: "преобразовании тензорезисторными датчиками реактивных моментов тормозных сил, возникающих при торможении колес автомобиля в аналоговые электрические сигналы", correct: true },
             { text: "сил инерции возникающих при торможении автомобиля", correct: false },
@@ -1040,7 +1040,7 @@ const quizData = [
     },
     {
         question: "q112 На ступице цифра 3 обозначает",
-        imgLink: './q112.jpg',
+        imgLink: 'IMG/q112.jpg',
         answers: [
             { text: "зубчатый венец датчика одометра", correct: false },
             { text: "шестерню полуоси", correct: false },
@@ -1050,7 +1050,7 @@ const quizData = [
     },
     {
         question: "q113 С какой целью при изготовлении кузовов применяют многофункциональных литые узлы, изготовленные из алюминиевых сплавов и отлитые в вакууме, имеющие оптимизированные по толщине и массе стенки, а также оптимизированную общую конфигурацию",
-        imgLink: './q113.jpg',
+        imgLink: 'IMG/q113.jpg',
         answers: [
             { text: "с целью упрощения конструкции кузова", correct: false },
             { text: "с целью программирования деформаций определенных частей при ДТП", correct: true },
@@ -1059,7 +1059,7 @@ const quizData = [
     },
     {
         question: "q114 В каком ответе указан принцип терморадиационной сушки кузова автомобиля после покраски:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "при сушке сначала нагревается металлическая поверхность кузова (рис.), а затем нанесенное на него покрытие.", correct: true },
             { text: "при способе сушке (рис.) тепло циркулирующего воздуха передается на покрытие, и процесс высыхания начинается с его поверхности. ", correct: false },
@@ -1067,7 +1067,7 @@ const quizData = [
     },
     {
         question: "q115 Какие из перечисленных материалов применяются при ремонте кузова:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "шпатлевка", correct: false },
             { text: "припой", correct: false },
@@ -1076,7 +1076,7 @@ const quizData = [
     },
     {
         question: "q116 Шлифование и применяемые виды",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "для лака и краски", correct: false },
             { text: "для шпатлевки", correct: false },
@@ -1085,7 +1085,7 @@ const quizData = [
     },
     {
         question: "q117 Зачистка поверхности шлифшкуркой или шлифовальным кругом с применением воды производится:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "верны оба ответа", correct: false },
             { text: "... шпатлевки для уменьшения пыли", correct: true },
@@ -1094,7 +1094,7 @@ const quizData = [
     },
     {
         question: "q118  При двухслойном лакокрасочном покрытии прочность покрытию придает",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "- как лак так и базовая эмаль", correct: false },
             { text: "только лак.", correct: true },
@@ -1102,7 +1102,7 @@ const quizData = [
     },
     {
         question: "q119 Грунтовка (подготовка к окраске) металл/пластик",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "взаимозаменяемы", correct: false },
             { text: "не взаимозаменяемы", correct: true },
@@ -1111,7 +1111,7 @@ const quizData = [
     },
     {
         question: "q120 При частичной окраске детали маляр окрашивает базовой эмалью только место шпатлевания с незначительным перекрытием на заматованную тонким шлифовальным кругом «старую» эмаль на неповрежденном участке, затем вся деталь покрывается лаком. Для чего применяется такой метод окраски?",
-        imgLink: './q120.jpg',
+        imgLink: 'IMG/q120.jpg',
         answers: [
             { text: "верны оба ответа", correct: true },
             { text: "для снижения расхода базовой эмали", correct: false },
@@ -1120,7 +1120,7 @@ const quizData = [
     },
     {
         question: "q121 Грунтование перед окраской производится с целью",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "повысить укрывистость эмали", correct: false },
             { text: "скрыть следы шпатлевания", correct: false },
@@ -1129,7 +1129,7 @@ const quizData = [
     },
     {
         question: "q122 Сушка полимеров (на стекле) осуществляется при помощи?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Ультрафиолетовым светом", correct: false },
             { text: "Ультрафиолетовой лампой", correct: true },
@@ -1138,7 +1138,7 @@ const quizData = [
     },
     {
         question: "q123 Если окраске подлежит более 50% наружной окрашиваемой поверхности транспортного средства, то назначается:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "назначается ремонтная окрааска всего ТС", correct: false },
             { text: "назначается поверхностная окраска всего ТС", correct: false },
@@ -1147,7 +1147,7 @@ const quizData = [
     },
     {
         question: "q124 Не допускаются к участию в дорожном движении ТС, имеющие",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Повреждения окраски ТС, которые определяются отсутствием покрытия на участке кузова (кабины) ТС, размер поверхности которого позволяет вписать в него окружность диаметр 100 мм или на трех и более таких участках, размер поверхности каждого из которых позволяет вписать окружность диаметром 50 мм.", correct: false },
             { text: "Значительные внешние повреждения окраски ТС, которые определяются отсутствие покрытия на внешне видимом участке кузова (кабины) ТС, размер поверхности которого позволяет вписать в него окружность диаметром 50 мм, или на трех и более таких участках, размер поверхности каждого из которых позволяет вписать в него окружность диаметром 20 мм", correct: true },
@@ -1155,7 +1155,7 @@ const quizData = [
     },
     {
         question: "q125 Ограничительным условием для окраски пятном является?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "размер повреждения не должен превышать в диаметре 3,5 см; не более одного поврежденного участка на каждой детали (кроме бампера); деталь имеет одно- или двухслойное покрытие", correct: false },
             { text: "размер повреждения не должен превышать в диаметре 3,5 см; не более двух поврежденных участков на каждой детали; деталь имеет одно- или двухслойное покрытие", correct: false },
@@ -1164,7 +1164,7 @@ const quizData = [
     },
     {
         question: "q126 При замене частей ТС с использованием сварки технология окраски AZT",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "предусматривает при окраске новой детали окраску до 10 см поверхности детали смежной с приваренной", correct: true },
             { text: "предусматривает при окраске новой детали полную окраску детали смежной с приваренной", correct: false },
@@ -1174,7 +1174,7 @@ const quizData = [
     },
     {
         question: "q127 Эффект «хамелеона» на лакокрасочном покрытии достигается:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Путем нанесения слоев эмали под воздействием статического электрического поля ", correct: false },
             { text: "Путем нанесения второго полупрозрачного слоя эмали ", correct: true },
@@ -1184,7 +1184,7 @@ const quizData = [
     },
     {
         question: "q128 Базовый уровень начала окрасочных работ при использовании технологии окраски AZT предусматривает в частности",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Детали и участки под окрашивание поверхности (например, после рихтовки, вытяжки, сварки и т.п. или чернового полиэфирного шпатлевания) обработаны (зашкурены) «всухую» при помощи шлифовального абразива с зернистостью не грубее P80 по DIN", correct: true },
             { text: "Детали и участки под окрашивание поверхности отрихтованы, вытянуты, сварены и т.п. образом восстановлены и загрунтованы ", correct: false },
@@ -1193,7 +1193,7 @@ const quizData = [
     },
     {
         question: "q129 Обезжириватель для пластика",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Обладает дополнительными антистатическими свойствами.", correct: true },
             { text: "Незначительно растворяет поверхность детали для лучшего сцепления с грунтом", correct: false },
@@ -1202,7 +1202,7 @@ const quizData = [
     },
     {
         question: "q130 Может ли быть допущена к дорожному движению Ауди А6 у которой цвет капота, бампера и левого крыла отличается от цвета, указанного в свидетельстве о регистрации:",
-        imgLink: './q130.jpg',
+        imgLink: 'IMG/q130.jpg',
         answers: [
             { text: "Да, цвет деталей кузова не влияет на допуск к дорожному движению, если эти детали не имеют повреждений.", correct: false },
             { text: "Нет, если на кузове имеются детали другого цвета, то об этом должна быть сделана запись в свидетельстве о регистрации, например, (серо-синий, серебристо-синий и т.п.).", correct: false },
@@ -1211,7 +1211,7 @@ const quizData = [
     },
     {
         question: "q131 Сколько времени занимает полировка одного стекла поликарбонатной (пластиковой) фары? (Согласно свежей информации от Шустова полировать фару можно)",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "от 20 минут до 1 часа;", correct: true },
             { text: "до 15 минут при использовании шлифмашинки", correct: true },
@@ -1220,7 +1220,7 @@ const quizData = [
     },
     {
         question: "q132",
-        imgLink: './q132.jpg',
+        imgLink: 'IMG/q132.jpg',
         answers: [
             { text: "товарный знак или наименование производителя;", correct: false },
             { text: "знак официального утверждения в соответствии с правилами №R43 ЕЭК ООН (4 – Нидерланды)", correct: false },
@@ -1230,7 +1230,7 @@ const quizData = [
     },
     {
         question: "q133 Стекло «сталинит» - это",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Закаленное травмобезопасное стекло, используемое для изготовления любых стекол автомобиля;", correct: false },
             { text: "Закаленное стекло, используемое для изготовления боковых и задних стекол автомобиля;", correct: true },
@@ -1239,7 +1239,7 @@ const quizData = [
     },
     {
         question: "q134 Глубокая (хорошо заметная и легко определяемая ногтем) царапина на ветровом стекле устраняется:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "заменой стекла, так как предварительная шлифовка абразивным кругом с последующей полировкой приводит к образованию линзы в месте шлифовки.", correct: true },
             { text: "полировкой с использованием состава на основе порошка для полировки стекла.", correct: false },
@@ -1248,7 +1248,7 @@ const quizData = [
     },
     {
         question: "q135 При трещине ветрового стекла не выходящей на край стекло подлежит замене:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "если стоимость ремонта трещины превышает стоимость стекла за вычетом износа", correct: false },
             { text: "если трещина попадает в зону, очищаемую щетками, и имеет расходящиеся лучи;", correct: false },
@@ -1259,7 +1259,7 @@ const quizData = [
     },
     {
         question: "q136 Локальный нагрев стекла со внутренней стороны перед началом заполнения трещины полимером производится для:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "расширения краев трещины", correct: false },
             { text: "разжижения полимера после заполнения", correct: false },
@@ -1268,7 +1268,7 @@ const quizData = [
     },
     {
         question: "q137 Светопропускаемость ветрового стекла",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "70%", correct: true },
             { text: "75%", correct: false },
@@ -1276,7 +1276,7 @@ const quizData = [
     },
     {
         question: "q138 Светопропускаемость боковых и заднего стекла",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "70%", correct: true },
             { text: "75%", correct: false },
@@ -1284,7 +1284,7 @@ const quizData = [
     },
     {
         question: "q139",
-        imgLink: './q139.jpg',
+        imgLink: 'IMG/q139.jpg',
         answers: [
             { text: "монтажные мосты для ремонта стекла", correct: true },
             { text: "минилифтеры для беспокрасочного удаления вмятин", correct: false },
@@ -1293,7 +1293,7 @@ const quizData = [
     },
     {
         question: "q140 Допускается ли ремонт двери автомобиля, при котором меняется панель наружная и производится ремонт каркаса внутреннего",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "не допускается", correct: false },
             { text: "допускается", correct: false },
@@ -1302,7 +1302,7 @@ const quizData = [
     },
     {
         question: "q141",
-        imgLink: './q141.jpg',
+        imgLink: 'IMG/q141.jpg',
         answers: [
             { text: "на рис а", correct: false },
             { text: "на рис б", correct: true },
@@ -1312,7 +1312,7 @@ const quizData = [
     },
     {
         question: "q142 Есть ли обезжирователь для пластмассовых деталей",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "да", correct: true },
             { text: "нет", correct: false },
@@ -1321,7 +1321,7 @@ const quizData = [
     },
     {
         question: "q143 Чем соединяются лонжероны рамы",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Заклепками", correct: true },
             { text: "Болтовые соединнения", correct: false },
@@ -1330,7 +1330,7 @@ const quizData = [
     },
     {
         question: "q144 Ремонтируется ли разрыв аллюминия?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Да, с использование композитных материалов", correct: false },
             { text: "Нет", correct: true },
@@ -1339,7 +1339,7 @@ const quizData = [
     },
     {
         question: "q145 Чем крепятся алюминиевые детали к стальным?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "заклепками со специальным покрытием и специальными болтами в комбинации со склеиванием", correct: true },
             { text: "При помощи точечной сварки", correct: false },
@@ -1348,7 +1348,7 @@ const quizData = [
     },
     {
         question: "q146",
-        imgLink: './q146.jpg',
+        imgLink: 'IMG/q146.jpg',
         answers: [
             { text: "Устранение перекоса кузова средней сложности.", correct: true },
             { text: "Устранение несложного перекоса кузова", correct: false },
@@ -1357,7 +1357,7 @@ const quizData = [
     },
     {
         question: "q147 Ремонт №1 предполагает",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Выправление повреждений под окраску пятном", correct: false },
             { text: "Выправление повреждений в легкодоступных местах (до 20% поверхности);", correct: true },
@@ -1368,7 +1368,7 @@ const quizData = [
     },
     {
         question: "q148 Минимальный срок гарантии на кузов и его составные части по выполненным кузовным работам составляет:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "12 месяцев", correct: false },
             { text: "8 месяцев", correct: false },
@@ -1378,7 +1378,7 @@ const quizData = [
     },
     {
         question: "q149 Лонжерон рамы - это",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Поперечная балка рамы", correct: false },
             { text: "Короб закрытого сечения несущего кузова, в обиходе называемый порогом", correct: false },
@@ -1387,7 +1387,7 @@ const quizData = [
     },
     {
         question: "q150 Аварийный размыкатель цепи АКБ оснащается ТС у которых",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "АКБ имеет емкость более 80 ампер-часов", correct: false },
             { text: "АКБ установлена в салоне или багажном отделении", correct: false },
@@ -1397,7 +1397,7 @@ const quizData = [
     },
     {
         question: "q151 Подлежит ли ремонту трещина корпуса необслуживаемой герметизированной АКБ? ",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "подлежит сваркой или склейкой пластмассы, если повреждение не затронуло пластины и сепаратор АКБ, сохранился уровень электролита и трещина находится выше уровня электролита", correct: false },
             { text: " не подлежит", correct: true },
@@ -1405,7 +1405,7 @@ const quizData = [
     },
     {
         question: "q152 Что такое аккумуляторная батарея AGM?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Батарея с датчиком удара, разрывающим цель при ДТП;", correct: false },
             { text: "Батарея с адсорбированным электролитом, которым пропитаны микропоры сепаратора;", correct: true },
@@ -1415,7 +1415,7 @@ const quizData = [
     },
     {
         question: "q153 Какой уровень электролита должен быть в АКБ",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "на 10…15 мм выше пластин", correct: true },
             { text: "на 10…25 мм выше пластин", correct: false },
@@ -1424,7 +1424,7 @@ const quizData = [
     },
     {
         question: "q154 В чем заключается преимущество светодиодных ламп современных автомобилей относительно ламп накаливания и газоразрядных ламп?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "отсутствие ослепляющего эффекта при сопоставимом световом потоке", correct: false },
             { text: "низкая стоимость", correct: false },
@@ -1434,7 +1434,7 @@ const quizData = [
     },
     {
         question: "q155 Подлежат ли замене фары головного света с другого ТС",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Можно", correct: false },
             { text: "нельзя", correct: false },
@@ -1443,7 +1443,7 @@ const quizData = [
     },
     {
         question: "q156 Технология полировки пластмассовой(поликарбонатной) фары включаетс в себя (Согласно свежей информации от Шустова полировать фару можно)",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Последовательную шлифовку шкуркой с зерном от 800 до 3000-4000, избегая нагрева поверхности, затем полировка абразивной пастой.", correct: true },
             { text: "Фары полировать нельзя, так как защитный колпак покрыт слоем кремнийорганического лака.", correct: true },
@@ -1452,7 +1452,7 @@ const quizData = [
     },
     {
         question: "q157 ",
-        imgLink: './q157.jpg',
+        imgLink: 'IMG/q157.jpg',
         answers: [
             { text: "Электронная система зажигания", correct: false },
             { text: "Бесконтактно-транзисторная система зажигания", correct: false },
@@ -1463,7 +1463,7 @@ const quizData = [
     },
     {
         question: "q158 Изменение крутящего момента двигателя в системе ESP может осуществляться:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "дополнительным поворотом рулевого управления при применении электропривода", correct: false },
             { text: "подтормаживанием одного из колес", correct: false },
@@ -1472,7 +1472,7 @@ const quizData = [
     },
     {
         question: "q159 На автомобиле выстрелила подушка безопасности, что нужно заменить?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "подушку безопасности", correct: false },
             { text: "модуль (блок) подушки безопасности", correct: true },
@@ -1481,7 +1481,7 @@ const quizData = [
     },
     {
         question: "q160 Буксируемое транспортное средство - прицеп это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "пассажирский прицеп, грузовой прицеп, грузовой прицеп общего назначения, специальный прицеп, караван.", correct: true },
             { text: "транспортное средство, присоединенное жесткой сцепкой к автомобилю-тягачу.", correct: false },
@@ -1490,7 +1490,7 @@ const quizData = [
     },
     {
         question: "q161 Укажите тип и модификацию ТС, приведенного на рисунке:",
-        imgLink: './q161.jpg',
+        imgLink: 'IMG/q161.jpg',
         answers: [
             { text: "полноприводное с двигателем внутреннего сгорания", correct: true },
             { text: "универсал повышенной проходимости", correct: false },
@@ -1500,7 +1500,7 @@ const quizData = [
     },
     {
         question: "q162 Подлежат ли ремонту алюминиевые блоки цилиндров с трещинами",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Да, предварительно нагрев место трещины до 300 градусов ее заваривают аргонно-дуговой сваркой, затем медленно охлаждают", correct: false },
             { text: "Да, предварительно засверлив трещину ее разогревают до 70-80 грудсов, ее заполняют эпоксидным клеем с армированным стекловолокном", correct: false },
@@ -1510,7 +1510,7 @@ const quizData = [
     },
     {
         question: "q163 Подлежат ли ремонту чугунные блоки цилиндров с трещинами?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Да, предварительно засверлив трещину ее разогревают до 70-80 градусов ее заполняют эпоксидной пастой с последующей сушкой ", correct: false },
             { text: "Да, предварительно засверлив трещину, ее заваривают электродом", correct: false },
@@ -1520,7 +1520,7 @@ const quizData = [
     },
     {
         question: "q164 Конденсатор кондиционера, изображенный на фото, имеет плавный изгиб корпуса без растяжки и разгерметизации.Укажите род ремонтного воздействия",
-        imgLink: './q164.jpg',
+        imgLink: 'IMG/q164.jpg',
         answers: [
             { text: "Ремонт путем выправления корпуса конденсатора механическим воздействием силы перпендикулярно плоскости корпуса ", correct: false },
             { text: "Ремонт с нагревом поврежденной части конденсатора для усадки алюминия и восстановления прямолинейной формы ", correct: false },
@@ -1529,7 +1529,7 @@ const quizData = [
     },
     {
         question: "q165 Подлежит ли ремонту алюминиевое переднее крыло АУДИ А6 с разрывом без растяжения металла",
-        imgLink: './q165.jpg',
+        imgLink: 'IMG/q165.jpg',
         answers: [
             { text: "Алюминиевые части ремонту не подлежа", correct: false },
             { text: "Подлежат ремонту с рихтовкой и аргонно-дуговой сваркой", correct: false },
@@ -1538,7 +1538,7 @@ const quizData = [
     },
     {
         question: "q166  Поврежден черный структурированый бампер, имеет простую структуру, возможна ли окраска. ",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Да, матовой текстурированной краской или структурированным аэрозолем", correct: true },
             { text: "нет", correct: false },
@@ -1546,7 +1546,7 @@ const quizData = [
     },
     {
         question: "q167 Шпатлёвка для бамперов:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "имеет более эластичную структуру", correct: false },
             { text: "обладает антистатическими свойствами", correct: false },
@@ -1555,7 +1555,7 @@ const quizData = [
     },
     {
         question: "q168 Есть вопрос: на каких автомобилях применяется функция стоп-старт? (варианты ответов приблизительны):",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "с двигателями внутреннего сгорания;", correct: true },
             { text: "в гибридах;", correct: false },
@@ -1564,7 +1564,7 @@ const quizData = [
     },
     {
         question: "q169 МАЗ-5440 – это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "самосвал;", correct: false },
             { text: "грузовой автомобиль с мощностью двигателя 440 л.с.", correct: false },
@@ -1574,7 +1574,7 @@ const quizData = [
     },
     {
         question: "q170 МАN-TGA 18.480 имеет",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "- полную массу 18 тонн и двигатель мощностью 480 квт", correct: false },
             { text: "- грузоподъемность 18 тонн и двигатель мощностью 480 квт", correct: false },
@@ -1584,7 +1584,7 @@ const quizData = [
     },
     {
         question: "q171 Грузовой автомобиль Iveco Eurocargo ML 120 E25 - это...",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "автомобиль грузоподъемностью 1200 кг с колесной базой 2500мм", correct: false },
             { text: "автомобиль с двигателем мощностью 120 л.с. грузоподъемностью 2,5 тонны", correct: false },
@@ -1594,7 +1594,7 @@ const quizData = [
     },
     {
         question: "q172 Пьезоэлектрические гиродатчики, указанные на рисунках, могут использоваться:",
-        imgLink: './q172.jpg',
+        imgLink: 'IMG/q172.jpg',
         answers: [
             { text: "как датчики ускорения (замедления) в системах пассивной безопасности;", correct: false },
             { text: "как датчики вибрации в охранной сигнализации;", correct: false },
@@ -1604,7 +1604,7 @@ const quizData = [
     },
     {
         question: "q173 Выберите наиболее полный термин гибридный автомобиль",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "автомобиль, использующий для движения двигатель внутреннего сгорания и электродвигатель", correct: false },
             { text: "автомобиль, использующий более одного вида топлива для двигателя внутреннего сгорания ", correct: false },
@@ -1613,7 +1613,7 @@ const quizData = [
     },
     {
         question: "q174 Укажите тип коробки передач ТС, приведенной на рисунке:",
-        imgLink: './q174.jpg',
+        imgLink: 'IMG/q174.jpg',
         answers: [
             { text: "автоматическая коробка передач с гидротрансформатором", correct: true },
             { text: "автоматическая коробка передач с гидромуфтой", correct: false },
@@ -1624,7 +1624,7 @@ const quizData = [
     },
     {
         question: "q175 Выберите наиболее полный термин гибридный автомобиль",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "автомобиль, использующий для привода колес двигатель внутреннего сгорания и электродвигатель", correct: false },
             { text: "автомобиль, использующий более одного вида топлива для двигателя внутреннего сгорания ", correct: false },
@@ -1633,7 +1633,7 @@ const quizData = [
     },
     {
         question: "q176 ТС МАЗ 950 ...",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "полуприцем тентованный", correct: false },
             { text: "полуприцем самосвальный", correct: true },
@@ -1642,7 +1642,7 @@ const quizData = [
     },
     {
         question: "q177 Укажите основные геометрические идентификационные параметры ТС, приведенные на рисунке, необходимые для их фиксации в акте осмотра ТС",
-        imgLink: './q177.jpg',
+        imgLink: 'IMG/q177.jpg',
         answers: [
             { text: "Все, указанные на рисунке.", correct: false },
             { text: "Б", correct: true },
@@ -1651,7 +1651,7 @@ const quizData = [
     },
     {
         question: "q178 К какому типу относится двигатель, приведенный на рисунке?",
-        imgLink: './q178.jpg',
+        imgLink: 'IMG/q178.jpg',
         answers: [
             { text: "Бензиновый", correct: true },
             { text: "Дизельный", correct: false },
@@ -1661,7 +1661,7 @@ const quizData = [
     },
     {
         question: "q179 Укажите к какому типу относится несущая конструкция кузова, приведенная на рисунке:",
-        imgLink: './q179.jpg',
+        imgLink: 'IMG/q179.jpg',
         answers: [
             { text: "самонесущий кузов", correct: true },
             { text: "рамному типу.", correct: false },
@@ -1670,7 +1670,7 @@ const quizData = [
     },
     {
         question: "q180 Укажите кузов типа «универсал»",
-        imgLink: './q180.jpg',
+        imgLink: 'IMG/q180.jpg',
         answers: [
             { text: "8", correct: false },
             { text: "7", correct: true },
@@ -1680,7 +1680,7 @@ const quizData = [
     },
     {
         question: "q181 Антиблокировочная система ТС это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "система активной безопасности, предотвращающая блокирование (юз) тормозящихся колес, обеспечивающая сокращение тормозного пути и предотвращающая занос автомобиля при торможении.", correct: true },
             { text: "система, предотвращающая буксование ведущих колес автомобиля, повышающая сцепные свойства, устойчивость автомобиля в режиме разгона и движения.", correct: false },
@@ -1689,7 +1689,7 @@ const quizData = [
     },
     {
         question: "q182 Антибуксовочная система ТС это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "система, предотвращающая буксование ведущих колес автомобиля, повышающая сцепные свойства, устойчивость автомобиля в режиме разгона и движения.", correct: true },
             { text: "система активной безопасности, предотвращающая блокирование (юз) тормозящихся колес, обеспечивающая сокращение тормозного пути и предотвращающая занос автомобиля при торможении.", correct: false },
@@ -1698,7 +1698,7 @@ const quizData = [
     },
     {
         question: "q183 Каким образом фиксируются специалистом идентификационные характеристики ТС (тип, марка-модель, модификация, сведения о производителе, год и месяц выпуска, идентификационный номер (VIN) кузова (шасси), тип кузова (кабины - для грузовых автомобилей и тракторов, платформы - для прицепа), количество мест, дверей, тип, рабочий объем, число цилиндров и мощность двигателя, тип коробки передач (трансмиссии), цвет и тип окраски, сведения о комплектации)?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Органолептическим методом.", correct: true },
             { text: "С применением инструментального контроля.", correct: false },
@@ -1708,7 +1708,7 @@ const quizData = [
     },
     {
         question: "q184 Изменение фаз газораспределения на представленном рисунке производится:",
-        imgLink: './q184.jpg',
+        imgLink: 'IMG/q184.jpg',
         answers: [
             { text: "•  изменением высоты подъема впускных клапанов.", correct: false },
             { text: "•  изменением высоты подъема выпускных клапанов.", correct: false },
@@ -1718,7 +1718,7 @@ const quizData = [
     },
     {
         question: "q185 Гидравлические толкатели (гидрокомпенсаторы) (рис.) в двигателях применяются с целью:",
-        imgLink: './q185.jpg',
+        imgLink: 'IMG/q185.jpg',
         answers: [
             { text: "увеличения мощности двигателя.", correct: false },
             { text: "уменьшения стуков при работе двигателя", correct: true },
@@ -1728,7 +1728,7 @@ const quizData = [
     },
     {
         question: "q186 Изменение фаз газораспределения (рис.) производится для: ",
-        imgLink: './q184.jpg',
+        imgLink: 'IMG/q184.jpg',
         answers: [
             { text: "снижения внутренней рециркуляции отработавших газов.", correct: false },
             { text: "снижения давления газов в цилиндрах при запуске двигателя.", correct: false },
@@ -1737,7 +1737,7 @@ const quizData = [
     },
     {
         question: "q187 В двигателях применяются следующие системы изменения высоты подъема клапана:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "изменение высоты кулачка распределительного вала.", correct: true },
             { text: "изменение высоты клапана.", correct: false },
@@ -1746,7 +1746,7 @@ const quizData = [
     },
     {
         question: "q188 Турбонаддув в двигателях (рис.) применяется для:",
-        imgLink: './q188.jpg',
+        imgLink: 'IMG/q188.jpg',
         answers: [
             { text: "увеличения подачи топлива.", correct: false },
             { text: "увеличения подачи воздуха.", correct: true },
@@ -1755,7 +1755,7 @@ const quizData = [
     },
     {
         question: "q189 Охлаждение надувочного воздуха (интеркулляция) (рис.) в двигателях применяется для:",
-        imgLink: './q189.jpg',
+        imgLink: 'IMG/q189.jpg',
         answers: [
             { text: "увеличения подачи топлива.", correct: false },
             { text: "увеличения подачи кислорода (воздуха), поступающего в двигатель.", correct: true },
@@ -1765,7 +1765,7 @@ const quizData = [
     },
     {
         question: "q190 Регулирование производительности масляного насоса при различных режимах работы двигателя может производиться:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "шестеренчатыми насосами с внутренним зацеплением шестерен.", correct: false },
             { text: "героторными насосами.", correct: true },
@@ -1774,7 +1774,7 @@ const quizData = [
     },
     {
         question: "q191 Электронно-управляемые системы охлаждения двигателя (рис.) поддерживают:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "постоянную температуру в двигателе.", correct: false },
             { text: "более высокую в головке и более низкую в блоке.", correct: false },
@@ -1783,7 +1783,7 @@ const quizData = [
     },
     {
         question: "q192 Электрические жидкостные насосы применяются в системах охлаждения двигателя:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "только в качестве основных.", correct: false },
             { text: "в качестве основных и дополнительных.", correct: true },
@@ -1793,7 +1793,7 @@ const quizData = [
     },
     {
         question: "q193 В механических системах впрыска бензинового двигателя (рис.) подача топлива во впускной трубопровод рабочими форсунками осуществляется:",
-        imgLink: './q193.jpg',
+        imgLink: 'IMG/q193.jpg',
         answers: [
             { text: "прерывисто в зависимости от оборотов двигателя.", correct: false },
             { text: "непрерывно в зависимости от давления подачи топлива.", correct: true },
@@ -1803,7 +1803,7 @@ const quizData = [
     },
     {
         question: "q194 Пусковая форсунка (рис.) в системах питания бензиновых двигателей применяется для:",
-        imgLink: './q194.jpg',
+        imgLink: 'IMG/q194.jpg',
         answers: [
             { text: "для запуска двигателя и работы двигателя на оборотах холостого хода.", correct: false },
             { text: "запуска холодного двигателя.", correct: false },
@@ -1812,7 +1812,7 @@ const quizData = [
     },
     {
         question: "q195 Лямда-зонд (рис.) предназначен для:",
-        imgLink: './q195.jpg',
+        imgLink: 'IMG/q195.jpg',
         answers: [
             { text: "регулирования крутящего момента двигателя.", correct: false },
             { text: "передачи информации о наличии в отработавших газах сажи.", correct: false },
@@ -1822,7 +1822,7 @@ const quizData = [
     },
     {
         question: "q196 Изменение подачи топлива в многоточечных электронных системах впрыска бензиновых двигателях (рис.) определяется:",
-        imgLink: './q196.jpg',
+        imgLink: 'IMG/q196.jpg',
         answers: [
             { text: "оборотами коленчатого вала.", correct: false },
             { text: "временем открытия форсунки и давлением топлива.", correct: true },
@@ -1831,7 +1831,7 @@ const quizData = [
     },
     {
         question: "q197 Система электронного впрыска «моно» предусматривает:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "количество форсунок составляет только одна форсунка на один цилиндр.", correct: false },
             { text: "независимо от количества цилиндров в системе впрыска устанавливается одна форсунка.", correct: true },
@@ -1840,7 +1840,7 @@ const quizData = [
     },
     {
         question: "q198 Улавливание топливных испарений из топливного бака бензиновых двигателей предусмотрено для:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "предотвращения появления паровых пробок в топливопроводах.", correct: false },
             { text: "снижения испарений углеводородов.", correct: true },
@@ -1849,7 +1849,7 @@ const quizData = [
     },
     {
         question: "q199 Рециркуляция отработавших газов (рис.) предназначена для:",
-        imgLink: './q199.jpg',
+        imgLink: 'IMG/q199.jpg',
         answers: [
             { text: "снижения выбросов оксидов азота с отработавшими газами.", correct: true },
             { text: "снижения выбросов углеводородов с отработавшими газами.", correct: false },
@@ -1858,7 +1858,7 @@ const quizData = [
     },
     {
         question: "q200 Основное назначение дополнительного датчика кислорода или азота (рис.) состоит в том чтобы:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "контролировать работу нейтрализатора.", correct: true },
             { text: "регулировать состав топливовоздушной смеси.", correct: false },
@@ -1867,7 +1867,7 @@ const quizData = [
     },
     {
         question: "q201 Электронный привод дроссельной заслонки в системах впрыска бензиновых двигателей (рис.) позволяет:",
-        imgLink: './q201.jpg',
+        imgLink: 'IMG/q201.jpg',
         answers: [
             { text: "посредством перемещения дроссельной заслонки влиять на величину крутящего момента двигателя даже в том случае, когда водитель не меняет положения педали акселератора.", correct: true },
             { text: "более точно регулировать скорость движения автомобиля.", correct: false },
@@ -1876,7 +1876,7 @@ const quizData = [
     },
     {
         question: "q202 Давление впрыска дизельного топлива в системах «Common Rail» составляет:",
-        imgLink: './q202.jpg',
+        imgLink: 'IMG/q202.jpg',
         answers: [
             { text: "1300 … 2500 кгс/см.кв", correct: true },
             { text: "20 … 30 кгс/см.кв", correct: false },
@@ -1885,7 +1885,7 @@ const quizData = [
     },
     {
         question: "q203 Используя систему впрыска дизеля «Common Rail» нельзя:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "допускать полного расходования топлива.", correct: true },
             { text: "использовать биотопливо.", correct: false },
@@ -1894,7 +1894,7 @@ const quizData = [
     },
     {
         question: "q204 Использование пьезоэлектрогидравлических форсунок в системах дизельных двигателей «Common Rail» (рис.) позволяет:",
-        imgLink: './q204.jpg',
+        imgLink: 'IMG/q204.jpg',
         answers: [
             { text: "уменьшить «жесткость» работы двигателя и его шум с одновременным снижением выбросов окислов азота.", correct: true },
             { text: "использовать биотопливо.", correct: false },
@@ -1903,7 +1903,7 @@ const quizData = [
     },
     {
         question: "q205 Принцип работы системы впрыска дизельных двигателей «Common Rail» (рис.) основан на:",
-        imgLink: './q205.jpg',
+        imgLink: 'IMG/q205.jpg',
         answers: [
             { text: "создании давления в специальном гидроаккумуляторе и передачи давления через форсунку в цилиндр двигателя.", correct: true },
             { text: "создании давления в плунжерной паре и передачи его без трубопровода непосредственно в форсунку и цилиндр двигателя.", correct: false },
@@ -1912,7 +1912,7 @@ const quizData = [
     },
     {
         question: "q206 Количество впрыскиваемого топлива в системах дизельных двигателей с насос-форсунками определяется:",
-        imgLink: './q206.jpg',
+        imgLink: 'IMG/q206.jpg',
         answers: [
             { text: "временем срабатывания электро или пьезоклапана управления.", correct: true },
             { text: "изменяющимся давлением топлива при движении плунжера.", correct: false },
@@ -1921,7 +1921,7 @@ const quizData = [
     },
     {
         question: "q207 В каких системах питания дизельных двигателей используется наиболее высокое давление впрыска?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "C использованием насос-форсунок с электромагнитным клапаном.", correct: true },
             { text: "C использованием системы «Common Rail».", correct: false },
@@ -1930,7 +1930,7 @@ const quizData = [
     },
     {
         question: "q208 Датчик детонации в статических электронных системах зажигания (рис.) предназначен для:",
-        imgLink: './q208.jpg',
+        imgLink: 'IMG/q208.jpg',
         answers: [
             { text: "установления угла опережения зажигания, очень близкого к предельному, за которым происходит детонация.", correct: true },
             { text: "определения частоты вращения коленчатого вала, при котором начинается детонация.", correct: false },
@@ -1939,7 +1939,7 @@ const quizData = [
     },
     {
         question: "q209 Гидравлический усилитель рулевого управления с электронным управлением (рис.) позволяет:",
-        imgLink: './q209.jpg',
+        imgLink: 'IMG/q209.jpg',
         answers: [
             { text: "обеспечить зависимость степени усиления на рулевом управлении от скорости автомобиля.", correct: true },
             { text: "уменьшить токсичность отработавших газов и расход топлива.", correct: false },
@@ -1948,7 +1948,7 @@ const quizData = [
     },
     {
         question: "q210 Электромеханический усилитель рулевого управления с электронным управлением (рис.) позволяет:",
-        imgLink: './q210.jpg',
+        imgLink: 'IMG/q210.jpg',
         answers: [
             { text: "поддерживать возврат управляемых колес в среднее положение в зависимости от давления воздуха в шинах, разной степени износа протектора, бокового ветра, поперечного уклона дороги.", correct: true },
             { text: "по сравнению с гидроусилителем уменьшить усилие поворота рулевого колеса.", correct: false },
@@ -1957,7 +1957,7 @@ const quizData = [
     },
     {
         question: "q211 Принцип работы АБС (рис.) основан на:",
-        imgLink: './q211.jpg',
+        imgLink: 'IMG/q211.jpg',
         answers: [
             { text: "постоянном контроле за силой сцепления колес с дорогой и регулировании в каждый данный момент тормозного усилия, прилагаемого к каждому колесу.", correct: true },
             { text: "уменьшении давления в тормозной системе только задних колес.", correct: false },
@@ -1966,7 +1966,7 @@ const quizData = [
     },
     {
         question: "q212 В каком режиме работает АБС (рис.) при блокировке колес в результате торможения?",
-        imgLink: './q212.jpg',
+        imgLink: 'IMG/q212.jpg',
         answers: [
             { text: "давление в тормозной системе меняется циклически", correct: true },
             { text: "давление в тормозной системе меняется в зависимости от скорости движения.", correct: false },
@@ -1975,7 +1975,7 @@ const quizData = [
     },
     {
         question: "q213 Применяются ли в современных легковых автомобилях тормозные системы с электроприводом:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "применяются для стояночных тормозных систем.", correct: true },
             { text: "применение таких систем не предусматривается.", correct: false },
@@ -1984,7 +1984,7 @@ const quizData = [
     },
     {
         question: "q214 Для каких целей применяется электронная система стабилизации управления автомобилем (ESP):",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "для предотвращения потери управляемости автомобиля при экстренном торможении.", correct: true },
             { text: "для предотвращения самопроизвольного поворачивания рулевого колеса.", correct: false },
@@ -1993,7 +1993,7 @@ const quizData = [
     },
     {
         question: "q215 Коробка передач с двойным сцеплением (рис.) по сравнению с автоматической коробкой передач обеспечивает:",
-        imgLink: './q215.jpg',
+        imgLink: 'IMG/q215.jpg',
         answers: [
             { text: "переключение передач без разрыва потока мощности и обладает меньшими потерями на привод трансмиссии.", correct: true },
             { text: "использование двигателя большей мощности.", correct: false },
@@ -2002,7 +2002,7 @@ const quizData = [
     },
     {
         question: "q216 Автоматическая коробка передач по сравнению с традиционной механической имеет:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "меньший расход топлива.", correct: false },
             { text: "больший расход топлива.", correct: true },
@@ -2011,7 +2011,7 @@ const quizData = [
     },
     {
         question: "q217 Автоматические коробки передач подразделяются на:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "электронно- вариаторные клиноременные передачи, переключение передач в которых осуществляется с помощью электромагнитных клапанов и включающие электронную систему управления; вариаторные клиноременные передачи, переключение передач в которых осуществляется с помощью механических регуляторов; электронно- вариаторные клиноременные передачи, переключение передач в которых осуществляется с помощью электромагнитных клапанов и включающие электронную систему управления, гидромеханические, переключение передач в которых осуществляется с помощью механических регуляторов; электронно-гидромеханические, переключение передач в которых осуществляется с помощью электромагнитных клапанов и включающие электронную систему управления.", correct: true },
             { text: "гидромеханические, переключение передач в которых осуществляется с помощью механических регуляторов; электронно-гидромеханические, переключение передач в которых осуществляется с помощью электромагнитных клапанов и включающие электронную систему управления.", correct: false },
@@ -2020,7 +2020,7 @@ const quizData = [
     },
     {
         question: "q218 Гидротрансформатор (рис) в АКП служит:",
-        imgLink: './q218.jpg',
+        imgLink: 'IMG/q218.jpg',
         answers: [
             { text: "для изменения крутящего момента.", correct: true },
             { text: "для бесшумности работы.", correct: false },
@@ -2030,7 +2030,7 @@ const quizData = [
     },
     {
         question: "q219 Работа гидротрансформатора (рис.) в режиме гидромуфты в АКП служит:",
-        imgLink: './q219.jpg',
+        imgLink: 'IMG/q219.jpg',
         answers: [
             { text: "для передачи крутящего момента без его изменения.", correct: true },
             { text: "для изменения крутящего момента.", correct: false },
@@ -2039,7 +2039,7 @@ const quizData = [
     },
     {
         question: "q220 Система активного распределения крутящего момента (рис.):",
-        imgLink: './q220.jpg',
+        imgLink: 'IMG/q220.jpg',
         answers: [
             { text: "перераспределяет крутящий момент между ведущими колесами.", correct: true },
             { text: "увеличивает мощность двигателя.", correct: false },
@@ -2048,7 +2048,7 @@ const quizData = [
     },
     {
         question: "q221 Муфта «Haldex» (рис.), предназначенная для устранения пробуксовки колес, работает на принципе:",
-        imgLink: './q221.jpg',
+        imgLink: 'IMG/q221.jpg',
         answers: [
             { text: "соединения ведущего и ведомого валов с помощью сцепления и работы аксиально-поршневого насоса.", correct: true },
             { text: "соединения ведущего и ведомого валов с помощью механической связи посредством стопорениея их.", correct: false },
@@ -2057,7 +2057,7 @@ const quizData = [
     },
     {
         question: "q222 Вискомуфта (рис.), предназначенная для устранения пробуксовки колес, работает на принципе:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "соединения ведущего и ведомого валов с помощью изменения вязкости жидкости при нагревании.", correct: true },
             { text: "соединения ведущего и ведомого валов с помощью механической связи посредством стопорениея их.", correct: false },
@@ -2066,7 +2066,7 @@ const quizData = [
     },
     {
         question: "q223 С какой целью автомобиль оборудуется стабилизатором поперечной устойчивости (рис.):",
-        imgLink: './q223.jpg',
+        imgLink: 'IMG/q223.jpg',
         answers: [
             { text: "для уменьшения бокового крена и поперечных угловых колебаний кузова автомобиля и перераспределения веса по колесам автомобиля.", correct: true },
             { text: "для синхронного движения колес на неровностях дороги.", correct: false },
@@ -2075,7 +2075,7 @@ const quizData = [
     },
     {
         question: "q224 Какие системы саморегулирования подвески применятся на легковых автомобилях:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "гидравлическая, гидропневматическая, пневматическая.", correct: true },
             { text: "гидравлическая и пневматическая.", correct: false },
@@ -2084,7 +2084,7 @@ const quizData = [
     },
     {
         question: "q225 При применении пневматической подвески (рис) дорожный просвет изменятся:",
-        imgLink: './q225.jpg',
+        imgLink: 'IMG/q225.jpg',
         answers: [
             { text: "комбинацией автоматического или ручного регулирования.", correct: true },
             { text: "вручную.", correct: false },
@@ -2093,7 +2093,7 @@ const quizData = [
     },
     {
         question: "q226 Амортизатор с автоматическим регулированием демпфирования (рис.) позволяет:",
-        imgLink: './q226.jpg',
+        imgLink: 'IMG/q226.jpg',
         answers: [
             { text: "изменять усилие демпфирования при отбое и сжатии", correct: true },
             { text: "изменять наклон автомобиля при поворотах.", correct: false },
@@ -2102,7 +2102,7 @@ const quizData = [
     },
     {
         question: "q227 Адаптивные системы освещения (рис) обеспечивают:",
-        imgLink: './q227.jpg',
+        imgLink: 'IMG/q227.jpg',
         answers: [
             { text: "изменение угла поворота фар в зависимости от направления движения.", correct: true },
             { text: "изменение угла наклона фар в зависимости от нагрузки.", correct: false },
@@ -2111,7 +2111,7 @@ const quizData = [
     },
     {
         question: "q228 В систему смазки двигателя дизеля с впрыском «Common Rail» следует заливать:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "синтетическое масло.", correct: true },
             { text: "минеральное масло.", correct: false },
@@ -2120,7 +2120,7 @@ const quizData = [
     },
     {
         question: "q229 Трехкомпонентный нейтрализатор, устанавливаемый на автомобилях, позволяет:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "одновременно при восстановлении NOx окислять (беспламенно дожигать) СО и СН.", correct: true },
             { text: "окислять (беспламенно дожигать) СО и СН, удерживать сажу", correct: false },
@@ -2129,7 +2129,7 @@ const quizData = [
     },
     {
         question: "q230 Каталитическое действие нейтрализаторов (рис.) основано на:",
-        imgLink: './q229.jpg',
+        imgLink: 'IMG/q229.jpg',
         answers: [
             { text: "беспламенном поверхностном окислении токсичных веществ в присутствии катализатора, ускоряющего химическую реакцию.", correct: true },
             { text: "подаче дополнительного воздуха в систему выпуска для пламенного дожигания токсичных веществ в присутствии катализатора.", correct: false },
@@ -2138,7 +2138,7 @@ const quizData = [
     },
     {
         question: "q231 Сажевые фильтры предназначены для:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "снижения выбросов СО, СН и NOx и сажи.", correct: true },
             { text: "снижения выбросов сажи после дожигания газов в катализаторе.", correct: false },
@@ -2147,7 +2147,7 @@ const quizData = [
     },
     {
         question: "q232 На автомобиле имеется номер VIN – WWWZZZ 3B24E087283. Что означает последняя буква W:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "страну изготовитель – Германия.", correct: true },
             { text: "модель автомобиля.", correct: false },
@@ -2156,7 +2156,7 @@ const quizData = [
     },
     {
         question: "q233 На автомобиле имеется номер VIN – WWWZZZ 3B24E087283. Что характеризует обозначение 3B:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "страну изготовитель – Германия.", correct: true },
             { text: "марку автомобиля", correct: false },
@@ -2165,7 +2165,7 @@ const quizData = [
     },
     {
         question: "q234 Что обозначает маркировка стекла кузова автомобиля по позиции 2?",
-        imgLink: './q234.jpg',
+        imgLink: 'IMG/q234.jpg',
         answers: [
             { text: "знак официального утверждения в соответствии с правилами №R43 ЕЭК ООН или директивой №92/22/СЕЕ государств, входящих в европейское экономическое сообщество.", correct: true },
             { text: "товарный знак или наименование производителя.", correct: false },
@@ -2174,7 +2174,7 @@ const quizData = [
     },
     {
         question: "q235 На автомобиле имеется номер VIN – WWWZZZ 3B24E087283. Что характеризует 10-й символ для марки Фольксваген:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "2004 модельный год.", correct: true },
             { text: "2004 год выпуска.", correct: false },
@@ -2184,7 +2184,7 @@ const quizData = [
     },
     {
         question: "q236 Какие меры применяются для защиты кузова от коррозии при изготовлении:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "устранение зон, где могут скапливаться пыль и влага.", correct: true },
             { text: "увеличение фланцевых соединений, устранение острых кромок и углов.", correct: false },
@@ -2193,7 +2193,7 @@ const quizData = [
     },
     {
         question: "q237 Автоматически затемняющееся зеркало заднего вида работает по принципу...",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "затемнения при сравнении освещенности фотодатчиками спереди и сзади автомобиля.", correct: true },
             { text: "затемнения при резком увеличении освещения от идущего сзади автомобиля.", correct: false },
@@ -2202,7 +2202,7 @@ const quizData = [
     },
     {
         question: "q238 Маркировка двигателя «W12» используется для обозначения:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "четырехрядных двигателей по три цилиндра в ряду.", correct: true },
             { text: "сочлененных в один ряд двух полностью уравновешенных шестицилиндровых двигателей.", correct: false },
@@ -2212,7 +2212,7 @@ const quizData = [
     },
     // {
     //     question: "q239 Что означает понятие восстановительный ремонт:",
-    //     imgLink: './q.jpg',
+    //     imgLink: 'IMG/q.jpg',
     //     answers: [
     //         { text: "ремонт автомобиля, выполняемый для восстановления функциональной исправности автомобиля и его составных частей, не подлежащих капитальному ремонту из-за физического износа или аварии.", correct: true },
     //         { text: "ремонт автомобиля, выполняемый с установленной периодичностью и в объеме, определяемым по результатам технического диагностирования.", correct: false },
@@ -2221,7 +2221,7 @@ const quizData = [
     // },
     {
         question: "q240 В какой последовательности на рисунке указаны инструменты и приспособления для ремонта кузова:",
-        imgLink: './q240.jpg',
+        imgLink: 'IMG/q240.jpg',
         answers: [
             { text: "а – молотки, б – киянки, в – специальные оправки, г – поддержки.", correct: true },
             { text: "a - киянки, б – молотки, в – специальные оправки, г – поддержки.", correct: false },
@@ -2230,7 +2230,7 @@ const quizData = [
     },
     {
         question: "q241 На каком рисунке показано правильное положение рихтовочного молотка в процессе рихтовки:",
-        imgLink: './q241.jpg',
+        imgLink: 'IMG/q241.jpg',
         answers: [
             { text: "b", correct: true },
             { text: "a", correct: false },
@@ -2239,7 +2239,7 @@ const quizData = [
     },
     {
         question: "q242 Правку отдельных деталей кузова в нагретом состоянии производят:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "обоими способами.", correct: true },
             { text: "нагревом с осаждением металла ударным воздействием", correct: false },
@@ -2248,7 +2248,7 @@ const quizData = [
     },
     {
         question: "q243 Неровности на панелях кузова можно выравнивать с помощью:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "полиэфирных шпатлевок, термопластика, эпоксидных мастик холодного отверждения, припоя.", correct: true },
             { text: "полиэфирных шпатлевок, термопластика, эпоксидных мастик холодного отверждения.", correct: false },
@@ -2257,7 +2257,7 @@ const quizData = [
     },
     {
         question: "q244 На каком рисунке показана последовательность предварительного нагрева и нанесения ударов при устранении обширной выпуклости, если она длинная и узкая:",
-        imgLink: './q244.jpg',
+        imgLink: 'IMG/q244.jpg',
         answers: [
             { text: "на нижнем рисунке.", correct: true },
             { text: "на верхнем рисунке.", correct: false },
@@ -2266,7 +2266,7 @@ const quizData = [
     },
     {
         question: "q245 На каком рисунке приведены схемы правки деформированного участка кузова рычагом-прижимом и молотком (рис.):",
-        imgLink: './q245.jpg',
+        imgLink: 'IMG/q245.jpg',
         answers: [
             { text: "б, в.", correct: true },
             { text: "a", correct: false },
@@ -2276,7 +2276,7 @@ const quizData = [
     },
     {
         question: "q246 На каком рисунке показана растяжка кузова и правка:",
-        imgLink: './q246.jpg',
+        imgLink: 'IMG/q246.jpg',
         answers: [
             { text: "а – растяжка, б – правка.", correct: true },
             { text: "б – растяжка, а – правка.", correct: false },
@@ -2285,7 +2285,7 @@ const quizData = [
     },
     {
         question: "q247 Основными преимуществами компьютерных стендов для правки кузовов являются:",
-        imgLink: './q247.jpg',
+        imgLink: 'IMG/q247.jpg',
         answers: [
             { text: "все вышеперечисленные преимущества", correct: true },
             { text: "использование экрана дисплея компьютера для отображения направления правки кузова.", correct: false },
@@ -2295,7 +2295,7 @@ const quizData = [
     },
     {
         question: "q248 Газовая сварка при ремонте кузова автомобиля применяется при:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "полном креплении кузовных деталей сваркой.", correct: false },
             { text: "выполнении прихваток, нанесении латунных припоев в местах концентрации напряжений.", correct: true },
@@ -2304,7 +2304,7 @@ const quizData = [
     },
     {
         question: "q249 При ремонте кузовов легковых автомобилей применяют следующие виды сварки:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "газовая, ручная электродуговая, полуавтоматическая электродуговая в среде защитного газа, контактно-точечная сварка, аргононно-дуговая.", correct: true },
             { text: "газовая, ручная электродуговая, полуавтоматическая электродуговая в среде защитного газа, контактно-точечная сварка.", correct: false },
@@ -2313,7 +2313,7 @@ const quizData = [
     },
     {
         question: "q250 Какие защитные газы применяются при использовании полуавтоматической электродуговой сварки (рис.):",
-        imgLink: './q250.jpg',
+        imgLink: 'IMG/q250.jpg',
         answers: [
             { text: "углекислый газ, аргон, гелий или их смеси.", correct: true },
             { text: "только углекислый газ.", correct: false },
@@ -2323,7 +2323,7 @@ const quizData = [
     },
     {
         question: "q251 Для сварки каких металлов применяется аргонно-дуговая сварка при ремонте деталей кузова:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "алюминиевых сплавов и титана.", correct: true },
             { text: "при соединении алюминиевых сплавов со сталью.", correct: false },
@@ -2332,7 +2332,7 @@ const quizData = [
     },
     {
         question: "q252 В чем заключается модульный принцип ремонта кузова легкового автомобиля:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "в замене отдельных составляющих кузова, например, крыла.", correct: true },
             { text: "в удалении поврежденных участков и последующей накладкой металла с применением сварки и других методов.", correct: false },
@@ -2341,7 +2341,7 @@ const quizData = [
     },
     {
         question: "q253 Какой вид сварки при ремонте кузова показан на данном рисунке:",
-        imgLink: './q253.jpg',
+        imgLink: 'IMG/q253.jpg',
         answers: [
             { text: "контактно-точечная", correct: true },
             { text: "в среде защитного газа", correct: false },
@@ -2350,7 +2350,7 @@ const quizData = [
     },
     {
         question: "q254 Какие признаки характеризуют трещину от напряжения (температурных перепадов), не являющуюся признаком удара автостекла:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "обычно ровные (или с совсем небольшими изгибами) линии, начинающиеся от края стекла ветрового.", correct: true },
             { text: "трещина, которая начинается с середины стекла ветрового.", correct: false },
@@ -2359,7 +2359,7 @@ const quizData = [
     },
     {
         question: "q255 При ремонте трещины стекла ветрового автомобиля (триплекс) (рис.) ее сверлят:",
-        imgLink: './q255.jpg',
+        imgLink: 'IMG/q255.jpg',
         answers: [
             { text: "до полимерного слоя.", correct: true },
             { text: "насквозь через все слои триплекса.", correct: false },
@@ -2368,7 +2368,7 @@ const quizData = [
     },
     {
         question: "q256 Пластмассовая облицовка бампера не подлежит ремонту если:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "наибольший линейный размер повреждений составляет 50% от наибольшего размера бампера (не считая исправляемые вогнутости с небольшими трещинами в пластмассовой накладке).", correct: true },
             { text: "наибольший линейный размер повреждений составляет 40% от наибольшего размера бампера (не считая исправляемые вогнутости с небольшими трещинами в пластмассовой накладке).", correct: false },
@@ -2377,7 +2377,7 @@ const quizData = [
     },
     {
         question: "q257 Стальной бампер или стальной усилитель бампера не подлежит ремонту если:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "угол изгиба для металлического каркаса составляет более 60 градусов от нормального состояния.", correct: true },
             { text: "угол изгиба для металлического каркаса составляет более 50 градусов от нормального состояния.", correct: false },
@@ -2386,7 +2386,7 @@ const quizData = [
     },
     {
         question: "q258 Толщина стальных деталей кузова составляет:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "0,6…1 мм.", correct: true },
             { text: "0,30…0.40 мм", correct: false },
@@ -2395,7 +2395,7 @@ const quizData = [
     },
     {
         question: "q259 Перекос радиатора в вертикальной плоскости по диагоналям (рис.), при отсутствии течи по плоскости присоединения бачков, не должен превышать:",
-        imgLink: './q259.jpg',
+        imgLink: 'IMG/q259.jpg',
         answers: [
             { text: "3 мм.", correct: true },
             { text: "5 мм.", correct: false },
@@ -2404,7 +2404,7 @@ const quizData = [
     },
     {
         question: "q260 Обязательно ли восстановление цилиндропоршневой группы по ремонтным размерам:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "целесообразность восстановления цилиндропоршневой группы предусматривает предприятие-изготовитель.", correct: true },
             { text: "обязательно при наличии критического износа.", correct: false },
@@ -2413,7 +2413,7 @@ const quizData = [
     },
     {
         question: "q261 При трещине ветрового стекла не выходящей на край стекло подлежит замене:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "если стоимость ремонта трещины превышает стоимость стекла за вычетом износа с учетом его снятия и установки.", correct: false },
             { text: "если стоимость ремонта трещины превышает стоимость стекла за вычетом износа.", correct: false },
@@ -2424,7 +2424,7 @@ const quizData = [
     },
     {
         question:  "q262 Какие основные документы подготавливает специалист при оказании услуги по определению размера причиненного вреда ТС для целей обязательного страхования?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Акт осмотра ТС, калькуляция стоимости восстановительного ремонта ТС, заключение о размере вреда.", correct: false },
             { text: "Акт осмотра ТС, калькуляция стоимости восстановительного ремонта ТС, заключение и отчет о размере вреда. ", correct: false },
@@ -2433,7 +2433,7 @@ const quizData = [
     },
     {
         question: "q263 Основанием для отказа в ремонте составной части кузова согласно ТУ 37.009.021 – 83 «Приемка, ремонт и выпуск из ремонта кузовов легковых автомобилей предприятиями автотехобслуживания» является:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "коррозия по местам соединений деталей и (или) деформация, не поддающаяся ремонту существующими методами.", correct: true },
             { text: "деформация, не поддающаяся ремонту существующими методами.", correct: false },
@@ -2442,7 +2442,7 @@ const quizData = [
     },
     {
         question: "q264 Стоимость годных частей ТС представляет:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "рыночную стоимость годных для повторного использования частей уничтоженного (погибшего) ТС.", correct: true },
             { text: "стоимость годных для повторного использования частей уничтоженного (погибшего) ТС", correct: false },
@@ -2451,7 +2451,7 @@ const quizData = [
     },
     {
         question: "q265 Кто назначается председателем комиссии при рассмотрении спорных ситуаций в связи с определением размера вреда?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Специалист стороннего оценщика.", correct: true },
             { text: "Специалист от страховой компании.", correct: false },
@@ -2462,7 +2462,7 @@ const quizData = [
     },
     {
         question: "q266 К какому типу перекоса относятся приведенные на рисунках повреждения в совокупности?",
-        imgLink: './q266.jpg',
+        imgLink: 'IMG/q266.jpg',
         answers: [
             { text: "Устранение перекоса проема.", correct: true },
             { text: "Устранение несложного перекоса кузова.", correct: false },
@@ -2471,7 +2471,7 @@ const quizData = [
     },
     {
         question: "q267 К какому типу перекоса относятся приведенные на рисунках повреждения?",
-        imgLink: './q267.jpg',
+        imgLink: 'IMG/q267.jpg',
         answers: [
             { text: "Устранение несложного перекоса кузова.", correct: true },
             { text: "Устранение перекоса проема.", correct: false },
@@ -2480,7 +2480,7 @@ const quizData = [
     },
     {
         question: "q268 К какому типу перекоса относятся приведенные на рисунках повреждения?",
-        imgLink: './q268.jpg',
+        imgLink: 'IMG/q268.jpg',
         answers: [
             { text: "Устранение перекоса кузова средней сложности.", correct: true },
             { text: "Устранение несложного перекоса кузова.", correct: false },
@@ -2489,7 +2489,7 @@ const quizData = [
     },
     {
         question: "q269 К какому типу перекоса относятся приведенные на рисунках повреждения в совокупности?",
-        imgLink: './q269.jpg',
+        imgLink: 'IMG/q269.jpg',
         answers: [
             { text: "Устранение сложного перекоса кузова.", correct: true },
             { text: "Устранение перекоса кузова средней сложности.", correct: false },
@@ -2498,7 +2498,7 @@ const quizData = [
     },
     {
         question: "q270 Какие виды диагностики относятся к субъективным:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "визуальный, прослушивание работы механизма, ощупывание механизма, заключение о техническом состоянии на основании логического мышления.", correct: true },
             { text: "применение сканеров.", correct: false },
@@ -2507,7 +2507,7 @@ const quizData = [
     },
     {
         question: "q271 Какие методы диагностики относятся к объективным:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "применение контрольно-диагностических средств.", correct: true },
             { text: "визуальный осмотр и метод прослушивания.", correct: false },
@@ -2516,7 +2516,7 @@ const quizData = [
     },
     {
         question: "q272 При диагностировании цилиндропоршневой группы двигателя методом измерения компрессии, при ее недостаточной величине для уточнения причины износа цилиндра и поршня следует:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "залить в цилиндр 10 г моторного масла.", correct: true },
             { text: "увеличить частоту вращения коленчатого вала.", correct: false },
@@ -2525,7 +2525,7 @@ const quizData = [
     },
     {
         question: "q273 Стирание кодов неисправностей в системах управления автомобиля с системой считывания диагностической информации OBD-II (On Board Diagnostic – бортовая диагностика) должно осуществляться:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "только с помощью сканера.", correct: true },
             { text: "обесточиванием энергообеспечения автомобиля при снятии минусовой клеммы АКБ.", correct: false },
@@ -2534,7 +2534,7 @@ const quizData = [
     },
     {
         question: "q274 Проверка работоспособности амортизаторов производится на площадочных стендах (рис.) совершающих:",
-        imgLink: './q274.jpg',
+        imgLink: 'IMG/q274.jpg',
         answers: [
             { text: "вертикальные перемещения.", correct: true },
             { text: "горизонтальные перемещения.", correct: false },
@@ -2543,7 +2543,7 @@ const quizData = [
     },
     {
         question: "q275 Угол развала колес это:",
-        imgLink: './q275.jpg',
+        imgLink: 'IMG/q275.jpg',
         answers: [
             { text: "угол, заключенный между плоскостью колеса и вертикальной плоскостью, параллельной оси автомобиля.", correct: true },
             { text: "разность расстояний между внутренними поверхностями задней и передней частей шин переднего либо заднего моста.", correct: false },
@@ -2552,7 +2552,7 @@ const quizData = [
     },
     {
         question: "q276 Угол схождения колес это: ",
-        imgLink: './q275.jpg',
+        imgLink: 'IMG/q275.jpg',
         answers: [
             { text: "разность расстояний между внутренними поверхностями задней и передней частей шин переднего либо заднего моста.", correct: true },
             { text: "угол, заключенный между плоскостью колеса и вертикальной плоскостью, параллельной оси автомобиля.", correct: false },
@@ -2561,7 +2561,7 @@ const quizData = [
     },
     {
         question: "q277 Угол продольного наклона оси поворотной стойки это:",
-        imgLink: './q275.jpg',
+        imgLink: 'IMG/q275.jpg',
         answers: [
             { text: "наклон верхнего конца оси назад от вертикали.", correct: true },
             { text: "разность расстояний между внутренними поверхностями задней и передней частей шин переднего либо заднего моста.", correct: false },
@@ -2570,7 +2570,7 @@ const quizData = [
     },
     {
         question: "q278 Люфт в подшипниках ступицы колеса определяется при:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "покачивании колеса по горизонтали и вертикали при нажатии на тормозную педаль.", correct: true },
             { text: "раскачивании подвески автомобиля по вертикали.", correct: false },
@@ -2580,7 +2580,7 @@ const quizData = [
     },
     {
         question: "q279 Электро или пневматический детектор зазоров (рис.) предназначен для:",
-        imgLink: './q279.jpg',
+        imgLink: 'IMG/q279.jpg',
         answers: [
             { text: "проверки люфтов в деталях рулевого привода и ходовой части.", correct: true },
             { text: "проверки люфтов в деталях ходовой части.", correct: false },
@@ -2589,7 +2589,7 @@ const quizData = [
     },
     {
         question: "q280 Статические стенды для проверки углов установки управляемых колес подразделяются на:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "оптико-электрические, электронные и лазерные.", correct: true },
             { text: "электронные и лазерные.", correct: false },
@@ -2598,7 +2598,7 @@ const quizData = [
     },
     {
         question: "q281 При использовании компьютерных стендов с использованием 3D технологий для проверки углов установки управляемых колес (рис.) проверка производится:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "автомобиль необходимо перекатывать вперед и назад на 15…25 см.", correct: true },
             { text: "на неподвижном автомобиле.", correct: false },
@@ -2607,7 +2607,7 @@ const quizData = [
     },
     {
         question: "q282 Динамические площадочные стенды для проверки ходовой части (рис.) позволяют:",
-        imgLink: './q282.jpg',
+        imgLink: 'IMG/q282.jpg',
         answers: [
             { text: "определить общее состояние ходовой части и рулевого управления.", correct: true },
             { text: "определить конкретные места люфтов в деталях ходовой части и рулевого управления.", correct: false },
@@ -2616,7 +2616,7 @@ const quizData = [
     },
     {
         question: "q283 Угол наклона оси (продольный угол) (рис.) регулируют:",
-        imgLink: './q275.jpg',
+        imgLink: 'IMG/q275.jpg',
         answers: [
             { text: "регулировочными шайбами, расположенными между осью нижнего рычага и поперечиной, снимая их с одной оси и добавляя в другую или эксцентриковыми болтами рычага подвески при ослабленных гайках крепления переднего болта.", correct: true },
             { text: "регулировочными шайбами, добавляя либо убирая их одновременно с обеих осей, эксцентриковыми болтами, поворотом стойки влево или вправо, ослабив ее крепление.", correct: false },
@@ -2625,7 +2625,7 @@ const quizData = [
     },
     {
         question: "q284 Угол развала регулируют:",
-        imgLink: './q275.jpg',
+        imgLink: 'IMG/q275.jpg',
         answers: [
             { text: "регулировочными шайбами, добавляя либо убирая их одновременно с обеих осей, эксцентриковыми болтами, поворотом стойки влево или вправо, ослабив ее крепление.", correct: true },
             { text: "изменением длины продольных тяг.", correct: false },
@@ -2634,7 +2634,7 @@ const quizData = [
     },
     {
         question: "q285 Угол схождения регулируют:",
-        imgLink: './q275.jpg',
+        imgLink: 'IMG/q275.jpg',
         answers: [
             { text: "изменением длины продольных тяг.", correct: true },
             { text: "регулировочными шайбами, добавляя либо убирая их одновременно с обеих осей, эксцентриковыми болтами, поворотом стойки влево или вправо, ослабив ее крепление.", correct: false },
@@ -2643,7 +2643,7 @@ const quizData = [
     },
     {
         question: "q286 Степень светопропускания для передних стекол должна составлять не менее:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "•  75%.", correct: false },
             { text: "•  70%.", correct: true },
@@ -2652,7 +2652,7 @@ const quizData = [
     },
     {
         question: "q287 Степень светопропускания для боковых стекол должна составлять не менее:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "•  70%.", correct: true },
             { text: "•  60%.", correct: false },
@@ -2661,7 +2661,7 @@ const quizData = [
     },
     {
         question: "q288 Зазор в механизме газораспределения с приводом клапанов без гидротолкателей при прогретом двигателе:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "•  может как увеличиваться, так и уменьшаться, в зависимости от конструкции механизма газораспределения.", correct: true },
             { text: "•  увеличивается.", correct: false },
@@ -2670,7 +2670,7 @@ const quizData = [
     },
     {
         question: "q289 Степень пропускания отработавших газов дизельного двигателя (дымность) без турбонаддува на режиме максимальной частоты вращения коленчатого вала не должна превышать:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "•  15%.", correct: true },
             { text: "•  50%.", correct: false },
@@ -2679,7 +2679,7 @@ const quizData = [
     },
     {
         question: "q290 Содержание СО (оксида углерода) бензинового двигателя на режиме минимальной частоты вращения коленчатого вала двигателя не должно превышать:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "•  1,5%.", correct: true },
             { text: "•  2,0%.", correct: false },
@@ -2688,7 +2688,7 @@ const quizData = [
     },
     {
         question: "q291 Газоанализаторы для определения содержания СО и СН в отработавших газах работают (рис) по принципу:",
-        imgLink: './q291.jpg',
+        imgLink: 'IMG/q291.jpg',
         answers: [
             { text: "поглощения инфракрасного излучения в определенной области спектра при прохождении света от источника через анализируемые отработавшие газы.", correct: true },
             { text: "поглощения излучения от обычного источника в зависимости от темноты потока отработавших газов (абсорбционная фотометрия).", correct: false },
@@ -2696,7 +2696,7 @@ const quizData = [
         ],
     }, {
         question: "q292 Газоанализаторы (дымомеры) для определения дымности отработавших газов дизельных двигателей (рис.) работают по принципу:",
-        imgLink: './q292.jpg',
+        imgLink: 'IMG/q292.jpg',
         answers: [
             { text: "поглощения излучения от обычного источника в зависимости от темноты потока отработавших газов (абсорбционная фотометрия).", correct: true },
             { text: "поглощения инфракрасного излучения в определенной области спектра при прохождении света от источника через анализируемые отработавшие газы.", correct: false },
@@ -2705,7 +2705,7 @@ const quizData = [
     },
     {
         question: "q293 Основным отличием в методе измерения электронным люфтомером люфта рулевого управления в отличие от механического является:",
-        imgLink: './q293.jpg',
+        imgLink: 'IMG/q293.jpg',
         answers: [
             { text: "является наличие датчика, фиксирующего начало поворота колеса, а не усилие поворота определяемого динамометром.", correct: true },
             { text: "удобство измерений и меньшая трудоемкость", correct: false },
@@ -2714,7 +2714,7 @@ const quizData = [
     },
     {
         question: "q294 Какие виды стендов для проверки тормозных качеств автомобилей применяются при прохождении государственного технического осмотра:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "силовые роликовые стенды.", correct: true },
             { text: "инерционные роликовые стенды.", correct: false },
@@ -2724,7 +2724,7 @@ const quizData = [
     },
     {
         question: "q295 Какой параметр в полной мере предопределяет техническое состояние тормозной системы:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "удельная тормозная сила.", correct: true },
             { text: "тормозная сила.", correct: false },
@@ -2732,7 +2732,7 @@ const quizData = [
     },
     {
         question: "q296 Принцип измерения тормозных сил роликовых стендов для проверки тормозных систем автомобилей (рис.) основан на:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "преобразовании тензорезисторными датчиками реактивных моментов тормозных сил, возникающих при торможении колес автомобиля в аналоговые электрические сигналы.", correct: true },
             { text: "сил инерции возникающих при торможении автомобиля.", correct: false },
@@ -2741,7 +2741,7 @@ const quizData = [
     },
     {
         question: "q297 Каким правовым документом определяется страховая деятельность по обязательному страхованию гражданской ответственности владельцев ТС Республики Беларусь?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Указ Президента Республики Беларусь «О страховой деятельности» от 25 августа 2006г. № 530.", correct: true },
             { text: "Указ Президента Республики Беларусь «Об оценочной деятельности в Республике Беларусь» от 13 октября 2006г. № 615.", correct: false },
@@ -2750,7 +2750,7 @@ const quizData = [
     },
     {
         question: "q298 Гражданская ответственность владельцев, каких транспортных средств подлежит обязательному страхованию",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "колесного самоходного одноковшового погрузчика", correct: true },
             { text: "колесного самоходного комбайна", correct: false },
@@ -2759,7 +2759,7 @@ const quizData = [
     },
     {
         question: "q299 Кто имеет право определять размер вреда по обязательному страхованию гражданской ответственности владельцев ТС",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Физическое лицо, непосредственно выполняющее работы по определению стоимости ТС, с высшим техническим образованием, включающим изучение дисциплин по устройству, ремонту и технической эксплуатации ТС; среднее специальное образование, включающее изучение дисциплин по устройству, ремонту и технической эксплуатации ТС, и опыт практической работы по ремонту и технической эксплуатации ТС не менее одного года, высшее техническое или экономическое образование; иное высшее образование и опыт практической работы по ремонту и технической эксплуатации ТС либо оценке ТС не менее трех лет;", correct: true },
             { text: "Физическое лицо, непосредственно выполняющее работы по определению стоимости ТС, с высшим техническим образованием, включающим изучение дисциплин по устройству, ремонту и эксплуатации ТС, документы о получении профессиональных знаний в области оценки ТС и прошедшее аттестацию в Белорусском бюро по транспортному страхованию (далее-бюро) в установленном порядке.", correct: false },
@@ -2768,7 +2768,7 @@ const quizData = [
     },
     {
         question: "q300 В каких случаях проводится автотехническая экспертиза для целей определения размера вреда по обязательному страхованию гражданской ответственности владельцев ТС?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Если ТС повреждено в результате нескольких ДТП либо в результате осмотра ТС невозможно разделить эксплуатационные дефекты и повреждения ТС, причиненные в результате ДТП.", correct: true },
             { text: "По заявлению в страховую компанию потерпевшего.", correct: false },
@@ -2777,7 +2777,7 @@ const quizData = [
     },
     {
         question: "q301 Какие основные документы подготавливает специалист при оказании услуги по определению размера причиненного вреда ТС для целей обязательного страхования?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Акт осмотра ТС, калькуляция стоимости восстановительного ремонта ТС, заключение о размере вреда.", correct: false },
             { text: "Акт осмотра ТС, калькуляция стоимости восстановительного ремонта ТС, заключение и отчет о размере вреда. ", correct: false },
@@ -2786,7 +2786,7 @@ const quizData = [
     },
     {
         question: "q302 В каких случаях подлежит страхованию гражданская ответственность владельца скутера.",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "объем двигателя скутера свыше 50 см. куб., максимальная конструктивная скорость более 50 км/час.", correct: true },
             { text: "объем двигателя скутера свыше 50 см. куб.", correct: false },
@@ -2795,7 +2795,7 @@ const quizData = [
     },
     {
         question: "q303 Дорожно-транспортное происшествие это?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "происшествие, совершенное с участием хотя бы одного находившегося в движении механического транспортного средства, в результате которого причинен вред жизни или здоровью физического лица, его имуществу либо имуществу юридического лица.", correct: true },
             { text: "происшествие, совершенное с участием двух находившихся в движении механических транспортных средств, в результате которого причинен вред имуществу.", correct: false },
@@ -2804,7 +2804,7 @@ const quizData = [
     },
     {
         question: "q304 Страхователь это? ",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "владелец транспортного средства, заключивший договор обязательного страхования гражданской ответственности владельцев транспортных средств;", correct: true },
             { text: "страховая организация - государственное юридическое лицо либо юридическое лицо, в уставном фонде которого более 50 процентов долей (простых (обыкновенных) или голосующих акций) находятся в собственности Республики Беларусь и (или) ее административно-территориальных единиц, имеющее специальное разрешение (лицензию) на осуществление страховой деятельности, включающее обязательное страхование гражданской ответственности владельцев транспортных средств, и являющееся членом Белорусского бюро;", correct: false },
@@ -2813,7 +2813,7 @@ const quizData = [
     },
     {
         question: "q305 Страховщик это?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "страховая организация - государственное юридическое лицо либо юридическое лицо, в уставном фонде которого более 50 процентов долей (простых (обыкновенных) или голосующих акций) находятся в собственности Республики Беларусь и (или) ее административно-территориальных единиц, имеющее специальное разрешение (лицензию) на осуществление страховой деятельности, включающее обязательное страхование гражданской ответственности владельцев транспортных средств, и являющееся членом Белорусского бюро;", correct: true },
             { text: "лицо, жизни, здоровью и (или) имуществу которого причинен вред в результате дорожно-транспортного происшествия, зарегистрированного в Государственной автомобильной инспекции Министерства внутренних дел;", correct: false },
@@ -2822,7 +2822,7 @@ const quizData = [
     },
     {
         question: "q306 Что является объектом обязательного страхования гражданской ответственности владельцев транспортных средств?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "имущественные интересы, связанные с гражданской ответственностью владельцев транспортных средств за вред, причиненный жизни или здоровью физических лиц, их имуществу либо имуществу юридических лиц в результате дорожно-транспортных происшествий.", correct: true },
             { text: "транспортное средство страхователя.", correct: false },
@@ -2832,7 +2832,7 @@ const quizData = [
     },
     {
         question: "q307 Потерпевший это?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "лицо, жизни, здоровью и (или) имуществу которого причинен вред в результате наступления страхового случая по обязательному страхованию гражданской ответственности владельцев транспортных средств;", correct: true },
             { text: "лицо, жизни, здоровью и (или) имуществу которого причинен вред в результате дорожно-транспортного происшествия, зарегистрированного в Государственной автомобильной инспекции Министерства внутренних дел;", correct: false },
@@ -2841,7 +2841,7 @@ const quizData = [
     },
     {
         question: "q308 Комплексный договор внутреннего страхования включает в себя…",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "обязательное страхование гражданской ответственности владельцев транспортных средств – резидентов Республики Беларусь и добровольное страхование их имущества (транспортного средства) на случай причинения вреда в результате дорожно-транспортного происшествия.", correct: true },
             { text: "обязательное страхование гражданской ответственности владельцев транспортных средств – резидентов Республики Беларусь и добровольное страхование их имущества (транспортного средства).", correct: false },
@@ -2850,7 +2850,7 @@ const quizData = [
     },
     {
         question: "q309 Кем утверждаются формы бланков страхового свидетельства, страхового полиса и страхового сертификата?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Белорусским бюро по согласованию с Министерством финансов.", correct: true },
             { text: "Министерством финансов.", correct: false },
@@ -2859,7 +2859,7 @@ const quizData = [
     },
     {
         question: "q310 Страховой случай это?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "факт причинения вреда жизни, здоровью и (или) имуществу потерпевшего в период действия договора внутреннего или пограничного страхования либо договора страхования Зеленая карта, действительного на территории Республики Беларусь, в результате дорожно-транспортного происшествия, в связи с чем предусмотрена выплата страхового возмещения.", correct: true },
             { text: "факт причинения вреда жизни, здоровью и (или) имуществу потерпевшего в период действия договора внутреннего или пограничного страхования либо договора страхования Зеленая карта, действительного на территории Республики Беларусь, в результате противоправных действий третьих лиц.", correct: false },
@@ -2868,7 +2868,7 @@ const quizData = [
     },
     {
         question: "q311 Считаются ли страховыми случаями факты причинения вреда жизни, здоровью и (или) имуществу лица вследствие непреодолимой силы или умысла потерпевшего?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "нет.", correct: true },
             { text: "да.", correct: false },
@@ -2877,7 +2877,7 @@ const quizData = [
     },
     {
         question: "q312 Считаются ли страховыми случаями факты причинения вреда владельцу транспортного средства (водителю), который в установленном порядке признан лицом, причинившим вред в результате этого же дорожно-транспортного происшествия?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "да, если владелец заключил комплексный договор внутреннего страхования.", correct: true },
             { text: "нет.", correct: false },
@@ -2885,7 +2885,7 @@ const quizData = [
     },
     {
         question: "q313 Считается ли страховым случаем факт причинения вреда упавшим с транспортного средства грузом?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "нет.", correct: true },
             { text: "да.", correct: false },
@@ -2894,7 +2894,7 @@ const quizData = [
     },
     {
         question: "q314 Считается ли страховым случаем факт причинения вреда выброшенным из-под колеса предметом?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "нет.", correct: true },
             { text: "да.", correct: false },
@@ -2903,7 +2903,7 @@ const quizData = [
     },
     {
         question: "q315 Считается ли страховым случаем факт причинения вреда потерпевшему если он не сохранил транспортное средства в послеаварийном состоянии до осмотра его специалистом по определению стоимости транспортных средств",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "нет, если это не позволяет достоверно установить наличие страхового случая и (или) размер вреда, подлежащего возмещению;", correct: true },
             { text: "нет, не считается в любом случае.", correct: false },
@@ -2912,7 +2912,7 @@ const quizData = [
     },
     {
         question: "q316 Кем производится определение размера вреда для целей обязательного страхования?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "специалистами страховщика или Белорусского бюро, имеющими специальную подготовку, либо специалистами по определению стоимости транспортных средств оценщика, прошедшими в установленном порядке аттестацию в Белорусском бюро.", correct: true },
             { text: "оценщиками, аттестованными в соответствии с Указом Президента Республики Беларусь № 615.", correct: false },
@@ -2921,7 +2921,7 @@ const quizData = [
     },
     {
         question: "q317 Какой максимальный размер вреда выплачивается участникам дорожно-транспортного происшествия по европротоколу?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "150 базовых величин.", correct: true },
             { text: "800 евро.", correct: false },
@@ -2931,7 +2931,7 @@ const quizData = [
     },
     {
         question: "q318 Если участники дорожно-транспортного происшествия предоставили транспортные средства, участвовавших в дорожно-транспортном происшествии в какой срок страховщик обязан направить специалиста по определению стоимости транспортных средств оценщика или своего специалиста для осмотра поврежденного имущества? ",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "в день получения заявления о дорожно-транспортном происшествии. ", correct: true },
             { text: "в течение четырех рабочих дней со дня получения заявления о дорожно-транспортном происшествии.", correct: false },
@@ -2940,7 +2940,7 @@ const quizData = [
     },
     {
         question: "q319 Если участники дорожно-транспортного происшествия не предоставили транспортные средства, участвовавших в дорожно-транспортном происшествии в какой срок страховщик обязан направить специалиста по определению стоимости транспортных средств оценщика или своего специалиста для осмотра поврежденного имущества?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "в течение четырех рабочих дней со дня получения заявления о дорожно-транспортном происшествии. ", correct: true },
             { text: "в день получения заявления о дорожно-транспортном происшествии.", correct: false },
@@ -2949,7 +2949,7 @@ const quizData = [
     },
     {
         question: "q320 Какие действия лица, претендующего на страховое возмещение, если страховщик в установленный срок не направил специалиста по определению стоимости транспортных средств для осмотра поврежденного имущества?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "имеет право самостоятельно выбрать специалиста по определению стоимости транспортных средств оценщика, прошедшего аттестацию в Белорусском бюро.", correct: true },
             { text: "имеет право самостоятельно выбрать специалиста по определению стоимости транспортных средств оценщика, прошедшего обучение в установленном порядке.", correct: false },
@@ -2959,7 +2959,7 @@ const quizData = [
     },
     {
         question: "q321 В какой максимальный срок производится выплата страхового возмещения в случае оформления документов о дорожно-транспортном происшествии без участия сотрудников Государственной автомобильной инспекции Министерства внутренних дел?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "в течение двадцати рабочих дней со дня получения страховщиком заявления о дорожно-транспортном происшествии.", correct: true },
             { text: "в течение пяти рабочих дней со дня получения страховщиком заявления о дорожно-транспортном происшествии.", correct: false },
@@ -2968,7 +2968,7 @@ const quizData = [
     },
     {
         question: "q322 *Какой максимальный лимит ответственности страховщика, если в результате ДТП повреждено шесть транспортных средств на сумму 100000 евро?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "30000 евро", correct: false },
             { text: "10000 евро", correct: false },
@@ -2977,7 +2977,7 @@ const quizData = [
     },
     {
         question: "q323 Какой максимальный лимит ответственности страховщика, если в результате ДТП повреждено транспортное средство на сумму 35000 евро?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "1150 базовых величин", correct: true },
             { text: "11150 евро", correct: false },
@@ -2987,7 +2987,7 @@ const quizData = [
     },
     {
         question: "q324 Если в результате дорожно-транспортного происшествия два транспортных средства принадлежат одному и тому же владельцу (когда данный владелец является как причинителем вреда, так и потерпевшим) кому возмещается вред по обязательному страхованию.",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "данный случай считается не страховым.", correct: true },
             { text: "вред возмещается по потерпевшему транспортному средству.", correct: false },
@@ -2996,7 +2996,7 @@ const quizData = [
     },
     {
         question: "q325 Как действовать потерпевшему в случае, если сумма возмещения вреда превышает установленные лимиты ответственности?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "потерпевший вправе предъявить лицу, причинившему вред, иск о возмещении вреда на сумму, превышающую указанные лимиты.", correct: true },
             { text: "потерпевший вправе предъявить иск о возмещении вреда на сумму, превышающую указанные лимиты страховой организации, в которой он застраховал свою гражданскую ответственность.", correct: false },
@@ -3005,7 +3005,7 @@ const quizData = [
     },
     {
         question: "q326 На какой минимальный срок заключается договор комплексного страхования?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "6 месяцев.", correct: true },
             { text: "1 месяц.", correct: false },
@@ -3014,7 +3014,7 @@ const quizData = [
     },
     {
         question: "q327 В каких случаях договор внутреннего страхования заключается на 15 дней?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "при приобретении или получении транспортного средства до его регистрации.", correct: true },
             { text: "при сезонном использовании транспортного средства", correct: false },
@@ -3023,7 +3023,7 @@ const quizData = [
     },
     {
         question: "q328 При гибели (уничтожении) транспортного средства размер вреда определяется:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "действительной стоимостью этого транспортного средства на день наступления страхового случая, расходами на его эвакуацию с места дорожно-транспортного происшествия к месту постоянного хранения на территории Республики Беларусь (для нерезидентов - до границы Республики Беларусь), утилизацию остатков, оформление необходимых документов в связи со страховым случаем и по определению размера вреда.", correct: true },
             { text: "Рыночной стоимостью этого транспортного средства на день наступления страхового случая за вычетом стоимости годных остатков, расходами на его эвакуацию с места дорожно-транспортного происшествия к месту постоянного хранения на территории Республики Беларусь (для нерезидентов - до границы Республики Беларусь), утилизацию остатков, оформление необходимых документов в связи со страховым случаем и по определению размера вреда.", correct: false },
@@ -3032,7 +3032,7 @@ const quizData = [
     },
     {
         question: "q329 В какой срок определяется стоимость восстановительного ремонта транспортного средства?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "не превышающий пяти рабочих дней со дня осмотра транспортного средства.", correct: true },
             { text: "не превышающий десяти рабочих дней со дня осмотра транспортного средства.", correct: false },
@@ -3041,7 +3041,7 @@ const quizData = [
     },
     {
         question: "q330 Страховое возмещение за поврежденное транспортное средство выплачивается на основании…",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "расчета стоимости восстановительного ремонта транспортного средства, за вычетом стоимости его обновления, без учета налога на добавленную стоимость и иных налогов (сборов), включаемых в стоимость услуг, оказываемых автосервисом.", correct: true },
             { text: "предоставленных потерпевшим документов, подтверждающих факт ремонта транспортного средства в организации или у индивидуального предпринимателя, имеющих соответствующее разрешение.", correct: false },
@@ -3050,7 +3050,7 @@ const quizData = [
     },
     {
         question: "q331 Требования к образовательному уровню специалиста по определению стоимости ТС:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "высшее техническое образование, включающее изучение дисциплин по устройству, ремонту и эксплуатации ТС, либо среднее специальное образование включающее изучение дисциплин по устрой ству, реомнту и эксплуатации ТС и высшее техническое или экономическое образование, а также работы по ремонту и эксплуатации ТС не мнее трех лет", correct: true },
             { text: "высшее техническое или экономическое образование.", correct: false },
@@ -3060,7 +3060,7 @@ const quizData = [
     },
     {
         question: "q332 Какой максимальный лимит ответственности страховщика, если в результате ДТП повреждено шесть транспортных средств, принадлежащих одному владельцу, на сумму 100000 евро?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "10000 евро.", correct: true },
             { text: "30000 евро.", correct: false },
@@ -3069,7 +3069,7 @@ const quizData = [
     },
     {
         question: "q333 Куда должен обратиться потерпевший, в том случае, когда транспортное средство, причинившее в результате дорожно-транспортного происшествия вред, не установлено?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "должен обратиться с заявлением к страховщику, заключившему с ним договор страхования.", correct: true },
             { text: "должен обратиться с заявлением в Белорусское бюро по транспортному страхованию.", correct: false },
@@ -3079,7 +3079,7 @@ const quizData = [
     },
     {
         question: "q334 Как применяется нормо-час работ по восстановлению ТС, если в ДТП пострадавшим признан нерезидент Республики Беларусь?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "применяется по месту (региону), где совершено ДТП с участием данного ТС.", correct: true },
             { text: "применяется в любом случае по г. Минску.", correct: false },
@@ -3089,7 +3089,7 @@ const quizData = [
     },
     {
         question: "q335 Какой максимальный лимит ответственности страховщика, если в результате ДТП повреждены автомобиль, полуприцеп и груз, принадлежащие одному владельцу, на сумму 100000 евро?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "10000 евро", correct: false },
             { text: "30000 евро", correct: true },
@@ -3098,7 +3098,7 @@ const quizData = [
     },
     {
         question: "q336 Осмотр ТС проводится",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "в присутствии потерпевшего (доверенного лица), заинтересованных лиц (их доверенных представителей) и других официально уполномоченных лиц.", correct: true },
             { text: "в присутствии потерпевшего (доверенного лица), заинтересованных лиц (их доверенных представителей).", correct: false },
@@ -3107,7 +3107,7 @@ const quizData = [
     },
     {
         question: "q337 Когда осмотр ТС проводится в отсутствие заинтересованных лиц?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "По истечении 30 минут после назначенного времени (с отметкой в акте осмотра ТС), если специалисту будут предъявлены документы об их своевременном приглашении.", correct: true },
             { text: "По истечении 30 минут после назначенного времени (с отметкой в акте осмотра ТС), если специалисту потерпевший предъявит документы об их своевременном приглашении.", correct: false },
@@ -3116,7 +3116,7 @@ const quizData = [
     },
     {
         question: "q338 При отсутствии тождественности основных параметров и характеристик оцениваемого ТС с подобными параметрами и характеристиками приведенными в документации изготовителя, официальных каталогах, справочниках, специалист анализирует и определяет:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "аналогичное ТС.", correct: true },
             { text: "идентичное ТС.", correct: false },
@@ -3125,7 +3125,7 @@ const quizData = [
     },
     {
         question: "q339 Основные параметры и характеристики аналогичного ТС с учетом их приоритета используются в следующей очередности:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "обязательные параметры и характеристики; рекомендуемые; желательные.", correct: true },
             { text: "обязательные параметры и характеристики; желательные; рекомендуемые.", correct: false },
@@ -3134,7 +3134,7 @@ const quizData = [
     },
     {
         question: "q340 В спорной ситуации при осмотре ТС - наличие перекосов проемов окон, дверей, проемов капота и крышки багажника или перекосов основания кузова ТС специалист подтверждает…",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "соответствующими измерениями.", correct: true },
             { text: "данными проведенного инструментального контроля.", correct: false },
@@ -3143,7 +3143,7 @@ const quizData = [
     },
     {
         question: "q341 В случае отсутствия признаков, параметров, характеристик осматриваемого ТС, в предложенных в форме акта осмотра позиции… В случае отсутствия признаков, параметров, характеристик осматриваемого ТС, в предложенных в форме акта осмотра позиции…",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "проставляется прочерк.", correct: true },
             { text: "не проставляется прочерк.", correct: false },
@@ -3152,7 +3152,7 @@ const quizData = [
     },
     {
         question: "q342 Как исполняются специалистом записи в акте осмотра ТС?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Исполняются разборчивым почерком, при этом не допускаются исправления цифр и слов, сокращения слов (может использоваться известная аббревиатура и условные обозначения).", correct: true },
             { text: "Исполняются разборчивым почерком, при этом не допускаются исправления цифр и слов, сокращения слов.", correct: false },
@@ -3161,7 +3161,7 @@ const quizData = [
     },
     {
         question: "q343 Процедура по результатам осмотра поврежденного ТС.",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Оценщиком составляется акт по форме согласно приложению 10, подписывается им лично, а после ознакомления - присутствующими потерпевшим (его доверенным представителем) и заинтересованными лицами (их доверенными представителями). ", correct: true },
             { text: "Оценщиком составляется акт по форме согласно приложению 10, подписывается им лично, а после ознакомления - присутствующими потерпевшим и заинтересованными лицами. ", correct: false },
@@ -3170,7 +3170,7 @@ const quizData = [
     },
     {
         question: "q344 Замена поврежденных частей ТС назначается специалистом при проведении осмотра ТС…",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "только при экономической нецелесообразности либо невозможности их ремонта (восстановления), руководствуясь требованиями заводов-изготовителей ТС, их официальных представителей в Республике Беларусь и законодательства Республики Беларусь, регламентирующими нормативы технического состояния и безопасности эксплуатации ТС.", correct: true },
             { text: "только при экономической нецелесообразности либо невозможности их ремонта (восстановления), руководствуясь законодательством Республики Беларусь, регламентирующими нормативы технического состояния и безопасности эксплуатации ТС, а также методическими рекомендациями по оценке и страхованию ТС.", correct: false },
@@ -3179,7 +3179,7 @@ const quizData = [
     },
     {
         question: "q345 Объем окрасочных работ поврежденных частей ТС назначается специалистом:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "исходя из необходимости полной окраски всех замененных и подвергшихся сварке, рихтовке, правке окрашиваемых частей ТС до видимой линии их раздела с сопряженной частью, а также сопряженных частей, если их окрашенная поверхность повреждается в результате соединения сваркой.", correct: true },
             { text: "исходя из необходимости полной окраски всех замененных и подвергшихся сварке окрашиваемых частей ТС до видимой линии их раздела с сопряженной частью, а также сопряженных частей, если их окрашенная поверхность повреждается в результате соединения сваркой.", correct: false },
@@ -3188,7 +3188,7 @@ const quizData = [
     },
     {
         question: "q346 Если окраске подлежит более 50% наружной окрашиваемой поверхности ТС, то: ",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "назначается наружная окраска всего ТС.", correct: true },
             { text: "назначается поверхностная окраска всего ТС.", correct: false },
@@ -3197,7 +3197,7 @@ const quizData = [
     },
     {
         question: "q347 При отсутствии сведений о нормативах трудоемкостей, установленных заводом-изготовителем на работы по диагностике, техническому обслуживанию и ремонту грузовых ТС, автобусов, тракторов и их шасси, трамваев, троллейбусов, специализированных транспортных средств, рефрижераторных и холодильных установок, другого специального оборудования на базе автомобильного шасси расчетную стоимость восстановительных работ для этих ТС допускается:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "определять по нормативам специализированных ремонтных предприятий, в случае отсутствия таких нормативов - по существующим нормам и расценкам предприятий, обслуживающих и эксплуатирующих указанную технику.", correct: true },
             { text: "указание на отсутствие этих нормативов в разделе «Выводы специалиста».", correct: false },
@@ -3206,7 +3206,7 @@ const quizData = [
     },
     {
         question: "q348 Виды фотосъемки поврежденного ТС и его частей при проведении осмотра ТС.",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Обзорная, узловая и детальная, при необходимости - панорамная и ориентирующая.", correct: true },
             { text: "В начале - ориентирующая, затем по мере осмотра - обзорная, узловая и детальная.", correct: false },
@@ -3215,7 +3215,7 @@ const quizData = [
     },
     {
         question: "q349 При повреждении капота или крышки багажника, решетки радиатора, блок фары, задних фонарей, панели передка или задка, задних дверей, бампера, заднего борта...",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "проводится узловая фотосъемка всей передней или задней части ТС. ", correct: true },
             { text: "проводится ориентирующая фотосъемка передней или задней частей ТС.", correct: false },
@@ -3224,7 +3224,7 @@ const quizData = [
     },
     {
         question: "q350 При фотосъемке поврежденных частей из стекла, пластика, а так же зеркала необходимо…",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "использовать все указанные в других ответах особенности фотосъемки.", correct: true },
             { text: "изменить направление источника освещения или выбрать иную точку съемки под углом.", correct: false },
@@ -3234,7 +3234,7 @@ const quizData = [
     },
     {
         question: "q351 Приглашение для участия в осмотре должно быть…",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "направлено заинтересованному лицу не позднее, чем за два дня до проведения осмотра, если приглашаемое лицо проживает в этом же городе (районе), и за три дня – иногороднему.", correct: true },
             { text: "вручено заинтересованному лицу не позднее, чем за два дня до проведения осмотра, если приглашаемое лицо проживает в этом же городе (районе), и за три дня – иногороднему.", correct: false },
@@ -3243,7 +3243,7 @@ const quizData = [
     },
     // {
     //     question: "q352 При расчете калькуляции стоимости ремонтно-восстановительных работ специалист по определению стоимости ТC принимает:",
-    //     imgLink: './q.jpg',
+    //     imgLink: 'IMG/q.jpg',
     //     answers: [
     //         { text: "Для ТС производства стран дальнего зарубежья стоимость частей и материалов определяется на основе информации, получаемой из программного обеспечения Аудатекс, Автокальк, а для ТС производства стран СНГ - из программного обеспечения НАМИ. При определении способов и объемов восстановительных работ, номенклатуры запасных частей и материалов специалист должен исходить из рекомендаций нормативно-технической и технологической документации по техническому обслуживанию и ремонту завода - изготовителя ТС.", correct: true },
     //         { text: "Для ТС производства стран дальнего зарубежья стоимость частей и материалов, способы и объемы восстановительных работ, номенклатура запасных частей и материалов определяется на основе информации, получаемой из программного обеспечения Аудатекс, Автокальк, а для ТС производства стран СНГ - из программного обеспечения НАМИ.", correct: false },
@@ -3252,7 +3252,7 @@ const quizData = [
     // },
     {
         question: "q353 При определении доаварийной стоимости ТС для случая гибели моральный износ учитывается в следующих случаях:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "если при осмотре ТС установлено, что данное ТС ранее было повреждено и восстанавливалось путем ремонта несущих элементов кузова.", correct: true },
             { text: "если при осмотре ТС установлено, что данное ТС ранее было повреждено в ДТП.", correct: false },
@@ -3262,7 +3262,7 @@ const quizData = [
 
     {
         question: "q354 При незначительном объеме работ по устранению эксплуатационных дефектов Сэ.д. может приниматься:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "5% от базовой стоимости ТС без детализации.", correct: true },
             { text: "15% от базовой стоимости ТС без детализации.", correct: false },
@@ -3271,7 +3271,7 @@ const quizData = [
     },
     {
         question: "q355 При определении стоимости устранения эксплуатационных дефектов ТС, имеющего отметку о прохождении государственного технического осмотра и удовлетворительный внешний вид, не включаются в расчеты дефекты частей ТС в виде:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "незначительных царапин, вмятин, сколов, старения и разнотона, точечной поверхностной коррозии лакокрасочного покрытия и других незначительных повреждений, за исключением тех случаев, когда дефекты эксплуатации по размеру и виду сопоставимы либо превышают причиненные в результате ДТП повреждения частей ТС.", correct: true },
             { text: "царапин, вмятин, сколов, старения и разнотона, точечной поверхностной коррозии лакокрасочного покрытия и других повреждений, если эти повреждения не повлияют на прохождение очередного технического осмотра.", correct: false },
@@ -3280,7 +3280,7 @@ const quizData = [
     },
     {
         question: "q356 При составлении калькуляции стоимости ремонтно-восстановительных работ для целей обязательного страхования гражданской ответственности владельца ТС виды и объемы ремонтных работ определяются:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "в зависимости от характера и степени повреждения отдельных частей ТС с учетом необходимости проведения сопутствующих работ по разборке / сборке, регулировке, подгонке, окраске, антикоррозийной обработке и т.д. в соответствии с технологией завода - изготовителя ТС.", correct: true },
             { text: "в зависимости от характера и степени повреждения отдельных частей ТС с учетом необходимости проведения сопутствующих работ по разборке / сборке, регулировке, подгонке, окраске, антикоррозийной обработке и т.д. указанных в программных продуктах Аудатекс, Автокальк и НАМИ.", correct: false },
@@ -3289,7 +3289,7 @@ const quizData = [
     },
     {
         question: "q357 Для каких возрастных групп легковых ТС производства стран дальнего зарубежья определяется среднеарифметическая стоимость одного нормо-часа работ?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "До 5 лет, от 5 до 10 лет, свыше 10 лет.", correct: true },
             { text: "До 5 лет, свыше 5 лет.", correct: false },
@@ -3298,7 +3298,7 @@ const quizData = [
     },
     {
         question: "q358 Если стоимость устранения эксплутационных дефектов Сэ.дi детали больше стоимости размера вреда, причиненного повреждением этой детали:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "то ее значение принимается равным стоимости этого размера вреда.", correct: true },
             { text: "то ее значение принимается равным нулю.", correct: false },
@@ -3307,7 +3307,7 @@ const quizData = [
     },
     {
         question: "q359 Как может быть определен износ основных частей поврежденного ТС при наступлении страхового случая?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "ПО формуле экспоненциальной зависимости от срока эксплуатации ТС (части ТС) и пробега.", correct: true },
             { text: "Верны все три ответа.", correct: false },
@@ -3316,7 +3316,7 @@ const quizData = [
     },
     {
         question: "q360 Как определяется расчетный пробег специального ТС, у которого основной двигатель используется для обеспечения функционирования дополнительного установленного оборудования?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "На основе реального пробега и наработки основного двигателя в реальных условиях.", correct: true },
             { text: "На основе реального пробега ТС.", correct: false },
@@ -3325,7 +3325,7 @@ const quizData = [
     },
     {
         question: "q361 Как определяется стоимость прочих материалов при расчете стоимости восстановительного ремонта ТС?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "В соответствии с типом и маркой используемых на поврежденном ТС аналогичных материалов, а также рекомендаций изготовителя по использованию материалов на ТС данной марки и модификации.", correct: true },
             { text: "В соответствии с типом и маркой используемых на поврежденном ТС аналогичных материалов по рыночной стоимости.", correct: false },
@@ -3334,7 +3334,7 @@ const quizData = [
     },
     {
         question: "q362 В случае превышения расчетного значения износа идентичной части ТС более 75% на дату ДТП, определенного по таблицам, фактический износ частей ТС может быть снижен:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "до 75% с обязательным обоснованием расчетного процента износа (при удовлетворительном внешнем виде и технически исправном состоянии, установленном при осмотре ТС и т.д.).", correct: true },
             { text: "до 75% с обязательным обоснованием расчетного процента износа (при использовании ТС в международных перевозках, удовлетворительном внешнем виде и технически исправном состоянии, установленном при осмотре ТС и т.д.).", correct: false },
@@ -3343,7 +3343,7 @@ const quizData = [
     },
     {
         question: "q363 Расчетный пробег принимается как расчетный среднестатистический в случаях:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "При отсутствии достоверных сведений о фактическом пробеге данного ТС (не оформлены в установленном порядке или отсутствуют учетные документы, сервисная книжка на данное ТС, неисправен одометр, счетчик моточасов, повреждены заводские пломбы указанных приборов, части ТС, влияющие на их работу, заменен у данного ТС кузов, рама или шасси) расчетный пробег определяется как среднестатистический. Если показания одометра с учетом качественной оценки не соответствуют техническому состоянию ТС, внешнему виду ТС, а также его показания имеют значительные отличия (более 20%) от среднестатистического значения пробега аналогичного ТС, то расчетный пробег определяется как среднестатистический. При использовании среднестатистического пробега в качестве расчетного пробега в акте осмотра ТС специалистом в разделе «Выводы» производится запись о результатах экспертных оценок с обоснованием критериев, по которым в расчетах применяется среднестатистический пробег.", correct: true },
             { text: "При значительном отличии показаний одометра ТС от расчетного среднестатистического пробега ТС, несоответствии показаний одометра техническому состоянию и внешнему виду ТС, неисправном одометре, повреждении его заводских пломб, частей ТС, влияющих на работу одометра, замене у ТС кузова.", correct: false },
@@ -3352,7 +3352,7 @@ const quizData = [
     },
     {
         question: "q364 При проведении повторного осмотра ТС в составе комиссии…",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "все расходы по проведению повторного осмотра ТС и определению размера вреда, связанного с ним, первоначально оплачивает заявившая о необходимости данных действий сторона. Затем если размер вреда, определенного по результатам повторного осмотра, будет отличаться от первоначального более чем на 10 процентов, то страховщик (Белорусское бюро), возместивший расходы по проведению данного осмотра, вправе восстановить их в установленном законодательством порядке за счет экспертной организации, проводившей первоначальный осмотр.", correct: true },
             { text: "все расходы по проведению повторного осмотра ТС и определению размера вреда, связанного с ним, первоначально оплачивает страховщик (Белорусское бюро). Затем если размер вреда, определенного по результатам повторного осмотра, будет отличаться от первоначального более чем на 10 процентов, то страховщик (Белорусское бюро), вправе восстановить их в установленном законодательством порядке за счет экспертной организации, проводившей первоначальный осмотр.", correct: false },
@@ -3361,7 +3361,7 @@ const quizData = [
     },
     {
         question: "q365 В каких случаях транспортное средство считается погибшим (уничтоженным)?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "если расчетная стоимость восстановительного ремонта транспортного средства, за вычетом стоимости обновления, с учетом налога на добавленную стоимость превышает 80 процентов действительной (остаточной) стоимости транспортного средства на день наступления страхового случая.", correct: true },
             { text: "если расчетная стоимость восстановительного ремонта транспортного средства, за вычетом стоимости обновления, без учета налога на добавленную стоимость превышает 80% действительной (остаточной) стоимости транспортного средства на день наступления страхового случая.", correct: false },
@@ -3370,7 +3370,7 @@ const quizData = [
     },
     {
         question: "q366 Каким правовым документом осуществляется регулирование оценочной деятельности в Республике Беларусь?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Указ Президента Республики Беларусь № 615 от 13 .10.2006г.", correct: true },
             { text: "Стандарт стоимости объектов гражданских прав СТБ/ОР 52.6.01-2007.", correct: false },
@@ -3380,7 +3380,7 @@ const quizData = [
     },
     {
         question: "q367 *Кто ведет государственный реестр оценщиков?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Государственный комитет по имуществу.", correct: true },
             { text: "Белорусское бюро по транспортному страхованию.", correct: false },
@@ -3389,7 +3389,7 @@ const quizData = [
     },
     {
         question: "q368 Кто производит оценку стоимости государственного имущества?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Государственные организации, доля государственной собственности в уставном фонде которых составляет более 50%.", correct: true },
             { text: "Юридические лица - оценочные организации.", correct: false },
@@ -3398,7 +3398,7 @@ const quizData = [
     },
     {
         question: "q369 Виды оценки объектов гражданских прав?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Внутренняя, независимая и обязательная оценки.", correct: true },
             { text: "Внутренняя и независимая оценки.", correct: false },
@@ -3408,7 +3408,7 @@ const quizData = [
     },
     {
         question: "q370 Кто является исполнителем оценки ДТС?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Юридическое лицо или индивидуальный предприниматель.", correct: true },
             { text: "Юридическое, физическое лицо или индивидуальный предприниматель.", correct: false },
@@ -3417,7 +3417,7 @@ const quizData = [
     },
     {
         question: "q371 Кто является оценщиком ДТС?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Физическое лицо, аттестованное в порядке, определяемом СМ РБ, проводящее независимую оценку лично как индивидуальный предприниматель либо в качестве работника индивидуального предпринимателя или юридического лица-исполнителя оценки.", correct: true },
             { text: "Юридическое лицо или индивидуальный предприниматель, осуществляющий оценочную деятельность в установленном порядке.", correct: false },
@@ -3426,7 +3426,7 @@ const quizData = [
     },
     {
         question: "q372 Что является основанием для проведения независимой оценки?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Гражданско-правовой договор, заключенный между исполнителем оценки и заказчиком оценки, либо судебное постановление.", correct: true },
             { text: "Гражданско-правовой договор, заключенный между исполнителем оценки и заказчиком оценки.", correct: false },
@@ -3435,7 +3435,7 @@ const quizData = [
     },
     {
         question: "q373 Какие документы исполняются для заказчика в результате независимой оценки ДТС?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Заключение об оценке и отчет об оценке.", correct: true },
             { text: "Отчет об оценке с приложениями.", correct: false },
@@ -3445,7 +3445,7 @@ const quizData = [
     },
     {
         question: "q374 Специалист по осмотру и идентификации дорожного транспортного средства это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "физическое лицо, имеющее высшее техническое образование, включающее изучение дисциплин по устройству и технической эксплуатации дорожного транспортного средства, прошедшее повышение квалификации в области осмотра и идентификации.", correct: true },
             { text: "физическое лицо, имеющее высшее техническое образование, включающее изучение дисциплин по устройству и технической эксплуатации дорожного транспортного средства, прошедшее повышение квалификации в области осмотра и идентификации, а так же аттестацию.", correct: false },
@@ -3454,7 +3454,7 @@ const quizData = [
     },
     {
         question: "q375 Заинтересованное лицо это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "физическое или юридическое лицо, не являющееся владельцем дорожного транспортного средства, чьи интересы могут быть затронуты результатами осмотра и идентификации дорожного транспортного средства (участник дорожно-транспортного происшествия, предполагаемый причинитель вреда и др.).", correct: true },
             { text: "физическое или юридическое лицо, чьи интересы могут быть затронуты результатами осмотра и идентификации дорожного транспортного средства (участник дорожно-транспортного происшествия, предполагаемый причинитель вреда, владелец дорожного транспортного средства и др.).", correct: false },
@@ -3463,7 +3463,7 @@ const quizData = [
     },
     {
         question: "q376 Понятие физического износа объекта оценки.",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Износ, вызванный ухудшением первоначальных технико-эксплуатационных качеств и свойств (в том числе прочности, устойчивости, надежности и др.) в результате воздействия природно-климатических факторов и жизнедеятельности человека.", correct: true },
             { text: "Изменение размеров, формы, массы или состояния ТС, усталостные разрушения, коррозия, изменение физико-химических свойств материалов ТС и его частей в процессе эксплуатации, не являющиеся следствием аварийных повреждений.", correct: false },
@@ -3473,7 +3473,7 @@ const quizData = [
     },
     {
         question: "q377 Остаточная стоимость объекта оценки.",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Представляет собой стоимость объекта оценки, равную разнице между первоначальной стоимостью объекта оценки, стоимостью восстановления объекта оценки и накопленным износом.", correct: true },
             { text: "Представляет собой стоимость объекта оценки, определяемую на основе рыночной стоимости для конкретного инвестора или группы инвесторов, учитывающую индивидуальные требования к инвестициям и целесообразность инвестирования при установленных инвестиционных целях.", correct: false },
@@ -3482,7 +3482,7 @@ const quizData = [
     },
     {
         question: "q378 Типы транспортных средств, на которые распространяется стандарт оценки.",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Дорожные, рельсовые дорожные, водные, воздушные, железнодорожные ТС.", correct: true },
             { text: "Дорожные, водные, воздушные, железнодорожные ТС.", correct: false },
@@ -3491,7 +3491,7 @@ const quizData = [
     },
     {
         question: "q379 Понятие «Исправное ТС».",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "ТС, техническое состояние и комплектация которого соответствует техническим условиям изготовителя ТС, а также требованиям законодательства Республики Беларусь по эксплуатации ТС, обеспечивающим безопасность жизни и здоровья граждан, предотвращения причинения вреда имуществу, нанесения вреда окружающей среде (экологическая безопасность), имеющее допуск уполномоченного органа на право эксплуатации.", correct: true },
             { text: "ТС, техническое состояние и комплектация которого соответствуют техническим условиям изготовителя ТС, а также требованиям законодательства Республики Беларусь по эксплуатации ТС, обеспечивающим безопасность жизни и здоровья граждан, предотвращения причинения вреда имуществу, имеющее отметку уполномоченных органов о прохождении инструментального контроля и освидетельствования на соответствие параметров технического состояния действующим нормативам.", correct: false },
@@ -3500,7 +3500,7 @@ const quizData = [
     },
     {
         question: "q380 Понятие «Новое ТС»",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "ТС, еще не эксплуатировавшееся и предлагаемое для продажи на первичном рынке.", correct: true },
             { text: "ТС, предлагаемое для продажи на первичном рынке.", correct: false },
@@ -3509,7 +3509,7 @@ const quizData = [
     },
     {
         question: "q381 Когда ремонт ТС считается экономически нецелесообразным (для случаев не связанных с обязательным страхованием гражданской ответственности)?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Экономически нецелесообразным считается ремонт, если ожидаемые расходы (с учетом налоговых платежей) на него превышают установленное значение (в процентах) от рыночной стоимости идентичного объекта по состоянию на дату оценки, указанную в договоре на оказание услуги.", correct: true },
             { text: "Экономически нецелесообразным считается ремонт, если ожидаемые расходы (с учетом налоговых платежей) на него превышают рыночную стоимость идентичного объекта по состоянию на дату оценки, указанную в договоре на оказание услуги.", correct: false },
@@ -3518,7 +3518,7 @@ const quizData = [
     },
     {
         question: "q382 Утрата товарного вида ТС это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "износ, вызванный повреждением ТС с последующими ремонтными воздействиями, приведшими к ухудшению внешнего вида, снижению надежности ТС или защитных свойств покрытия его частей.", correct: true },
             { text: "снижение стоимости ТС, вследствие изменения эксплуатационных качеств в результате увеличения морального износа.", correct: false },
@@ -3527,7 +3527,7 @@ const quizData = [
     },
     {
         question: "q383 Износ части ТС это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "износ части ТС в результате эксплуатации.", correct: true },
             { text: "физический износ части ТС, связанный с изменением ее свойств.", correct: false },
@@ -3536,7 +3536,7 @@ const quizData = [
     },
     {
         question: "q384 Осмотр транспортного средства:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "органолептический контроль транспортного средства в целях его идентификации, определения технического состояния, выявления и фиксации повреждений и дефектов частей, а также определения вида и трудоемкости ремонтных воздействий (СТБ 52.0.02).", correct: true },
             { text: "осмотр состояния транспортного средства в целях, определения его технического состояния, выявления и фиксации повреждений и дефектов частей, а также определения вида и трудоемкости ремонтных воздействий, проведения измерений и фотосъемки.", correct: false },
@@ -3545,7 +3545,7 @@ const quizData = [
     },
     {
         question: "q385 Кто по определению стандарта может быть исполнителем осмотра ДТС?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Юридическое лицо, в штате которого состоит не менее двух специалистов по осмотру и идентификации дорожных транспортных средств, либо индивидуальный предприниматель, являющийся специалистом по осмотру и идентификации дорожных транспортных средств, оказывающие услуги по осмотру и идентификации дорожных транспортных средств.", correct: true },
             { text: "Юридическое лицо, в штате которого имеется специалист по осмотру и идентификации дорожных транспортных средств, либо индивидуальный предприниматель, являющийся специалистом по осмотру и идентификации дорожных транспортных средств, оказывающие услуги по осмотру и идентификации дорожных транспортных средств.", correct: false },
@@ -3554,7 +3554,7 @@ const quizData = [
     },
     {
         question: "q386 К массовым ДТС относятся:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "ДТС, широко представленные на рынке, для которых возможно сформировать представительную выборку из идентичных ДТС или аналогичных ДТС;", correct: true },
             { text: "ДТС, широко представленные на рынке, которые имеют высокую категорию пробега.", correct: false },
@@ -3563,7 +3563,7 @@ const quizData = [
     },
     {
         question: "q387 К понятию «редкое ДТС» относится:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "ДТС, мало встречающееся на рынке ДТС, для которого невозможно сформировать представительную выборку идентичных ДТС или аналогичных ДТС.", correct: true },
             { text: "ДТС, характеризующееся не высокой степенью распространения на первичном и/или вторичном рынке, для оценки которого формирование представительной выборки возможно только из аналогов.", correct: false },
@@ -3572,7 +3572,7 @@ const quizData = [
     },
     {
         question: "q388 К понятию «уникальное ДТС» относится:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "единственное, представленное на рынке в своем типе (модификации) ДТС, что ограничивает доступность информации о его стоимости и соответственно ограничивает использование сравнительного метода оценки.", correct: true },
             { text: "специальное транспортное средство, эксплуатационные свойства которого характеризуются уникальностью для своего класса, типа.", correct: false },
@@ -3581,7 +3581,7 @@ const quizData = [
     },
     {
         question: "q389 Идентификация транспортного средства это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Органолептическое исследование, включающее в себя установление типа и параметров двигателя, коробки передач, трансмиссии, кузова, кабины, АКБ, колесных дисков, шин, колесной формулы, наличия серийного и дополнительного оборудования, а также измерения колесной базы ТС, объема грузового отсека, площади грузовой платформы; использования установленных идентификационных признаков ТС, справочников, программного обеспечения по ремонту ТС, информации изготовителя (импортера) ТС, других", correct: true },
             { text: "Комплексное исследование, включающее в себя установление конструктивных, функциональных и эксплуатационных характеристик транспортного средства, определяющих его марку, модель, модификацию; исследование маркировочных обозначений и других тождественных характеристик транспортного средства в целях расшифровки информации о транспортном средстве и применении ее при определении стоимости транспортного средства.", correct: false },
@@ -3590,7 +3590,7 @@ const quizData = [
     },
     {
         question: "q390 Идентификационный признак дорожного транспортного средства:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "маркировочное обозначение, код, регистрационный знак, размеры, комплектация, внешний вид, другие отличительные признаки дорожного транспортного средства, их части, дополнительное оборудование к ним, позволяющие идентифицировать объект оценки.", correct: true },
             { text: "маркировочное обозначение, код, регистрационный знак, размеры, комплектация, внешний вид, другие отличительные признаки дорожного транспортного средства, позволяющие идентифицировать объект оценки.", correct: false },
@@ -3599,7 +3599,7 @@ const quizData = [
     },
     {
         question: "q391 Средства технического диагностирования это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "оборудование, приборы и инструменты, предназначенные для количественной оценки технического состояния транспортного средства (функционирования, работоспособности, неисправности и пр.) по различным диагностическим параметрам.", correct: true },
             { text: "оборудование, предназначенное для количественной оценки технического состояния транспортного средства (функционирования, работоспособности, неисправности и пр.) по различным диагностическим параметрам.", correct: false },
@@ -3608,7 +3608,7 @@ const quizData = [
     },
     {
         question: "q392 Скрытый дефект это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "•  дефект, который не может быть выявлен при данном осмотре ТС.", correct: true },
             { text: "•  дефект, который может быть определен специалистом по косвенным признакам.", correct: false },
@@ -3617,7 +3617,7 @@ const quizData = [
     },
     {
         question: "q393 К идентичным ДТС относятся:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "•  ДТС, параметры и характеристики которого полностью совпадают с параметрами и характеристиками объекта оценки.", correct: true },
             { text: "•  ДТС, у которого марка, модель и год выпуска идентичны показателям объекта оценки.", correct: false },
@@ -3626,7 +3626,7 @@ const quizData = [
     },
     {
         question: "q394 Под аналогичным ДТС понимается:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "•  ДТС, основные параметры и характеристики которого близки или некоторые из них совпадают с такими же параметрами и характеристиками объекта оценки.", correct: true },
             { text: "•  ДТС, имеющее внешнее сходство с объектом оценки.", correct: false },
@@ -3635,7 +3635,7 @@ const quizData = [
     },
     {
         question: "q395 Под базовым аналогом ДТС понимается:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "•  исправное ДТС, максимально близкое по элементам сравнения к объекту оценки, с комплектацией, характерной для объектов-аналогов на рынке ДТС, и эксплуатирующееся в режиме, установленном производителем или законодательством.", correct: true },
             { text: "•  экспонирующееся на вторичном рынке ДТС в техническом состоянии сходном с состоянием объекта оценки, и эксплуатирующееся в режиме, установленном производителем или законодательством.", correct: false },
@@ -3644,7 +3644,7 @@ const quizData = [
     },
     {
         question: "q396 Дополнительное оборудование ДТС включает:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "•  часть ДТС, которая по индивидуальному заказу может быть установлена на ДТС данной модификации с целью повышения комфортности, безопасности, экономичности, расширения функций или выполнения определенного вида работ.", correct: true },
             { text: "•  технологическое и иное оборудование, устанавливаемое на специальные дорожные транспортные средства производителем серийно или индивидуально по заказу.", correct: false },
@@ -3653,7 +3653,7 @@ const quizData = [
     },
     {
         question: "q397 Исправимый физический износ (отложенный ремонт) это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "•  физический износ, устранение которого технически возможно и затраты на устранение которого меньше, чем добавленная стоимость к ДТС.", correct: true },
             { text: "•  функциональный износ, вызванный функциональными недостатками, устранение которых технически возможно и экономически целесообразно, так как затраты на него меньше, чем добавленная при этом стоимость ДТС", correct: false },
@@ -3662,7 +3662,7 @@ const quizData = [
     },
     {
         question: "q398 Неисправимый функциональный износ это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "•  функциональный износ, вызванный функциональными недостатками, устранение которых технически невозможно или экономически нецелесообразно, так как затраты на их устранение равны или больше, чем добавленная стоимость ДТС.", correct: false },
             { text: "•  физический износ, устранение которого технически невозможно или затраты на устранение которого равны или превышают добавленную стоимость ДТС.", correct: false },
@@ -3672,7 +3672,7 @@ const quizData = [
     },
     {
         question: "q399 Представительная выборка данных:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "•  выборка цен на ДТС из информационных источников, отражающая фактическое состояние структуры цен на рынке ДТС.", correct: true },
             { text: "•  выборка цен на ДТС (не менее десяти единиц), представленных на вторичном рынке, характеризующаяся высокой степенью сходимости с объектом оценки и достаточным количеством элементов выборки для получения надежных результатов при расчетах и обосновании.", correct: false },
@@ -3681,7 +3681,7 @@ const quizData = [
     },
     {
         question: "q400 Фактический пробег ДТС это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "численное значение пробега ДТС (в километрах) или наработки основного двигателя ДТС (в мото-часах), подтвержденное документами владельца ДТС, показаниями исправного счетчика пройденного пути (одометра) или результатами инструментального контроля (диагностики) ДТС.", correct: true },
             { text: "пробег ДТС, рассчитанный исходя их сведений бухгалтерского учета.", correct: false },
@@ -3691,7 +3691,7 @@ const quizData = [
     },
     {
         question: "q401 В задании на оценку ДТС указываются:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "цель оценки, вид определяемой стоимости, дата оценки, состав объектов оценки и другие сведения по усмотрению заказчика оценки и исполнителя оценки, снимающие любую двусмысленность, связанную с проведением оценки.", correct: true },
             { text: "перечень и сроки представления исполнителю оценки документов по ДТС; необходимость и порядок приглашения на осмотр ДТС заинтересованных лиц; условия выполнения работ; место и время осмотра ДТС.", correct: false },
@@ -3699,7 +3699,7 @@ const quizData = [
     },
     {
         question: "q402 Стоимость ТС определяется следующими методами:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "индексным методом; методом пересчета валютной стоимости; рыночным методом. ", correct: true },
             { text: "индексным методом; методом пересчета валютной стоимости; затратным методом.", correct: false },
@@ -3708,7 +3708,7 @@ const quizData = [
     },
     {
         question: "q403 Индексный метод представляет собой метод оценки путем:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "применения коэффициентов к первоначальной (восстановительной) стоимости или стоимости восстановления (замещения), остаточной стоимости или остаточной стоимости объектов оценки.", correct: true },
             { text: "применения определения величины первоначальной (восстановительной) стоимости или стоимости восстановления (замещения), остаточной стоимости или остаточной стоимости объектов оценки.", correct: false },
@@ -3717,7 +3717,7 @@ const quizData = [
     },
     {
         question: "q404 К рыночным методам оценки ТС относятся:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "затратный, доходный и сравнительный.", correct: true },
             { text: "затратный, доходный и индексный.", correct: false },
@@ -3727,7 +3727,7 @@ const quizData = [
     },
     {
         question: "q405 Метод пересчета валютной стоимости представляет собой:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "метод определения стоимости ТС в валюте по официальному курсу белорусского рубля, установленному Национальным банком Республики Беларусь на дату оценки, если ТС приобретено за иностранную валюту либо его стоимость была определена в иностранной валюте в течение календарного года с применением рыночного метода.", correct: true },
             { text: "метод определения стоимости ТС в валюте по официальному курсу белорусского рубля, установленному Национальным банком Республики Беларусь на дату оценки, если ТС продается за иностранную валюту.", correct: false },
@@ -3736,7 +3736,7 @@ const quizData = [
     },
     {
         question: "q406 Затратный метод представляет собой:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "совокупность методов расчета стоимости ТС, основанных на определении стоимости восстановления (замещения) ТС с учетом добавления дополнительного оборудования и (или) конструктивных элементов ТС за минусом накопленного износа, а при необходимости – затрат на его разделение и (или) утилизацию.", correct: true },
             { text: "совокупность методов расчета стоимости, основанных на информации о рыночных ценах объектов-аналогов, с последующей корректировкой их в зависимости от конъюнктуры рынка.", correct: false },
@@ -3745,7 +3745,7 @@ const quizData = [
     },
     {
         question: "q407 Сравнительный метод (метод сравнительного анализа продаж) представляет собой:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "совокупность методов расчета стоимости, основанных на информации о рыночных ценах объектов-аналогов с последующей корректировкой их стоимости по элементам сравнения. ", correct: true },
             { text: "совокупность методов расчета стоимости, основанных на информации о ценах новых объектов-аналогов, с последующей корректировкой их в зависимости от конъюнктуры рынка за минусом накопленного износа.", correct: false },
@@ -3753,7 +3753,7 @@ const quizData = [
     },
     {
         question: "q408 Оценка ТС доходным методом производится следующими методами расчета стоимости:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "прямой капитализации; капитализации по норме отдачи (метод дисконтирования денежных потоков); валовой ренты (валового мультипликатора); остатка.", correct: true },
             { text: "прямой капитализации; затратным методом; остатка.", correct: false },
@@ -3762,7 +3762,7 @@ const quizData = [
     },
     {
         question: "q409 Какие дополнительные виды стоимости используются при оценке ДТС, установленные СТБ 52.6.01?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Рыночная стоимость в текущем использовании; оценочная стоимость. ", correct: true },
             { text: "Стоимость ремонта поврежденных ТС;  отсутствующих частей ТС.", correct: false },
@@ -3771,7 +3771,7 @@ const quizData = [
     },
     {
         question: "q410 Рыночная стоимость в текущем использовании определяется как:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "рыночная стоимость ТС, учитывающая сложившиеся условия его использования, без учета наиболее эффективного использования.", correct: true },
             { text: "рыночная стоимость ТС, не учитывающая сложившиеся условия его использования, без учета наиболее эффективного использования.", correct: false },
@@ -3780,7 +3780,7 @@ const quizData = [
     },
     {
         question: "q411 Стоимость ремонта поврежденных ТС определяется как:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "стоимость восстановления или стоимость замещения ремонтных работ по устранению повреждений на основе составленной калькуляции.", correct: true },
             { text: "стоимость восстановления или стоимость замещения ремонтных работ по устранению повреждений и устранению эксплуатационных дефектов на основе составленной калькуляции.", correct: false },
@@ -3790,7 +3790,7 @@ const quizData = [
     },
     {
         question: "q412 Стоимость устранения эксплуатационных дефектов ТС определяется как:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "стоимость восстановления или стоимость замещения ремонтных работ по устранению эксплуатационных дефектов на основе составленной калькуляции.", correct: true },
             { text: "разность стоимости авто без дефектов и авто с дефектами", correct: false },
@@ -3799,7 +3799,7 @@ const quizData = [
     },
     {
         question: "q413 Стоимость обновления ТС определяется как:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "стоимость восстановления или замещения по проведению ремонтных работ, устранению эксплуатационных дефектов при использовании новых частей, заменяющих поврежденные.", correct: true },
             { text: "", correct: false },
@@ -3808,7 +3808,7 @@ const quizData = [
     },
     {
         question: "q414 Стоимость дополнительного оборудования ТС представляет:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "рыночную стоимость установленного на ТС дополнительного оборудования с учетом затрат на его монтаж.", correct: true },
             { text: "стоимость установленного на ТС нового дополнительного оборудования с учетом износа и затрат на его монтаж.", correct: false },
@@ -3817,7 +3817,7 @@ const quizData = [
     },
     {
         question: "q415 Стоимость отсутствующих частей ТС представляет:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "рыночную стоимость отсутствующих частей на ТС с учетом затрат на их монтаж.", correct: true },
             { text: "стоимость новых отсутствующих частей на ТС с учетом износа и затрат на их монтаж.", correct: false },
@@ -3827,7 +3827,7 @@ const quizData = [
 
     {
         question: "q416 В зависимости от цели оценки и объекта оценки рыночная стоимость может рассчитываться:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "- на первичном рынке; - на вторичном рынке; - поврежденного ТС; - утраты товарного вида ТС.", correct: true },
             { text: "- на первичном рынке; - на вторичном рынке; - утраты товарного вида ТС.", correct: false },
@@ -3836,7 +3836,7 @@ const quizData = [
     },
     {
         question: "q417 Рыночная стоимость ТС на первичном рынке представляет:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "стоимость нового ТС, отражающая соответствующие моменту оценки условия ценообразования, впервые предлагаемого к продаже и не находящегося в эксплуатации.", correct: true },
             { text: "стоимость нового ТС, отражающая соответствующие моменту оценки условия ценообразования, впервые предлагаемого к продаже.", correct: false },
@@ -3846,7 +3846,7 @@ const quizData = [
     },
     {
         question: "q418 Рыночная стоимость ТС на вторичном рынке представляет:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "стоимость бывшего в употреблении (подержанного), исправного ТС, предлагаемого к продаже.", correct: true },
             { text: "стоимость бывшего в употреблении (подержанного) ТС, предлагаемого к продаже.", correct: false },
@@ -3855,7 +3855,7 @@ const quizData = [
     },
     {
         question: "q419 Рыночная стоимость поврежденного ТС определяется как:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "рыночная стоимость на первичном или вторичном рынке исправного ТС за минусом накопленного износа объекта оценки, вызванного повреждением и (или) отсутствием отдельных его частей, несоответствием технического состояния ТС установленным требованиям.", correct: true },
             { text: "стоимость на вторичном рынке исправного ТС за минусом накопленного износа объекта оценки, вызванного повреждением и (или) отсутствием отдельных его частей, несоответствием технического состояния ТС установленным требованиям.", correct: false },
@@ -3865,7 +3865,7 @@ const quizData = [
     },
     {
         question: "q420 Ликвидационная стоимость транспортного средства это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "стоимость транспортного средства, определяемая при вынужденном отчуждении, когда срок продажи объекта оценки меньше среднего срока реализации объектов-аналогов по рыночной стоимости.", correct: true },
             { text: "стоимость транспортного средства, равная суммарной стоимости частей (элементов, материалов, конструкций), на которые можно разделить объект оценки с учетом затрат на его разделение и утилизацию.", correct: false },
@@ -3874,7 +3874,7 @@ const quizData = [
     },
     {
         question: "q421 Объект оценки сравнивается с предполагаемыми объектами-аналогами по:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "технологическим, техническим характеристикам, их состоянию, составу и другим характеристикам, а также по условиям проведения сделок и прочим условиям.", correct: true },
             { text: "пробегу, наличию или отсутствию дополнительного оборудования, наличию эксплуатационных дефектов.", correct: false },
@@ -3883,7 +3883,7 @@ const quizData = [
     },
     {
         question: "q422 Метод экспертных оценок при оценке ТС сравнительным методом предполагает:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "определение корректировок на основе изучения мнения квалифицированных участников рынка (инвесторов, производителей, дилеров, продавцов, оценщиков и др.) о влиянии на стоимость объекта оценки элементов сравнения.", correct: true },
             { text: "определение корректировок на основе изучения мнения квалифицированных специалистов по определению стоимости ТС о влиянии на стоимость объекта оценки элементов сравнения.", correct: false },
@@ -3892,7 +3892,7 @@ const quizData = [
     },
     {
         question: "q423 При наличии несущественных эксплуатационных дефектов основных систем и частей ДТС, не оказывающих значительного влияния на формирование рыночной стоимости ДТС, величина данной корректировки при отсутствии страхового случая может приниматься до:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "10% от рыночной стоимости объекта-аналога, в том числе базового аналога ДТС, без детализации и расчетов.", correct: true },
             { text: "5% от рыночной стоимости объекта-аналога, в том числе базового аналога ДТС, без детализации и расчетов с обоснованием принятого решения в акте осмотра.", correct: false },
@@ -3901,7 +3901,7 @@ const quizData = [
     },
     {
         question: "q424 По приоритетности следует подбирать и использовать информацию по объектам-аналогам ДТС:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "России, Украины; Польши, Литвы, Латвии и Эстонии; иных стран ЕС и  СНГ; иных регионов мира.", correct: true },
             { text: "России, Украины; Польши, Литвы, Латвии и Эстонии;", correct: false },
@@ -3910,7 +3910,7 @@ const quizData = [
     },
     {
         question: "q425 Исполнитель оценки может использовать при проведении оценки ДТС программное обеспечение на условиях:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "заключения с пользователем программного обеспечения договора на оказание услуг по проведению необходимых расчетов по оценке ДТС, либо заключения договора на регулярное обновление программного обеспечения.", correct: true },
             { text: "заключения с пользователем программного обеспечения договора на оказание услуг по проведению необходимых расчетов по оценке ДТС.", correct: false },
@@ -3919,7 +3919,7 @@ const quizData = [
     },
     {
         question: "q426 В каких случаях допускается составление краткого отчета об оценке ДТС:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "по заявке заказчика оценки; при применении индексного метода; при применении метода валютного пересчета; в других случаях, не противоречащих законодательству.", correct: true },
             { text: "при применении индексного метода; в других случаях, не противоречащих законодательству.", correct: false },
@@ -3928,7 +3928,7 @@ const quizData = [
     },
     {
         question: "q427 Какое из утверждений в наибольшей степени отражает реализацию принципа вклада при оценке рыночной стоимости транспортного средства?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Дополнительная комплектация транспортного средства или установка дополнительного оборудования приведет к увеличению величины рыночной стоимости, но это увеличение не будет равно произведенным затратам.", correct: true },
             { text: "Дополнительная комплектация транспортного средства или установка дополнительного оборудования приведет к увеличению рыночной стоимости на величину произведенных затрат.", correct: false },
@@ -3937,7 +3937,7 @@ const quizData = [
     },
     {
         question: "q428 При определении первоначальной стоимости транспортного средства, производство которого не прекращено на дату оценки, в общем случае, наиболее корректно применять?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Стоимость восстановления.", correct: true },
             { text: "Стоимость замещения.", correct: false },
@@ -3946,7 +3946,7 @@ const quizData = [
     },
     {
         question: "q429  случае оценки имущественных прав, связанных с компенсацией материального ущерба, нанесенного владельцу повреждением транспортного средства (не гибель), какой из методов имеет предпочтительное применение?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Затратный метод.", correct: true },
             { text: "Сравнительный метод.", correct: false },
@@ -3955,7 +3955,7 @@ const quizData = [
     },
     {
         question: "q430 При оценке редких для отечественного вторичного рынка транспортных средств затратным методом таможенные платежи целесообразно учитывать:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "в случае использования в качестве исходных данных по иностранному вторичному рынку (из зарубежных источников информации).", correct: true },
             { text: "в случае использования в качестве исходных данных по отечественному вторичному рынку (из отечественных источников).", correct: false },
@@ -3964,7 +3964,7 @@ const quizData = [
     },
     {
         question: "q431 Применение сравнительного метода позволит получить наиболее достоверные результаты оценки рыночной стоимости:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "при оценке автотранспортных средств, имеющих широкое распространение на вторичном рынке («массовые» автотранспортные средства).", correct: true },
             { text: "при оценке редких для отечественного вторичного рынка автотранспортных средств.", correct: false },
@@ -3973,7 +3973,7 @@ const quizData = [
     },
     {
         question: "q432 При осмотре исправных ДТС выполняется только:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "обзорная фотосъемка ДТС, включающая и фотосъемку идентификационных признаков ДТС.", correct: true },
             { text: "обзорная фотосъемка ДТС.", correct: false },
@@ -3982,7 +3982,7 @@ const quizData = [
     },
     {
         question: "q433 Размер вреда, причиненный повреждением ДТС это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "стоимость всех затрат на приведение ДТС в состояние на дату дорожно-транспортного происшествия, аварии или иного события, вызвавшего повреждение частей и дополнительного оборудования ДТС, снижение других свойств (утраты товарного вида, эксплуатационных показателей, не сохранения гарантий и прочих свойств ДТС), а также разукомплектования, уничтожения (гибели) ДТС.", correct: true },
             { text: "стоимость всех затрат на дату осмотра на приведение ДТС в исправное состояние после дорожно-транспортного происшествия, аварии или иного события, вызвавшего повреждение частей и дополнительного оборудования ДТС, снижение других свойств (утраты товарного вида, эксплуатационных показателей, не сохранение гарантий и прочих свойств ДТС), а также разукомплектования, уничтожения (гибели) ДТС.", correct: false },
@@ -3990,7 +3990,7 @@ const quizData = [
     },
     {
         question: "q434 В итоговую часть калькуляции восстановительного ремонта ДТС включается стоимость мелких неучтенных заменяемых частей (частей крепления из пластмассы, саморезы, шайбы, винты разового использования и пр.)?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Включается стоимость, равная 2 процента от стоимости всех заменяемых частей.", correct: false },
             { text: "Включается стоимость, равная 2 процента от стоимости восстановительного ремонта.", correct: false },
@@ -4000,7 +4000,7 @@ const quizData = [
     },
     {
         question: "q435 При расчете стоимости восстановительного ремонта ДТС среднеарифметическая стоимость одного нормо-часа ремонтных работ используется:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "по утвержденным данным Белорусского бюро по транспортному страхованию.", correct: true },
             { text: "по данным ремонтных предприятий, осуществляющих восстановительный ремонт аналогичных ДТС.", correct: false },
@@ -4009,7 +4009,7 @@ const quizData = [
     },
     {
         question: "q436 Для целей определения стоимости ТС источниками получения информации может являться информация, размещенная на Интернет-сайтах?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Да.", correct: true },
             { text: "Нет.", correct: false },
@@ -4017,7 +4017,7 @@ const quizData = [
     },
     {
         question: "q437 Любые организации обязаны по письменному запросу исполнителя оценки предоставлять в согласованные сроки достоверную информацию, касающуюся оценочной деятельности ТС?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Да, если эта информация не представляет государственную или служебную тайну.", correct: true },
             { text: "Да.", correct: false },
@@ -4026,7 +4026,7 @@ const quizData = [
     },
     {
         question: "q438 Оценщик имеет право полагаться на данные из областей, выходящих за рамки его профессиональной компетенции, полученные от специалистов других профессий.",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Да имеет.", correct: true },
             { text: "Не имеет.", correct: false },
@@ -4034,7 +4034,7 @@ const quizData = [
     },
     {
         question: "q439 Если оценщик не может указать источник информации, то:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "оценщик отражает это в отчете об оценке, указывает на ограничения и предпосылки, возникающие при этом.", correct: true },
             { text: "оценщик отражает это в заключении об оценке с обоснованием своего мнения.", correct: false },
@@ -4043,7 +4043,7 @@ const quizData = [
     },
     {
         question: "q440 На основании каких документов проводится независимая оценка ТС?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Договор на проведение независимой оценки заключается в простой письменной форме.", correct: true },
             { text: "Заключается трудовое соглашение на проведение независимой оценки.", correct: false },
@@ -4052,7 +4052,7 @@ const quizData = [
     },
     {
         question: "q441 В каком документе по определению стоимости ТС содержится информация об итоговой стоимости ТС?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "В заключении об оценке.", correct: true },
             { text: "В расчете, находящемся в приложении.", correct: false },
@@ -4061,7 +4061,7 @@ const quizData = [
     },
     {
         question: "q442 При проведении оценки ТС используются (необходимы) следующие сведения о ТС:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "- Идентификационные признаки дорожного ТС; -технические характеристики дорожного ТС (тип кузова, шасси, корпуса, грузоподъемность, тип основного двигателя и его мощность, сведения о состоянии ТС и др., позволяющие определить его потребительские свойства); -хронологические данные дорожного ТС (год изготовления и год ввода в эксплуатацию ТС, сведения о владельце ТС, пробег или фактическая наработка ТС).", correct: true },
             { text: "- Технические характеристики дорожного ТС (тип кузова, шасси, корпуса, грузоподъемность, тип основного двигателя и его мощность, сведения о состоянии ТС и др., позволяющие определить его потребительские свойства); -хронологические данные дорожного ТС (год изготовления и год ввода в эксплуатацию ТС, сведения о владельце ТС, пробег ТС).", correct: false },
@@ -4069,7 +4069,7 @@ const quizData = [
     },
     {
         question: "q443 При определении стоимости ТС сравнительным методом выбираются за единицу сравнения…",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "цена (стоимость) одного ТС или цена (стоимость) части ТС и др.", correct: true },
             { text: "цена (стоимость) одного ТС на единицу производительности.", correct: false },
@@ -4078,7 +4078,7 @@ const quizData = [
     },
     {
         question: "q444 При подборе аналогичного ТС предпочтение следует отдавать ",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "ТС того же производителя и страны-производителя, а также идентичного назначения (общее, специализированное, специальное и др.).", correct: true },
             { text: "ТС того же производителя и страны-производителя.", correct: false },
@@ -4086,7 +4086,7 @@ const quizData = [
     },
     {
         question: "q445 Сопоставление по основным параметрам и характеристикам проводится на основе данных о ТС, полученных в результате осмотра ТС, с учетом…",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "их приоритета.", correct: true },
             { text: "их представления в источниках информации ТС.", correct: false },
@@ -4095,7 +4095,7 @@ const quizData = [
     },
     {
         question: "q446 Порядок использования источников информации при определении стоимости ТС, определении размера вреда.",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "При отсутствии в программном обеспечении информации могут использоваться данные специализированных отечественных и зарубежных справочников, специализированных периодических изданий, информационных материалов торгующих организаций.", correct: true },
             { text: "При отсутствии в программном обеспечении информации могут использоваться данные специализированных отечественных и зарубежных справочников, специализированных периодических изданий, информационных материалов торгующих организаций, Интернет-сайтов.", correct: false },
@@ -4104,7 +4104,7 @@ const quizData = [
     },
     {
         question: "q447 Если в рекомендованных для использования справочниках по ценам ТС приводится различная информация по стоимости базового аналога, то…",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "специалист по оценке проводит дополнительное исследование белорусского рынка по аналогичным ТС.", correct: true },
             { text: "специалист по оценке определяет стоимость базового аналога как среднеарифметическое значение данных справочника.", correct: false },
@@ -4113,7 +4113,7 @@ const quizData = [
     },
     {
         question: "q448 При определении стоимости частей ТС допускается в расчетах использование других видов валют кроме национальной валюты Республики Беларусь?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Допускается в расчетах использовать евро, российский рубль.", correct: true },
             { text: "Используется только национальная валюта Республики Беларусь. ", correct: false },
@@ -4122,7 +4122,7 @@ const quizData = [
     },
     {
         question: "q449 Определение стоимости ремонтных и прочих материалов проводится…",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "на основе представительной, достоверной выборки цен на первичном рынке Республики Беларусь.", correct: true },
             { text: "на основе представительной, достоверной выборки цен сервисных станций технического обслуживания аналогичных ТС.", correct: false },
@@ -4131,7 +4131,7 @@ const quizData = [
     },
     {
         question: "q450 Программное обеспечение Аудатекс может быть использовано для расчета стоимости ремонта ТС производства стран СНГ?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "•  Нет.", correct: true },
             { text: "•  Да.", correct: false },
@@ -4139,7 +4139,7 @@ const quizData = [
     },
     {
         question: "q451 Источники информации, используемые специалистом по оценке ТС при проведении анализа и расчетов,…",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "•должны быть отражены в отчете об оценке, заключении.", correct: true },
             { text: "•должны быть отражены при обосновании условий оказания услуги специалистом.", correct: false },
@@ -4148,7 +4148,7 @@ const quizData = [
     },
     {
         question: "q452 В справочниках по ценам ТС, используемых в Республике Беларусь, приводится объем выборки данных используемых источников?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Нет.", correct: true },
             { text: "Да.", correct: false },
@@ -4157,7 +4157,7 @@ const quizData = [
     },
     {
         question: "q453 Для оказания услуги по оценке ТС исполнитель оценки -пользователь программного обеспечения …",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "должен иметь договор на регулярное обновление программного обеспечения.", correct: true },
             { text: "должен иметь договор на приобретение копии программного обеспечения.", correct: false },
@@ -4166,7 +4166,7 @@ const quizData = [
     },
     {
         question: "q454 Изменение подачи топлива в многоточечных электронных системах впрыска бензиновых двигателях (рис.) определяется:",
-        imgLink: './q454.jpg',
+        imgLink: 'IMG/q454.jpg',
         answers: [
             { text: "- временем открытия форсунки и давлением топлива;", correct: true },
             { text: "- временем открытия форсунки;", correct: false },
@@ -4175,7 +4175,7 @@ const quizData = [
     },
     {
         question: "q455  Рециркуляция отработавших газов (рис.) предназначена для:",
-        imgLink: './q455.jpg',
+        imgLink: 'IMG/q455.jpg',
         answers: [
             { text: "- снижения выбросов оксидов азота с отработавшими газами; ", correct: true },
             { text: "- снижения выбросов оксидов углерода с отработавшими газами;", correct: false },
@@ -4184,7 +4184,7 @@ const quizData = [
     },
     {
         question: "q456 Основное назначение дополнительного датчика кислорода или азота (рис.) состоит в том чтобы:",
-        imgLink: './q456.jpg',
+        imgLink: 'IMG/q456.jpg',
         answers: [
             { text: "- контролировать работу нейтрализатора;", correct: true },
             { text: "- регулировать состав топливовоздушной смеси;", correct: false },
@@ -4193,7 +4193,7 @@ const quizData = [
     },
     {
         question: "q457 Использование пьезоэлектрогидравлических вместо электрогидравличе-ских форсунок в системах  дизельных двигателей «CommonRail» (рис.) позволяет:",
-        imgLink: './q457.jpg',
+        imgLink: 'IMG/q457.jpg',
         answers: [
             { text: "- уменьшить «жесткость» работы двигателя и его шум с одновре-менным снижением выбросов окислов азота", correct: true },
             { text: "- снизить выбросы оксидов углерода;", correct: false },
@@ -4202,7 +4202,7 @@ const quizData = [
     },
     {
         question: "q458 Количество впрыскиваемого топлива в системах дизельных двигателей с насос-форсунками (рис)определяется:",
-        imgLink: './q458.jpg',
+        imgLink: 'IMG/q458.jpg',
         answers: [
             { text: "временем срабатывания электро или пьезоклапана управления;", correct: true },
             { text: "изменяющимся давлением топлива при движении плунжера;", correct: false },
@@ -4211,7 +4211,7 @@ const quizData = [
     },
     {
         question: "q459 Основное назначение муфты Haldex (рис.) состоит в том, чтобы:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "соединить  передний и задний мост с помощью пакета сцепле-ний", correct: true },
             { text: "соединить  передний и задний мост с помощью изменения вязкости жидкости при нагревании;", correct: false },
@@ -4220,7 +4220,7 @@ const quizData = [
     },
     {
         question: "q460 Принцип работы вискомуфты (рис.), предназначенной для устранения пробуксовки колес основан на принципе:",
-        imgLink: './q460.jpg',
+        imgLink: 'IMG/q460.jpg',
         answers: [
             { text: "соединения переднего и заднего мостов с помощью изменения вязкости жидкости при нагревании;", correct: true },
             { text: "соединения переднего и заднего мостов с помощью механической связи стопорением их;", correct: false },
@@ -4229,7 +4229,7 @@ const quizData = [
     },
     {
         question: "q461  производители изго-тавливают одну часть кузова легкового автомобиля из алюминия а другую часть из стали (рис.):",
-        imgLink: './q461.jpg',
+        imgLink: 'IMG/q461.jpg',
         answers: [
             { text: "для оптимальной развесовки по осям;", correct: true },
             { text: "для снижения затрат при изготовлении;", correct: false },
@@ -4238,7 +4238,7 @@ const quizData = [
     },
     {
         question: "q462 Укажите правильный ответ для каких металлов при производстве автомобилей может применяться лазерная сварка:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "-  для сварки стальных деталей кузова;", correct: true },
             { text: "-  для сварки алюминиевых деталей кузова;", correct: false },
@@ -4247,7 +4247,7 @@ const quizData = [
     },
     {
         question: "q463 Для мойки автомобилей в зимнее время при отрицательных температурах разность температур воды и полированной поверхности кузова не должна превышать:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "20° С", correct: true },
             { text: "0° С", correct: false },
@@ -4256,7 +4256,7 @@ const quizData = [
     },
     {
         question: "q464 Под какой цифрой указан вид скола лобового стекла легкового автомобиля «бычий глаз»:",
-        imgLink: './q464.jpg',
+        imgLink: 'IMG/q464.jpg',
         answers: [
             { text: "1", correct: true },
             { text: "2", correct: false },
@@ -4266,7 +4266,7 @@ const quizData = [
     },
     {
         question: "q465 Как возможно определить трещину стекла автомобиля от напряжения (температурного перепада)?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "при проведении шариковой ручкой вдоль трещины последняя не должна проваливаться (погружаться) вглубь стекла", correct: true },
             { text: "при проведении шариковой ручкой вдоль трещины последняя должна проваливаться (погружаться) вглубь стекла", correct: false },
@@ -4275,7 +4275,7 @@ const quizData = [
     }, 
     {
         question: "q466 Газовая сварка при ремонте кузова автомобиля применяется при:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "выполнении прихваток, нанесения латунных припоев в местах кон-центрации напряжений;", correct: true },
             { text: "полном креплении кузовных деталей;", correct: false },
@@ -4284,7 +4284,7 @@ const quizData = [
     }, 
     {
         question: "q467 Для сварки каких металлов применяется аргонно-дуговая сварка при ремонте деталей кузова:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "алюминиевых сплавов и титана", correct: true },
             { text: "только алюминиевых сплавов;", correct: false },
@@ -4293,7 +4293,7 @@ const quizData = [
     }, 
     {
         question: "q468 Какие электроды применяются в случае применения аргонодуговой сварки:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "вольфрамовые", correct: true },
             { text: "угольные", correct: false },
@@ -4302,7 +4302,7 @@ const quizData = [
     }, 
     {
         question: "q469 Какой вид сварки может применяться при сварке высокопрочных сталей автомобильных панелей кузова:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "MIG-пайка или  сварко-пайка с температурой плавления от 800 до 1000° C;", correct: true },
             { text: "лазерная сварка", correct: false },
@@ -4312,7 +4312,7 @@ const quizData = [
     }, 
     {
         question: "q470 После ремонта кузова разность диагональных и продольных размеров должна быть не более % от большей из замеренных величин:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "0,4 %;", correct: true },
             { text: "0,2 %;", correct: false },
@@ -4321,7 +4321,7 @@ const quizData = [
     }, 
     {
         question: "q471 При проверке амортизаторов по сцеплению колес с дорогой коэффициент падения веса для обычной (не спортивной подвески) для разных автомо-билей составил разные значения. Какой из указанных ниже коэффициентов является допустимым?:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "50%", correct: true },
             { text: "30%", correct: false },
@@ -4330,7 +4330,7 @@ const quizData = [
     }, 
     {
         question: "q472 Легковой автомобиль считается исправным, если наименьшая величина высоты  рисунка протектора составляет:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "1,6 мм; ", correct: true },
             { text: "1,0 мм; ", correct: false },
@@ -4340,7 +4340,7 @@ const quizData = [
     }, 
     {
         question: "q473 Может ли пройти инструментальный контроль транспортное средство с повреждениями лобового стекла со стороны водителя:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "может, если повреждения находятся за пределами зоны, очищаемой стеклоочистителем;", correct: true },
             { text: "не может", correct: false },
@@ -4349,7 +4349,7 @@ const quizData = [
     }, 
     {
         question: "q474 Входит ли трудоемкости измерения геометрии проема кузова и снятия установки деталей препятсвующих измеренириям и ремонту в комплекс трудоемкостей по устранению перекоса проема? ",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Входит только трудоемкости измерения геометрии", correct: true },
             { text: "Не входит", correct: false },
@@ -4358,7 +4358,7 @@ const quizData = [
     }, 
     {
         question: "q475 Сателлит дифферениала - это шестерня, обозначенная на рисунке под номером...",
-        imgLink: './q475.jpg',
+        imgLink: 'IMG/q475.jpg',
         answers: [
             { text: "1", correct: false },
             { text: "2", correct: false },
@@ -4369,7 +4369,7 @@ const quizData = [
     },
     {
         question: "q476 Должна ли округлять рассчитанная итоговая стоимость ТС, определенная рыночным методом оценки?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Да, до 1 рубля, если владелец ТС юр. лицо, и до 50 рублей, если владелец ТС физ. лицо", correct: true },
             { text: "Нет", correct: true },
@@ -4380,7 +4380,7 @@ const quizData = [
     },
     {
         question: "q477 Для опрепеделения износа ЧАСТЕЙ ШАССИ полъемного крана Liebher, изображенного на фото, созданного на базе автомобильного ___ применяться следующий раздел таблицы Приложения 4 к Правилам",
-        imgLink: './q477.jpg',
+        imgLink: 'IMG/q477.jpg',
         answers: [
             { text: "Автомобили-самосвалы, специальные, полноприводные, многоосные грузовые автомобили, специальные, многоосные и самосвальные прицепы и полуприцепы полной массой 16 т и более марок стран дальнего зарубежья", correct: true },
             { text: "Грузовые автомобили, автомобили-тягачи, прицепы и полуприцепы полной массой 16 т и более марок стран дальнего зарубежья", correct: false },
@@ -4390,7 +4390,7 @@ const quizData = [
     },
     {
         question: "q478 Исходя из данных котрольного листа Audatex укажите примененный оценщиком коэффициент коррекции стоимости частей ",
-        imgLink: './q478.jpg',
+        imgLink: 'IMG/q478.jpg',
         answers: [
             { text: "1,02", correct: false },
             { text: "1,2", correct: true },
@@ -4400,7 +4400,7 @@ const quizData = [
     },
     {
         question: "q479 Исключает ли программа Автокальк автоматически повторяющиеся работы? ",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Исключает автоматически", correct: true },
             { text: "Исключает при необходимости", correct: false },
@@ -4409,7 +4409,7 @@ const quizData = [
     },
     {
         question: "q480 Если участники ДТП не предоставили ТС, учавствовавшие в ДТП, в какой срок страховщик обязан направить оценщика ТС для осмотра поврежденного имущества?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "В течение пяти рабочих дней, следующих за днем получения заявления о ДТП", correct: false },
             { text: "В течение четырех рабочих дней, следующих за днем получения заявления о ДТП", correct: true },
@@ -4419,7 +4419,7 @@ const quizData = [
     },
     {
         question: "q481 Код детали автомобиля производства стран бывшего СССР - <<84 02 ***>> относится к: ",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "капоту", correct: true },
             { text: "бамперу переднему", correct: false },
@@ -4429,7 +4429,7 @@ const quizData = [
     },
     {
         question: "q482 Электромагнитный толщиномер лакокрасочного покртыия замерил толщину ЛКП капота окрашенного однослойным акрилом - 0,9 мм. Укажите какое лакокрасочное покрытие нанесени на капот?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Ремонтное", correct: true },
             { text: "Заводское", correct: false },
@@ -4437,7 +4437,7 @@ const quizData = [
     },
     {
         question: "q483 Определение нормативов трудоемкостей работ для различных типов ТС производится ... ",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "исходя из рекомендаций нормативно-технической и тезнологической документации по техническому обслуживанию  иремонту изготовителя ТС. В случает отсуствия отдельных нормативов трудоемкостей работ, установленных изготовителем ТС, определение таких нормативов производится по данным программного обеспечения по ремонту ТС", correct: true },
             { text: "по данным программного обеспечения по ремотру ТС", correct: false },
@@ -4446,7 +4446,7 @@ const quizData = [
     },
     {
         question: "q484 ",
-        imgLink: './q484.jpg',
+        imgLink: 'IMG/q484.jpg',
         answers: [
             { text: "", correct: true },
             { text: "", correct: false },
@@ -4455,7 +4455,7 @@ const quizData = [
     },
     {
         question: "q485 ",
-        imgLink: './q485.jpg',
+        imgLink: 'IMG/q485.jpg',
         answers: [
             { text: "", correct: true },
             { text: "", correct: false },
@@ -4464,7 +4464,7 @@ const quizData = [
     },
     {
         question: "q486 Код работы <<.61>> нормативов трудоемкости ВАЗ относится к:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "ремонту №1", correct: true },
             { text: "снятию и установке", correct: false },
@@ -4474,7 +4474,7 @@ const quizData = [
     },
     // {
     //     question: "q487 ",
-    //     imgLink: './q.jpg',
+    //     imgLink: 'IMG/q.jpg',
     //     answers: [
     //         { text: "", correct: true },
     //         { text: "", correct: false },
@@ -4482,7 +4482,7 @@ const quizData = [
     // },
     {
         question: "q488 Определить износ АКБ (в процентах)",
-        imgLink: './q488.jpg',
+        imgLink: 'IMG/q488.jpg',
         answers: [
             { text: "6%", correct: false },
             { text: "75%", correct: true },
@@ -4492,7 +4492,7 @@ const quizData = [
     },
     {
         question: "q489 На рынке предствлены 3 шины 235/75 R15 Бел-24 произодства Белшина стоимостью:",
-        imgLink: './q489.jpg',
+        imgLink: 'IMG/q489.jpg',
         answers: [
             { text: "Среднеарифметическое значение стоимостей", correct: false },
             { text: "Максимальная", correct: false },
@@ -4502,7 +4502,7 @@ const quizData = [
     },
     {
         question: "q490 Используется ли при определении утилизационной стоимости ТС коэффициент Крын (рыночный коэффициент)",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Да, от 0,2 до 0,7", correct: false },
             { text: "Нет", correct: true },
@@ -4510,7 +4510,7 @@ const quizData = [
     },
     {
         question: "q491 Утрата товарной стоимости ТС...",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Для целей обязательного страхования гражданской ответственности владельцев ТС не определяется", correct: true },
             { text: "Определяется если срок эксплуатации ТС производства стран дальнего зарубежья на дату оценки не превышает семи лет. ТС производства стран бывшего СССР - пяти лет.", correct: false },
@@ -4519,7 +4519,7 @@ const quizData = [
     },
     {
         question: "q492  Многоточечная электронная система впрыска бензиновых двигателей имеет",
-        imgLink: './q492.jpg',
+        imgLink: 'IMG/q492.jpg',
         answers: [
             { text: "по форсунке на каждый цилиндр, которые расположены во впускном трубопроводе", correct: true },
             { text: "по форсунке непосредственно в каждом цилиндре", correct: false },
@@ -4528,7 +4528,7 @@ const quizData = [
     },
     {
         question: "q493 На автомобиль ВАЗ-2108, 1990 года выпуска, установлены через проставки 4 шины 225/35 R16 с легкосплавными дисками с автомобиля Opel Astra H, начало выпуска в 2004 году. Стоимость нового аналогичного диска — 150 евро. Стоимость комплекта дисков согласно таблице стоимости оборудования: 2004 года — 185 евро, 1990 года — 30 евро. Стоимость ВАЗ-2108 за счет стоимости установленных легкосплавных колесных дисков:",
-        imgLink: './q493.jpg',
+        imgLink: 'IMG/q493.jpg',
         answers: [
             { text: "Останется неизменной, так как данное оборудование не предназначено для данного ТС и установлено с наружениям конструкции транспортного средства, влияющим на безопасность движения", correct: true },
             { text: "Увеличится на 185 евро", correct: false },
@@ -4538,7 +4538,7 @@ const quizData = [
     },
     {
         question: "q494 q494 Содержатся ли в программе <<Автокальк>> модуль <<ремонтные работы по аналогу>> ?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Не содержится", correct: false },
             { text: " Содержится", correct: true },
@@ -4546,7 +4546,7 @@ const quizData = [
     },
     {
         question: " q495 Когда стоимость ремонтных материалов определяется с учетом их обновления?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Стоимость ремонтных материалов на величину обновления не уменьшается.", correct: false },
             { text: "Верны ответы А и Б.", correct: true },
@@ -4556,7 +4556,7 @@ const quizData = [
     },
     {
         question: "q496 Укажите вид износа не применяемы при затратном методе оценки ? Выберите наиболее полынй ответ:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Функциональный", correct: false },
             { text: "Физический", correct: false },
@@ -4567,7 +4567,7 @@ const quizData = [
     },
     {
         question: " q497 Коэффициенты коррекции стоимости частей ТС...",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "определяются путем предстваительной достоверной выборки цен на первичном рынке Ресбулики Беларусь наиболее повреждаемых в ДТП частей ТС и последующего сравнения их с ценами идентичных частей ТС, содержащихся в стандартных базах данных программного обеспечения по ремонту ТС", correct: true },
             { text: "учитывают необходимые затраты на импортирование частей ТС и торговую надбавгу, установленную законодательством Республики Беларусь/ Значения коэффициентов коррекции определяются для групп частей ТС по информационным справочникам и программным средствам, разрешенным уполномоченным органом для пользования в качестве официальных источников информации дл яопределения стоимости частей ТС.", correct: false },
@@ -4575,7 +4575,7 @@ const quizData = [
     },
     {
         question: "q498 Расчет стоимости годных остатков ТС проводится для целей обязательного страхования гражданской отвественности владельцев ТС в случае:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "такой расчет для целей обязательного страхования гражданской ответственности настоящего время не проводится", correct: true },
             { text: "вычета стоимости годных остатков из рыночной стоимости ТС при определении размера вреда", correct: false },
@@ -4585,7 +4585,7 @@ const quizData = [
     },
     {
         question: "q499 Имеет ли право организация автосервиса согласно справочнику нормативов трудоемкости ГАЗ применять надбавки к трудоемкости работ в размере до 10%?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Да, только для ТС старше 5 лет", correct: false },
             { text: "Да, в любом случае", correct: false },
@@ -4594,7 +4594,7 @@ const quizData = [
     },
     {
         question: " q500 Каким образомв программе <<Автокальк>> отслеживается целесообразность ремонта ТС?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Всплывает подсказка", correct: false },
             { text: "В случае, когда ремонт целесообразен программа не позволяет добавлять новые данные в расчет", correct: false },
@@ -4603,7 +4603,7 @@ const quizData = [
     },
     {
         question: "q501 Допускается ди применение в расчете стоимости ремонта ТС стоимости частей ТС, ремонтных и прочих материалов, находившихся в употреблении или бывших в эксплуатации?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Да, только в случае перерасчета по предоставленным документам, подтверждающих факт и оплату всег окомплекса восстановительного ремонта ТС", correct: true },
             { text: "Да", correct: false },
@@ -4612,7 +4612,7 @@ const quizData = [
     },
     {
         question: "q502 Износ частей прицепа к легковому автомобилю при известной дате выпуска определяется:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "в размере 6% за каждый год эксплуатации", correct: false },
             { text: "по шкале экспертных оценок", correct: false },
@@ -4621,7 +4621,7 @@ const quizData = [
     },
     {
         question: "q503 Определить размер вреда",
-        imgLink: './q503.jpg',
+        imgLink: 'IMG/q503.jpg',
         answers: [
             { text: "1 млн рублей", correct: true },
             { text: "3 млн рублей", correct: false },
@@ -4629,7 +4629,7 @@ const quizData = [
     },
     {
         question: "q504 Моторный тормоз — это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "тормоз-замедлитель компрессионного типа, предназначенный для притормаживания на затяжных спусках горных дорог созданием противодавления в выпускном трубопроводе путем перекрытия проходного сечения трубы дроссельной заслонкой;", correct: true },
             { text: "тормоз двигателем при отпущенной педали газа без отсоединения сцеплением трансмиссии от двигателя;", correct: false },
@@ -4638,7 +4638,7 @@ const quizData = [
     },
     {
         question: "q505 Исходя из данных контрольного листа Audatex, укажите какой тип подготовительно-заключительных работ выбран оценщиком для окраски поврежденных частей ТС",
-        imgLink: './q505.jpg',
+        imgLink: 'IMG/q505.jpg',
         answers: [
             { text: "Тс с прокраской", correct: true },
             { text: "Тс без прокраски", correct: false },
@@ -4647,7 +4647,7 @@ const quizData = [
     },
     {
         question: "q506 Если при осмотрет ТС оценщиком установлено, что на данном ТС ранее были повреждены и восстановлены несущие силовые элементы кузова, ...",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "то УТС принимается  размере трех процентов от стоимости аналогичного исправного ТС или стоимости базового аналога ТС без детального расчета", correct: true },
             { text: "то для случая гибели ТС учитывается моральный износ в размере до пяти процентов от стоимости базового аналога ТС, без детальног расчета", correct: false },
@@ -4656,7 +4656,7 @@ const quizData = [
     },
     {
         question: "q507 Определить коэффициент дотерминации выборки цен объектов-аналогов при использовании (э..) гарфического анализа стоимости",
-        imgLink: './q507.jpg',
+        imgLink: 'IMG/q507.jpg',
         answers: [
             { text: "0,85", correct: true },
             { text: "1,05", correct: false },
@@ -4667,7 +4667,7 @@ const quizData = [
     },
     {
         question: "q508 Имеет ли справочник нормативов трудоемкости ВАЗ позицию работы <<Дверь перердняя правая - замена>>",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Нет", correct: true },
             { text: "Да", correct: false },
@@ -4676,7 +4676,7 @@ const quizData = [
     },
     {
         question: "q509 При приближении значения коэффициента детерминации к 1 адекватность модели...",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [  
             { text: "Повышается", correct: true },
             { text: "понижается", correct: false },
@@ -4684,7 +4684,7 @@ const quizData = [
     },
     {
         question: "q510 Сработавшие активные подголовники с механическимприводом, как правило",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "взводятся посредством прижимания подвижной части подголовника к неподвижной до щелччка и могу использоваться многократно", correct: true },
             { text: "заменяются на новые", correct: false },
@@ -4692,7 +4692,7 @@ const quizData = [
     },
     {
         question: "q511 Исполнитель оценки должен иметь:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "площадку для осмотров ТС и место, оборудованное осмотровой ямой, эстакадой или подъемником", correct: true },
             { text: "площадкой для осмотров ТС и место, оборудованнное осмотрововй ямой, эстакадой или подъемником, а также договор с организацией автосервиса о возможности проведения разборки ТС", correct: false },
@@ -4701,7 +4701,7 @@ const quizData = [
     },
     {
         question: "q512 Для ТС, находящегося на гарантийном обслуживании, подтвержденном документально, замена частей назначается...",
-        imgLink: './q512.jpg',
+        imgLink: 'IMG/q512.jpg',
         answers: [
             { text: "в том числе на основании обоснованного заключения организации автосервиса категории А о необходимости замены частей ТС для восстановления ТС до (состояния), соответствующего требованиям изготовителя по возобновлению гарантийных обязательств.", correct: true },
             { text: "только при экономической нецелесообразности либо невозможности их ремонта (восстановления), рекомендуясь законодательством Республики Беларусь, ... нормативы технического состояния и безопасности эксплуатации ТС. Заключения организации автосервиса категории А о необходимости замены частей ТС для восстановления ТС до состояния, соответствующего требованиям изготовителя по возобновлению гарантийных обязательств принимаются оценщиком только по согласовванию со страховщиком", correct: false },
@@ -4709,7 +4709,7 @@ const quizData = [
     },
     {
         question: "q513 Найди сумму значений в Microsoft Excel",
-        imgLink: './q513.jpg',
+        imgLink: 'IMG/q513.jpg',
         answers: [
             { text: "8,03", correct: true },
             { text: "9,28", correct: false },
@@ -4719,7 +4719,7 @@ const quizData = [
     },
     {
         question: "q514 Определить наружный диаметр новой шины 180/65R14 в миллиметрах",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "589,6", correct: true },
             { text: "578,5", correct: false },
@@ -4730,7 +4730,7 @@ const quizData = [
     },
     {
         question: "q515 Определить стоимость поврежденного ветрового стекла учетом обновления без НДС",
-        imgLink: './q515.jpg',
+        imgLink: 'IMG/q515.jpg',
         answers: [
             { text: "1", correct: true },
             { text: "277000", correct: false },
@@ -4740,7 +4740,7 @@ const quizData = [
     },
     {
         question: "q516  На безопасных спущенных шинах можно проехать 150км. На каких автомобилях применяются эти шины:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "массово не применяются", correct: true },
             { text: "на любых автомобилях", correct: false },
@@ -4749,7 +4749,7 @@ const quizData = [
     },
     {
         question: "q517 Рис. показан Джип снизу. Вопрос: Какая подвеска применяется на Джипе:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Зависимая", correct: true },
             { text: "Независимая", correct: false },
@@ -4758,7 +4758,7 @@ const quizData = [
     },
     {
         question: "q518 К чему крепится амортизатор? (на рисунке нижнее крепление амортизатора с двумя отверстиями)",
-        imgLink: './q518.jpg',
+        imgLink: 'IMG/q518.jpg',
         answers: [
             { text: "Кулак", correct: true },
             { text: "Рычаг", correct: false },
@@ -4767,7 +4767,7 @@ const quizData = [
     },
     {
         question: "q519 В какой момент начинает работать сажевый фильтр:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Работает всегда", correct: true },
             { text: "при скорости 60 км/ч", correct: false },
@@ -4776,7 +4776,7 @@ const quizData = [
     },
     {
         question: "q520 Что такое рабочая фара?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "фара, закрепленная на кроштейне", correct: true },
             { text: "фара головного света", correct: false },
@@ -4784,7 +4784,7 @@ const quizData = [
     },
     {
         question: "q521 Что такое фара дневного света?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Фара, которая включается при включении головоного света", correct: true },
             { text: "фара головного света", correct: false }, 
@@ -4792,7 +4792,7 @@ const quizData = [
     },
     {
         question: "q522 Освновной причиной износа обоих боковых частей протектора шины переднего колеса является:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "низкое давление в шине", correct: true },
             { text: "высокое давление в шине", correct: false },
@@ -4802,7 +4802,7 @@ const quizData = [
     },
     {
         question: "q523 Какие технологии окраски используются в программных продуктах <<Аудатекс>>",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Производитель и AZT", correct: true },
             { text: "Сиккенс", correct: false },
@@ -4811,7 +4811,7 @@ const quizData = [
     },
     {
         question: "q524 Износ части ТС определяется...",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "по формуле экспоненциальной зависимости в процентах округленных до одной сотой доли процента", correct: false },
             { text: "процентах округленных до целого значения, а при определениии износа методом экспертизы состояния (экспертных оценок) — до пяти процентов", correct: true },
@@ -4819,7 +4819,7 @@ const quizData = [
     },
     {
         question: "q525 Выборку можно признать надежной, если коэффициент вариации...",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "не превышает 0,3 (30%)", correct: true },
             { text: "превышает 0,3 (30%)", correct: false },
@@ -4827,7 +4827,7 @@ const quizData = [
     },
     {
         question: "q526 Правомерно ли такое решение оценщика?",
-        imgLink: './q526.jpg',
+        imgLink: 'IMG/q526.jpg',
         answers: [
             { text: "да", correct: false },
             { text: "нет", correct: true },
@@ -4835,7 +4835,7 @@ const quizData = [
     },
     {
         question: "q527 На осмотр представлен Hyundai Accent 1.3, 1996 года выпуска, имеющий дефекты экспоуатации. Показания одометра — 220 000 км. Среднестатистический пробег — 233 100 км. Может ли специалист в качестве расчетного принять среднестатистический пробег?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Да, если показания одометра с учетом качественной оценки не соответствуют внешнему виду или техническому состоянию ТС", correct: false },
             { text: "Да в любом случае", correct: false },
@@ -4844,7 +4844,7 @@ const quizData = [
     },
     {
         question: "q528 По каким производителям  программных продуктах <<Аудатекс один нормативный час равен 10 рабочим единицам>>?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Все за исключением БМВ, Мерседес", correct: true },
             { text: "Ауди, Фольксваген, Сузуки", correct: false },
@@ -4853,7 +4853,7 @@ const quizData = [
     },
     {
         question: "q529 ",
-        imgLink: './q529.jpg',
+        imgLink: 'IMG/q529.jpg',
         answers: [
             { text: "Нет, такая дверь подлежит замене", correct: true },
             { text: "ДА, в зависимости от степени повреждения каркаса", correct: false },
@@ -4861,7 +4861,7 @@ const quizData = [
     },
     {
         question: "q530 Код детали автомобиля производства стран бывшего СССР - <<37 01 ***>> относится к: ",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "капоту", correct: false },
             { text: "крылу заднему", correct: false },
@@ -4871,7 +4871,7 @@ const quizData = [
     },
     {
         question: "q531 Бесцветная (прозрачная) база накладывается при:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Необходимости окраски переходом для равномерного распределения металлического наполнителя эмали", correct: true },
             { text: "При трехцветной перламутрововй окраске", correct: false },
@@ -4880,7 +4880,7 @@ const quizData = [
     },                              
     {
         question: "q532 При гибели причинителя вреда в ДТП, кто является заинтересованным лицом, подлежащим вызову на осмотр?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Родственники погибшего, являющиеся потенциальными наследниками", correct: true },
             { text: "При гибели причинителя вреда, осмотр проводится в отсуствие заинтересованных лиц", correct: false },
@@ -4889,7 +4889,7 @@ const quizData = [
     },
     {
         question: "q533 Код детали автомобиля производства стран бывшего СССР - <<61 00 ***>> относится к: ",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "дверь передняя", correct: true },
             { text: "крылу заднему", correct: false },
@@ -4899,7 +4899,7 @@ const quizData = [
     },
     {
         question: "q534 Потерпевший, владелец такси 2006 года выпуска, предъявил страховщику расчет упущенной выгоды за время простоя такси в ремонте после ДТП и расчет утраты товарной стоимости ТС. Возместит ли страховщик данные убытки?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Нет, так как упущенная выгода и утрата товарной стоимости ТС по обязательному страхованию не возмещаются", correct: true },
             { text: "Упущенная выгода должна быть возмещена, а утрата товарной стоимости ТС не возмещается, так как срок эксплуатации ТС превышает 5 лет", correct: false },
@@ -4908,7 +4908,7 @@ const quizData = [
     },
     {
         question: "q535 Код детали автомобиля производства стран бывшего СССР - <<50 00 ***>> относится к: ",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "кузову", correct: true },
             { text: "двигателю", correct: false },
@@ -4918,7 +4918,7 @@ const quizData = [
     },
     {
         question: "q536 Относится ли новое ТС, находящееся у дилера для последующей продажи, к гарантийному ТС?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "да", correct: true },
             { text: "нет", correct: false },
@@ -4926,7 +4926,7 @@ const quizData = [
     },
     {
         question: "q537 Укажите основные геометрические идентификационнные параметры ТС, приведенные на рисунке, необходимые для их фиксации в акте осмотра ТС",
-        imgLink: './q537.jpg',
+        imgLink: 'IMG/q537.jpg',
         answers: [
             { text: "3745 мм", correct: true },
             { text: "2513 мм, 2172 мм", correct: false },
@@ -4936,7 +4936,7 @@ const quizData = [
     },
     {
         question: "q538 В соответствии с Правилами № 43 ЕЭК ООН, является ли обязательным указание в маркировке стекла даты его иготовления?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Нет", correct: true },
             { text: "Да", correct: false },
@@ -4945,7 +4945,7 @@ const quizData = [
     },
     {
         question: "q539 Противобуксовочная система ТС это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "система активной безопасности, предотвращающая буксование ведущих колес автомобиля, повышающая сцепные свойства, устойчивость автомобиля в режиме разгона и движения.", correct: true },
             { text: "система активной безопасности, предотвращающая блокирование тормозящих колес, обеспечивающая сокращение тормозного пути и предотвращающая занос автомобиля при торможении.", correct: false },
@@ -4954,7 +4954,7 @@ const quizData = [
     },
     {
         question: "q540 Каким образом ПРИ ОСМОТРЕ ТС оценщиком определяются идентификационные характеристики ТС (тип, марка, модель, модификация, сведения о производителе, год и месяц выпуска, идентификационный номер кузова, тип кузова, количество мест, дверей, тип, рабочий объем, число цилиндров и мощность двигателя, тип коробки передач, цвет и тип окраски, сведения о комплектации)?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Верны оба ответа.", correct: true },
             { text: "Органолептическим методом.", correct: false },
@@ -4963,7 +4963,7 @@ const quizData = [
     },
     {
         question: "q541 Дата выпуска шины, указанная на боковине содержит:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "три или четыре цифры, из которых две первые указывают НЕДЕЛЮ выпуска, а следующие — последнюю или две последние (после 2001 года) цифры ГОДА изготовления", correct: true },
             { text: "три или четыре цифры, из которых две первые указывают МЕСЯЦ выпуска, а следующие — последнюю или две последние (после 2001 года) цифры ГОДА изготовления", correct: false },
@@ -4972,7 +4972,7 @@ const quizData = [
     },
     {
         question: "q542 На шине с маркировкой 185/75 R16C 102 S - индекс грузоподъемности шины это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "условное цифровое обозначение максимальной нагрузки, на которую рассчитана шина;", correct: true },
             { text: "условное буквенное обозначение заглавными латинскими буквами максимальной нагрузки, на которую рассчитана шина (за исключением букв I, O, X);", correct: false },
@@ -4981,7 +4981,7 @@ const quizData = [
     },
     {
         question: "q543 На шине с маркировкой 175/75 R14C 109 T - индекс (категория) скорости это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "условное обозначение заглавными латинскими буквами максимальной скорости, на которую рассчитана шина (за исключением букв I, O, X);", correct: true },
             { text: "условное цифровое обозначение максимальной скорости, на которую рассчитана шина;", correct: false },
@@ -4990,7 +4990,7 @@ const quizData = [
     },
     {
         question: "q544 Обозначение «TUBELESS» на шине означает, что",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "шина бескамерная", correct: true },
             { text: "шина с камерой", correct: false },
@@ -5000,7 +5000,7 @@ const quizData = [
     },
     {
         question: "q545 Автомобиль МАЗ-5336 - это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "бортовая платформа;", correct: true },
             { text: "самосвал;", correct: false },
@@ -5011,7 +5011,7 @@ const quizData = [
     },
     {
         question: "q546 Делитель - это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "дополнительная коробка передач с прямой и пониженной передачей;", correct: true },
             { text: "муфта дифференциала, делящая крутящий момент между осями, пропорционально нагрузке;", correct: false },
@@ -5020,7 +5020,7 @@ const quizData = [
     },
     {
         question: "q547 МАЗ-937800-020 - это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "бортовой полуприцеп", correct: true },
             { text: "самосвальный полуприцеп", correct: false },
@@ -5031,7 +5031,7 @@ const quizData = [
     },
     {
         question: "q548 Дифференциал позволяет:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "вращаться ведущим колесам без проскальзывания с неодинаковыми скоростями при поворотах и закруглениях дороги;", correct: true },
             { text: "вращаться ведомым колесам с неодинаковыми скоростями при поворотах и закруглениях дороги;", correct: false },
@@ -5040,7 +5040,7 @@ const quizData = [
     },
     {
         question: "q549 Нагруженная полуось:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "кроме передачи крутящего момента воспринимает вес автомобиля через присоединенное к ней колесо;", correct: true },
             { text: "передает повышенный крутящий момент на колесный редуктор;", correct: false },
@@ -5049,7 +5049,7 @@ const quizData = [
     },
     {
         question: "q550 Катколлектор - это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "выпускной коллектор совмещенный с катализатором;", correct: true },
             { text: "нет такого термина;", correct: false },
@@ -5060,7 +5060,7 @@ const quizData = [
     },
     {
         question: "q551 Сателлит дифференциала - это",
-        imgLink: './q551.jpg',
+        imgLink: 'IMG/q551.jpg',
         answers: [
             { text: "шестерня, обозначенная на рисунке под номером 4;", correct: true },
             { text: "шестерня, обозначенная на рисунке под номером 1;", correct: false },
@@ -5072,7 +5072,7 @@ const quizData = [
     },
     {
         question: "q552 Рекуперативное торможение - это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "плавное торможение, реализуемое, как правило, созданием тормозного момента при работе приводного электродвигателя в режиме генератора;", correct: true },
             { text: "плавное торможение двигателем внутреннего сгорания при прекращении подачи топлива и перекрытии выпуска отработавших газов;", correct: false },
@@ -5082,7 +5082,7 @@ const quizData = [
     },
     {
         question: "q553 Интрадер (ретардер) - это",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "тормоз-замедлитель, предназначенный для снижения скорости без задействования основной тормозной системы;", correct: true },
             { text: "теплообменник для охлаждения масла коробки передач;", correct: false },
@@ -5091,7 +5091,7 @@ const quizData = [
     },
     {
         question: "q554 Специализированное ТС — это...",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "ТС, предназначенное для перевозки определенных видов грузов и оборудованное для этого специальным кузовом и (или) оснасткой;", correct: true },
             { text: "ТС, предназначенное для выполнения специальных функций (в том числе и в стационарных условиях) и укомплектованное специальным оборудованием для выполнения таких функций;", correct: false },
@@ -5099,7 +5099,7 @@ const quizData = [
     },
     {
         question: "q555 Грузовой автомобиль Iveco Eurocargo ML140 E27 – это…",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "автомобиль полной массой 14 тонн с двигателем мощностью 270 л.с.;", correct: true },
             { text: "автомобиль с двигателем мощностью 140 л.с. полной массой 2,7 тонны;", correct: false },
@@ -5109,7 +5109,7 @@ const quizData = [
     },
     {
         question: "q556 На рисунке представлен Mercedes Actros 4448, имеющий равномерную развесовку по осям для снижения нагрузки на дорожное полотно. Определить нагрузку на ось.",
-        imgLink: './q556.jpg',
+        imgLink: 'IMG/q556.jpg',
         answers: [
             { text: "11", correct: true },
             { text: "4", correct: false },
@@ -5118,7 +5118,7 @@ const quizData = [
     },
     {
         question: "q557 Выберите правильное выражение",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "износ частей в процентах составляет...", correct: true },
             { text: "процент износа частей составляет...", correct: false },
@@ -5127,7 +5127,7 @@ const quizData = [
     },
     {
         question: "q558 Выберите правильное выражение",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "диск сцепления ведущий", correct: true },
             { text: "корзина сцепления", correct: true },
@@ -5137,7 +5137,7 @@ const quizData = [
     },
     {
         question: "q559 Укажите к какому типу относится конструкция кузова, приведенная на рисунке",
-        imgLink: './q559.jpg',
+        imgLink: 'IMG/q559.jpg',
         answers: [
             { text: "несущий кузов", correct: true },
             { text: "рамный кузов", correct: false },
@@ -5148,7 +5148,7 @@ const quizData = [
     },
     {
         question: "q560 Выберите правильное выражение",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "стекло ветрового окна", correct: true },
             { text: "стекло лобовое", correct: false },
@@ -5159,7 +5159,7 @@ const quizData = [
     },
     {
         question: "q561 Выберите правильное выражение",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "стекло заднее", correct: true },
             { text: "стекло ветровое заднее", correct: false },
@@ -5169,7 +5169,7 @@ const quizData = [
     },
     {
         question: "q562 Выберите правильное выражение",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "оба термина правильны;", correct: true },
             { text: "система смазки с сухим картером;", correct: false },
@@ -5179,7 +5179,7 @@ const quizData = [
     },
     {
         question: "q563 Деталь системы кондиционирования, охлаждающая воздух в салоне ТС и попутно конденсирующая на себе влагу (снижающая влажность в салоне) называется:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "испаритель;", correct: true },
             { text: "конденсатор (конденсор);", correct: false },
@@ -5189,7 +5189,7 @@ const quizData = [
     },
     {
         question: "q564 Деталь системы кондиционирования, охлаждающая хладагент после его сжатия компрессором называется:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "испаритель;", correct: false },
             { text: "конденсатор (конденсор);", correct: true },
@@ -5199,7 +5199,7 @@ const quizData = [
     },
     {
         question: "q565 Передний свес автомобиля это:",
-        imgLink: './q565.jpg',
+        imgLink: 'IMG/q565.jpg',
         answers: [
             { text: "размер 875 мм на рисунке;", correct: true },
             { text: "расстояние между поверхностью дороги и самой нижней точкой автомобиля;", correct: false },
@@ -5209,7 +5209,7 @@ const quizData = [
     },
     {
         question: "q566 Переплюсовка колес - это:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "такого термина не существует", correct: true },
             { text: "перестановка колес с задей оси на пеерелнбб", correct: false },
@@ -5218,7 +5218,7 @@ const quizData = [
     },
     {
         question: "q567 Термин Турбокомпрессор относится к схемам на рисунках:",
-        imgLink: './q567.jpg',
+        imgLink: 'IMG/q567.jpg',
         answers: [
             { text: "б и в", correct: true },
             { text: "а и в", correct: false },
@@ -5227,7 +5227,7 @@ const quizData = [
     },
     {
         question: "q568 Термин Механический нагнетатель относится к схемам на рисунках:",
-        imgLink: './q568.jpg',
+        imgLink: 'IMG/q568.jpg',
         answers: [
             { text: "а, в", correct: true },
             { text: "б, в", correct: false },
@@ -5236,7 +5236,7 @@ const quizData = [
     },
     {
         question: "q569 Аббревиатура RWD обозначает:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "привод на задние колеса", correct: true },
             { text: "привод на передние колеса", correct: false },
@@ -5246,7 +5246,7 @@ const quizData = [
     },
     {
         question: "q570 Аббревиатура FWD обозначает",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "привод на задние колеса", correct: false },
             { text: "привод на передние колеса", correct: true },
@@ -5256,7 +5256,7 @@ const quizData = [
     },
     {
         question: "q571 Автонасос является:",
-        imgLink: './q571.jpg',
+        imgLink: 'IMG/q571.jpg',
         answers: [
             { text: "специальным ТС", correct: true },
             { text: "специализированным ТС, так как не может выполнять свои функции в движении", correct: false },
@@ -5265,7 +5265,7 @@ const quizData = [
     },
     {
         question: "q572 Уровень масла двигателя легкового ТС может контролироваться",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "щупом и датчиком контроля уровня масла", correct: true },
             { text: "не проверяется с связи с отсутствием угара между заменами масла;", correct: false },
@@ -5275,7 +5275,7 @@ const quizData = [
     },
     {
         question: "q573 Давление впрыска дизельного топлива в системах Commmon Rail достигается посредством",
-        imgLink: './q573.jpg',
+        imgLink: 'IMG/q573.jpg',
         answers: [
             { text: "подачи топлива насосом высокого давления в общий коллектор (гидроаккумулятор).", correct: true },
             { text: "подачи топлива насосом подкачки из бака в общий коллектор (гидроаккумулятор).", correct: false },
@@ -5284,7 +5284,7 @@ const quizData = [
     },
     {
         question: "q574 В каком режиме работает АБС при блокировке колес в результате торможения?",
-        imgLink: './q574.jpg',
+        imgLink: 'IMG/q574.jpg',
         answers: [
             { text: "давление в тормозной системе меняется циклицески", correct: true },
             { text: "давление в тормозной системе меняется в зависимости от скорости движения", correct: false },
@@ -5293,7 +5293,7 @@ const quizData = [
     },
     {
         question: "q575 Недостатком гидравлического амортизатора по сравнению с газонаполненным является:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "вспенивание рабочей жидкости при частом срабатывании", correct: true },
             { text: "меньше усилие на отбой", correct: false },
@@ -5303,7 +5303,7 @@ const quizData = [
     },
     {
         question: "q576 На рисунке представлены сборочные детали относящиеся к",
-        imgLink: './q576.jpg',
+        imgLink: 'IMG/q576.jpg',
         answers: [
             { text: "главной передаче заднеприводного ТС.", correct: false },
             { text: "главной передаче переднеприводного ТС.", correct: true },
@@ -5313,7 +5313,7 @@ const quizData = [
     },
     {
         question: "q577 Исходя из данных котрольного листа Audatex укажите примененный оценщиком коэффициент коррекции стоимости частей",
-        imgLink: './q577.jpg',
+        imgLink: 'IMG/q577.jpg',
         answers: [
             { text: "0.92", correct: true },
             { text: "1.08", correct: false },
@@ -5323,7 +5323,7 @@ const quizData = [
     },
     {
         question: "q578 Исходя из данных контрольного листа Audatex, укажите какой тип подготовительно-заключительных работ выбран оценщиком для окраски поврежденных частей ТС",
-        imgLink: './q578.jpg',
+        imgLink: 'IMG/q578.jpg',
         answers: [
             { text: "Тс с прокраской", correct: false },
             { text: "Тс без прокраски", correct: false },
@@ -5332,7 +5332,7 @@ const quizData = [
     },
     {
         question: "q579  В Дтп повреждено заднее ПРАВОЕ крыло (ремонт+окраска) на ТС 2007 года выпуска. Является ли вмятина 60x80 мм без нарушения ЛКП на заднем ЛЕВОМ крыле (смю рисунок) дефектом эксплуатации?",
-        imgLink: './q579.jpg',
+        imgLink: 'IMG/q579.jpg',
         answers: [
             { text: "Да. но влияет только на стоимость ТС.", correct: true },
             { text: "Да, влияет на стоимость ТС и размер вреда.", correct: false },
@@ -5341,7 +5341,7 @@ const quizData = [
     },
     {
         question: "q580 В ДТП потерпевшим признан резидент Польши. Причинитель вреда - резидент Украины, ответственность которого застрахована в украинской страховой компании по договору «Зеленая карта». Имеет ли потерпевший право требовать у Белорусского бюро возмещение вреда согласно польскому законодательству?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Нет, так как вред возмещается согласно законодательству той страны, на территории которой произошел страховой случай ", correct: true },
             { text: "Нет, так как Белорусское бюро при ДТП с участием двух нерезидентов вред не возмещает.", correct: false },
@@ -5351,7 +5351,7 @@ const quizData = [
     },
     {
         question: "q581 Возможно ли возмещение страховщиком затрат лицам, принимавшим участие в ликвидации последствий ДТП?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Да, при этом степень участия и размер возмещения определяются соглашением указанных лиц и страховщика, а при отсутствии согласия сторон - судом.", correct: true },
             { text: "Да, при этом размер возмещения не ограничивается лимитом ответственности страховщика.", correct: false },
@@ -5360,7 +5360,7 @@ const quizData = [
     },
     {
         question: "q582 Шина считается непригодной к эксплуатации, если:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "появился один индикатор износа, расположенный по дну канавки протектора, при равномерном износе", correct: true },
             { text: "появился индикатор износа, расположенный по дну канавки протектора, при неравномерном износе", correct: false },
@@ -5368,7 +5368,7 @@ const quizData = [
     },
     {
         question: "q583 В ДТП повреждено заднее правое крыло(ремонт+окраска) на ТС 2007 года выпуска. Являются ли две царапины до пластика длиной 130мм на заднем бампере (см. рисунок) дефектом эксплуатации?",
-        imgLink: './q583.jpg',
+        imgLink: 'IMG/q583.jpg',
         answers: [
             { text: "Да", correct: false },
             { text: "Нет", correct: false },
@@ -5377,7 +5377,7 @@ const quizData = [
     },
     {
         question: "q584 Если ТС причинителя вреда принадлежит юридическому лицу и на момент ДТП не застраховано, то приоритет в вызове на осмотр отдается:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "представителю юридического лица, как владельца средства повышенной опасности;", correct: true },
             { text: "контролеру КПП, как лицу, ответственному за выпуск ТС на линию;", correct: false },
@@ -5386,7 +5386,7 @@ const quizData = [
     },
     {
         question: "q585 Среднестатистический пробег грузовых автомобилей и автобусов полной массой до 7,5 т включительно (кроме автобусов, используемых в регулярном сообщении, на которые выданы регистрационные знаки типа 13 (такси) в соответствии с СТБ 914-99 «Знаки регистрационные и знак отличительный ТС. Типы и основные размеры, технические требования, методы испытания») определяется по...",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "соответствующей категории пробега согласно таблице нормативных пробегов автомобилей, эксплуатируемых в Республике Беларусь, размещенной в отечественных информационных справочниках.", correct: true },
             { text: "таблицам среднестатистических пробегов, согласно приложению 3 к Правилам;", correct: false },
@@ -5394,7 +5394,7 @@ const quizData = [
     },
     {
         question: "q586 Собственник транспортного средства, проживающий и зарегистрированный в г. Москва приобретает в г. Москва транспортное средство, оформляет договор страхования Зеленая карта в Российской Федерации и попадает в ДТП на территории г. Орша Республика Беларусь. Какой нормо-час применит специалист по оценке при расчете размера вреда для целей обязательного страхования?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "нормо-час для г. Орши", correct: true },
             { text: "нормо-час для г. Минска", correct: false },
@@ -5403,7 +5403,7 @@ const quizData = [
     },
     {
         question: "q587 Пробег по показаниям исправного одометра составляет 240 000 км. Среднестатистический пробег по справочникам составляет 320 000 км. Транспортное средство 1995 года выпуска, имеет удовлетворительный внешний вид, прошло государственный технический осмотр в 2014 г и не имеет дефектов эксплуатации. Какой пробег использует специалист при расчете процента износа?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "240 000 км.", correct: true },
             { text: "320 000 км.", correct: false },
@@ -5411,7 +5411,7 @@ const quizData = [
     },
     {
         question: "q588 Электронная блокировка дифференциала в электронной системе стабилизации управления автомобилем (рис.) применяется для:",
-        imgLink: './q588.jpg',
+        imgLink: 'IMG/q588.jpg',
         answers: [
             { text: "устранения различия частоты вращения ведущих колес путем подтормаживания буксующего колеса и повышением тягового усилия посредством действия дифференциала на другое колесо;", correct: true },
             { text: "увеличение мощности двигателя;", correct: false },
@@ -5420,7 +5420,7 @@ const quizData = [
     },
     {
         question: "q589 Кто из оценщиков не в праве учавствовать в составе комиссии?:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Все перечисленные", correct: true },
             { text: "оценщик с непрерывным стажем работы оценщиком менее пяти лет, предшествующих дате проведения повторного осмотра", correct: false },
@@ -5430,7 +5430,7 @@ const quizData = [
     },
     {
         question: "q590 Какое количество слоев окраски можно рассчитать в Автокальке:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Один, два слоя", correct: false },
             { text: "Один, два, три, четыре слоя", correct: true },
@@ -5440,7 +5440,7 @@ const quizData = [
     },
     {
         question: "q590 Какое количество слоев окраски можно рассчитать в Автокальке:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Один, два слоя", correct: false },
             { text: "Один, два, три, четыре слоя", correct: true },
@@ -5450,7 +5450,7 @@ const quizData = [
     },
     {
         question: "q591 Какое количество слоев окраски можно рассчитать в Автокальке:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Один, два слоя", correct: false },
             { text: "Один, два, три, четыре слоя", correct: true },
@@ -5460,7 +5460,7 @@ const quizData = [
     },
     {
         question: "q592 В какой программе считать МАЗ 5336",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "SilverDAT", correct: false },
             { text: "SilverDAT по аналогу", correct: false },
@@ -5471,7 +5471,7 @@ const quizData = [
     },
     {
         question: "q593 Нагруженная полуось:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "такого понятия не существует", correct: false },
             { text: "кроме передачи крутящего момента воспринимает вес автомобиля через присоединенное к ней колесо", correct: true },
@@ -5480,7 +5480,7 @@ const quizData = [
     },
     {
         question: "q593 Пластическая деформация:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "необратимая деформация, при которой после воздействия сил происходит необратимое смещение", correct: true },
             { text: "Деформация пластика, резины", correct: false },
@@ -5490,7 +5490,7 @@ const quizData = [
     },
     // { 
     //     question: "q594 Пятно света фар на рисунке характерно для:",
-    //     imgLink: './q594.jpg',
+    //     imgLink: 'IMG/q594.jpg',
     //     answers: [
     //         { text: "ближний свет европейских фар", correct: true },
     //         { text: "ближний свет американских фар", correct: false },
@@ -5500,7 +5500,7 @@ const quizData = [
     // },
     {
         question: "q595 Что означает позиция Е в программе Audatex?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Замена", correct: true },
             { text: "Окраска", correct: false },
@@ -5509,7 +5509,7 @@ const quizData = [
     },
     {
         question: "q596 Можем ли применить надбавку на ВАЗ в размере 20%?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Да, только для ТС старше 8 лет", correct: true },
             { text: "Да, только для ТС старше 5 лет", correct: false },
@@ -5519,7 +5519,7 @@ const quizData = [
     },
     {
         question: "q597 Вопрос про повреждение велосипеда: откуда берем нормативы и цены для рассчета?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Исопльзуем нормативы и цены организаций по ремонту велосипедов", correct: true },
             { text: "Исопльзуем нормативы и цены  организаций программного обеспечения", correct: false },
@@ -5529,7 +5529,7 @@ const quizData = [
     },
     {
         question: "q598 Дана картинка (плюс-минус такая же). Определить зачем нужно второе отверстие, обратите внимание на наклейку на лючке бензобака(будет написано 95 октан)",
-        imgLink: './q598.jpg',
+        imgLink: 'IMG/q598.jpg',
         answers: [
             { text: "Для заправки автомобиля газом", correct: true },
             { text: "Для зарядки гибридного авто", correct: false },
@@ -5539,7 +5539,7 @@ const quizData = [
     },
     {
         question: "q599 Дана картинка VW Passat B6. Определить какой тип ДВС установлен",
-        imgLink: './q599.jpg',
+        imgLink: 'IMG/q599.jpg',
         answers: [
             { text: "ДВС с метаном", correct: true },
             { text: "ДВС с пропан-бутаном", correct: false },
@@ -5548,7 +5548,7 @@ const quizData = [
     },
     {
         question: "q600 Стоимость частей разового использования и ремонтных материалов при незначительном их расходе (мелкие крепежные части, изоляционная лента и трубки, электрические клеммы, припои и пр.) включается в перечень материалов в размере двух процентов от стоимости (30 од п. 182.2)",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "двух процентов от стоимости ремонтных работ ТС за исключением работ по окраске, антикоррозионной и противошумной защите частей ТС", correct: true },
             { text: "двух процентов от стоимости запчастей", correct: false },
@@ -5558,7 +5558,7 @@ const quizData = [
     },
     {
         question: "q601 На перерасчет оценщику представлены повреждений заднего крыла и заднего бампера. Цена материалов на окраску 2 деталей: 987,25. Кол-во материалов в заказ наряде: Эмали - 1л, раствоарителя - 1л, обезжиривателя - 1л, лака - 2л, грунта - 1л.",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Пересчитать по расходу в заказ наряде, но цены взять из нормативного справочника", correct: true },
             { text: "сообщить страховщику в отказе, в связи с очевидным завышением расхода материала", correct: false },
@@ -5568,7 +5568,7 @@ const quizData = [
     },
     {
         question: "q602 Как воздействует система на пробуксовку ведущих колес",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "оба варианта", correct: true },
             { text: "нет верных", correct: false },
@@ -5578,7 +5578,7 @@ const quizData = [
     },
     {
         question: "q603  В случае отсуствия инфы о стоимости монтажа, при поэлементном расчете определении износа, стоимость монтажа определяется в размере: (30 од п. 182.5)",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "до 10 процентов от стоимости восстановления ТС или стоимости замещения объекта-аналога", correct: true },
             { text: "до 10 процентов от стоимости базового ТС без детального расчета", correct: false },
@@ -5588,7 +5588,7 @@ const quizData = [
     },
     {
         question: "q604 На автомобиле согласно акту осмотра подлежат замене детали рулевого управления тормозной системы, системы активной безопасности. Как должен поступить оценщик в данной ситуации:",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "При предоставлении факта ремонта оценщик обязан применить на указанные выше детали нулевое значение износа;", correct: true }, 
             { text: "При расчете размера вреда применить на указанные выше детали нулевое значение износа;", correct: false },
@@ -5597,7 +5597,7 @@ const quizData = [
     },
     {
         question: "q605 На заднем бампере имеются царапины окрашенной части слева размером 20 мм и в правой боковой части царапины до пластика размером 30мм. Оценщик при расчете размера вреда посчитал что повреждения с правой стороны несопоставимо больше чем основные повреждения, применив при этом пункт 49 правил, и выпрата составила 0. Владелец ТС предоставил заказ-наряд на окраску бампера. Как производить перерасчет в данном случае?",
-        imgLink: './q.jpg',
+        imgLink: 'IMG/q.jpg',
         answers: [
             { text: "Перерасчитать без учета дефектов эксплуатации, с учетом анализа информации о том, что: были ли указанные дефекты заявлены, либо будут заявлены, или могут быть заявлены владльцем ТС", correct: true }, 
             { text: "Перерасчитать с учетом дефектов эксплуатации и выплата по-прежнему составит 0", correct: false },
@@ -5606,7 +5606,7 @@ const quizData = [
     },
     {
         question: "q606 Что это?",
-        imgLink: './q606.jpg',
+        imgLink: 'IMG/q606.jpg',
         answers: [
             { text: "модуль зажигания", correct: true }, 
             { text: "крышка зажигания", correct: false },

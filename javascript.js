@@ -54,9 +54,12 @@ function shuffleArray(array) {
 // Function to populate the HTML with question and answer options
 function showQuestion() {
     const currentQuestion = shuffledQuestions[currentQuestionIndex];
+    const hasNumericAnswer = Number.isFinite(currentQuestion.numericAnswer);
 
     // Shuffle answers
-    shuffleArray(currentQuestion.answers);
+    if (!hasNumericAnswer) {
+        shuffleArray(currentQuestion.answers);
+    }
 
     // Create question container
     const container = document.createElement("div");
@@ -78,24 +81,49 @@ function showQuestion() {
     const answersWrapper = document.createElement("div");
     const answersList = document.createElement("ul");
 
-    currentQuestion.answers.forEach(answer => {
-        const listItem = document.createElement("li");
+    if (hasNumericAnswer) {
+        const numericInput = document.createElement("input");
+        numericInput.type = "number";
+        numericInput.className = "numericAnswerInput";
+        numericInput.inputMode = "decimal";
+        numericInput.placeholder = "Введите число";
+        numericInput.setAttribute("aria-label", "Числовой ответ");
 
-        const answerButton = document.createElement("button");
-        answerButton.type = "button";
-        answerButton.className = "answerBtn";
+        const submitButton = document.createElement("button");
+        submitButton.type = "button";
+        submitButton.className = "numericAnswerBtn";
+        submitButton.textContent = "Проверить";
 
-        // Insert answer as plain text
-        answerButton.textContent = answer.text;
+        const submitNumericAnswer = () => checkNumericAnswer(numericInput, submitButton, currentQuestion.numericAnswer);
+        submitButton.addEventListener("click", submitNumericAnswer);
+        numericInput.addEventListener("keydown", event => {
+            if (event.key === "Enter") {
+                submitNumericAnswer();
+            }
+        });
 
-        answerButton.addEventListener("click", checkAnswer);
+        answersWrapper.className = "numericAnswer";
+        answersWrapper.append(numericInput, submitButton);
+    } else {
+        currentQuestion.answers.forEach(answer => {
+            const listItem = document.createElement("li");
 
-        listItem.appendChild(answerButton);
-        answersList.appendChild(listItem);
-    });
+            const answerButton = document.createElement("button");
+            answerButton.type = "button";
+            answerButton.className = "answerBtn";
+
+            // Insert answer as plain text
+            answerButton.textContent = answer.text;
+
+            answerButton.addEventListener("click", checkAnswer);
+
+            listItem.appendChild(answerButton);
+            answersList.appendChild(listItem);
+        });
+        answersWrapper.appendChild(answersList);
+    }
 
     // Assemble question
-    answersWrapper.appendChild(answersList);
     container.appendChild(quizImage);
     container.appendChild(questionText);
     container.appendChild(answersWrapper);
@@ -108,6 +136,36 @@ function showQuestion() {
         overlayImg.src = quizImage.src;
         overlay.style.display = "flex";
     });
+}
+
+function checkNumericAnswer(input, submitButton, correctAnswer) {
+    if (input.disabled || input.value.trim() === "") {
+        return;
+    }
+
+    const isCorrect = Number(input.value.replace(",", ".")) === correctAnswer;
+    input.disabled = true;
+    submitButton.disabled = true;
+    input.classList.add(isCorrect ? "correctAnswer" : "incorrectAnswer");
+
+    if (isCorrect) {
+        numCorrect++;
+    } else {
+        const hint = document.createElement("p");
+        hint.className = "numericAnswerHint";
+        hint.textContent = `Правильный ответ: ${correctAnswer}`;
+        submitButton.after(hint);
+    }
+
+    numCurrent += 1;
+    nextButton.disabled = false;
+    nextButton.focus();
+    totalSpan.forEach(span => {
+        span.textContent = shuffledQuestions.length;
+    });
+    correctSpan.textContent = numCorrect;
+    currentSpan.textContent = numCurrent;
+    myBar.style.width = (numCurrent * 100) / shuffledQuestions.length + "%";
 }
 
 // Function to check the selected answer and update global variables accordingly

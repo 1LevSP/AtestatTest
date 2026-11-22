@@ -107,6 +107,48 @@ button:hover {
     width: min(510px, calc(100vw - 48px));
 }
 
+.numericAnswer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.numericAnswerInput {
+    width: 180px;
+    margin: 15px 0;
+    padding: 16px;
+    border: 2px solid #191D63;
+    border-radius: 8px;
+    font: inherit;
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+.numericAnswerInput::-webkit-inner-spin-button,
+.numericAnswerInput::-webkit-outer-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+}
+
+.numericAnswerBtn {
+    margin-left: 0;
+}
+
+.correctAnswer {
+    border-color: green;
+    background-color: #dff5df;
+}
+
+.incorrectAnswer {
+    border-color: red;
+    background-color: #ffe0e0;
+}
+
+.numericAnswerHint {
+    margin: 0;
+    color: #191D63;
+}
+
 .nextBtn {
     background-color: #3d3d3d;
     color: white;
@@ -230,6 +272,18 @@ ul {
         padding: 14px;
         line-height: 1.35;
         white-space: normal;
+    }
+
+    .numericAnswer {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .numericAnswerInput,
+    .numericAnswerBtn {
+        width: 100%;
+        max-width: 510px;
+        margin: 6px 0;
     }
 
     .container ul,

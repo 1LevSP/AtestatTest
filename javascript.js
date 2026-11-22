@@ -1,7 +1,5 @@
 // Добавить:
 // 1) чтобы можно было переходить между вопросами 
-// 3) добавить билеты с задачами 
-// Свободные вопросы:487
 
 // Select the HTML elements
 const questionContainer = document.querySelector(".questions");
@@ -13,6 +11,7 @@ const restartButton = document.querySelector("#restart");
 const menuButton = document.querySelector("#menuBtn");
 const totalSpan = document.querySelectorAll(".total");
 const correctSpan = document.querySelector("#correct");
+const resultUnit = document.querySelector("#resultUnit");
 const attestationResults = document.querySelector("#attestationResults");
 const attestationQuestionsCorrect = document.querySelector("#attestationQuestionsCorrect");
 const attestationTasksCorrect = document.querySelector("#attestationTasksCorrect");
@@ -276,6 +275,7 @@ function showResults() {
     footer.hidden = true;
 
     const isAttestation = selectedMode === "attestation";
+    resultUnit.textContent = selectedMode === "tasks" ? "задач" : "вопросов";
     resultsContainer.querySelector("p").hidden = isAttestation;
     attestationResults.hidden = !isAttestation;
     if (isAttestation) {

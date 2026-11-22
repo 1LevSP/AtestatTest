@@ -96,6 +96,11 @@ button:hover {
     object-fit: contain;
 }
 
+.questionImageArea {
+    position: relative;
+    width: min(560px, 90%);
+}
+
 .question {
     width: min(700px, calc(100% - 32px));
     text-align: center;
@@ -132,6 +137,18 @@ button:hover {
 
 .numericAnswerBtn {
     margin-left: 0;
+    background-color: #222222;
+    color: white;
+    font-weight: bold;
+}
+
+.numericAnswerBtn:hover {
+    background-color: #111111;
+}
+
+.numericAnswerBtn:disabled {
+    cursor: auto;
+    background-color: #666666;
 }
 
 .correctAnswer {
@@ -144,9 +161,52 @@ button:hover {
     background-color: #ffe0e0;
 }
 
-.numericAnswerHint {
+.methodologyBtn {
+    width: min(150px, 100%);
+    min-height: auto;
+    margin: -2px 0 12px;
+    padding: 4px 4px 3px;
+    border: none;
+    border-bottom: 2px dashed #999999;
+    border-radius: 0;
+    background: transparent;
+    color: #666666;
+    font-size: 14px;
+    text-align: center;
+}
+
+.methodologyBtn:hover {
+    background: transparent;
+    color: #222222;
+    text-decoration: underline;
+}
+
+.explanationPanel {
+    display: grid;
+    grid-template-rows: 0fr;
+    width: min(560px, calc(100% - 32px));
     margin: 0;
-    color: #191D63;
+    opacity: 0;
+    overflow: hidden;
+    transition: grid-template-rows 240ms ease, margin 240ms ease, opacity 240ms ease;
+}
+
+.explanationPanel.is-open {
+    grid-template-rows: 1fr;
+    margin: 8px 0 16px;
+    opacity: 1;
+}
+
+.explanationContent {
+    min-height: 0;
+    overflow: hidden;
+}
+
+.explanationPanel img {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
 }
 
 .nextBtn {
@@ -217,7 +277,7 @@ ul {
 }
 
 .questionImg {
-    width: min(560px, 90%);
+    width: 100%;
     height: min(35vh, 300px);
 }
 
@@ -264,6 +324,12 @@ ul {
         max-width: 560px;
         height: min(34vh, 250px);
     }
+
+    .questionImageArea {
+        width: 100%;
+        max-width: 560px;
+    }
+
 
     .answerBtn {
         width: 100%;

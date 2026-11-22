@@ -53,6 +53,8 @@ function shuffleArray(array) {
 
 // Function to populate the HTML with question and answer options
 function showQuestion() {
+    document.querySelector(".explanationBtn")?.remove();
+    document.querySelector(".methodologyBtn")?.remove();
     const currentQuestion = shuffledQuestions[currentQuestionIndex];
     const hasNumericAnswer = Number.isFinite(currentQuestion.numericAnswer);
 
@@ -71,6 +73,10 @@ function showQuestion() {
     quizImage.className = "questionImg";
     quizImage.id = "quiz-image";
     quizImage.alt = currentQuestion.question;
+
+    const questionImageArea = document.createElement("div");
+    questionImageArea.className = "questionImageArea";
+    questionImageArea.appendChild(quizImage);
 
     // Create question text safely
     const questionText = document.createElement("p");
@@ -124,9 +130,45 @@ function showQuestion() {
     }
 
     // Assemble question
-    container.appendChild(quizImage);
+    container.appendChild(questionImageArea);
     container.appendChild(questionText);
     container.appendChild(answersWrapper);
+
+    if (currentQuestion.explanationImg) {
+        const explanationButton = document.createElement("button");
+        explanationButton.type = "button";
+        explanationButton.className = "methodologyBtn";
+        explanationButton.textContent = "Методология";
+        explanationButton.setAttribute("aria-expanded", "false");
+
+        const explanationPanel = document.createElement("div");
+        explanationPanel.className = "explanationPanel";
+        explanationPanel.setAttribute("aria-hidden", "true");
+
+        const explanationContent = document.createElement("div");
+        explanationContent.className = "explanationContent";
+
+        const explanationImage = document.createElement("img");
+        explanationImage.src = currentQuestion.explanationImg;
+        explanationImage.alt = "Пошаговое решение задачи";
+        explanationImage.addEventListener("click", () => {
+            overlayImg.src = explanationImage.src;
+            overlayImg.alt = explanationImage.alt;
+            overlay.style.display = "flex";
+        });
+        explanationContent.appendChild(explanationImage);
+        explanationPanel.appendChild(explanationContent);
+
+        explanationButton.addEventListener("click", () => {
+            const isOpen = !explanationPanel.classList.contains("is-open");
+            explanationPanel.classList.toggle("is-open", isOpen);
+            explanationButton.classList.toggle("is-open", isOpen);
+            explanationButton.setAttribute("aria-expanded", String(isOpen));
+            explanationPanel.setAttribute("aria-hidden", String(!isOpen));
+        });
+        container.appendChild(explanationButton);
+        container.appendChild(explanationPanel);
+    }
 
     // Replace previous question
     questionContainer.replaceChildren(container);
@@ -150,11 +192,6 @@ function checkNumericAnswer(input, submitButton, correctAnswer) {
 
     if (isCorrect) {
         numCorrect++;
-    } else {
-        const hint = document.createElement("p");
-        hint.className = "numericAnswerHint";
-        hint.textContent = `Правильный ответ: ${correctAnswer}`;
-        submitButton.after(hint);
     }
 
     numCurrent += 1;
@@ -207,12 +244,16 @@ function checkAnswer(e) {
 
 // Function to display the final quiz results
 function showResults() {
+    document.querySelector(".explanationBtn")?.remove();
+    document.querySelector(".methodologyBtn")?.remove();
     questionContainer.hidden = true;
     resultsContainer.hidden = false;
     footer.hidden = true;
 }
 
 function showMenu() {
+    document.querySelector(".explanationBtn")?.remove();
+    document.querySelector(".methodologyBtn")?.remove();
     startScreen.hidden = false;
     questionContainer.hidden = true;
     resultsContainer.hidden = true;

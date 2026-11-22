@@ -13,6 +13,9 @@ const restartButton = document.querySelector("#restart");
 const menuButton = document.querySelector("#menuBtn");
 const totalSpan = document.querySelectorAll(".total");
 const correctSpan = document.querySelector("#correct");
+const attestationResults = document.querySelector("#attestationResults");
+const attestationQuestionsCorrect = document.querySelector("#attestationQuestionsCorrect");
+const attestationTasksCorrect = document.querySelector("#attestationTasksCorrect");
 const currentSpan = document.querySelector("#current");
 const overlay = document.querySelector("#overlay");
 const overlayImg = document.querySelector("#overlay-img");
@@ -23,6 +26,8 @@ let shuffledQuestions = [];
 let currentQuestionIndex = 0;
 let numCorrect = 0;
 let numCurrent = 0;
+let attestationQuestionsCorrectCount = 0;
+let attestationTasksCorrectCount = 0;
 let selectedMode = "random";
 
 const nextButton = document.querySelector(".nextBtn");
@@ -48,6 +53,26 @@ function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
+// Return a random subset without changing the original question bank.
+function getRandomItems(items, count) {
+    const shuffledItems = [...items];
+    shuffleArray(shuffledItems);
+    return shuffledItems.slice(0, Math.min(count, shuffledItems.length));
+}
+
+function recordCorrectAnswer() {
+    numCorrect++;
+
+    if (selectedMode === "attestation") {
+        const currentQuestion = shuffledQuestions[currentQuestionIndex];
+        if (taskData.includes(currentQuestion)) {
+            attestationTasksCorrectCount++;
+        } else {
+            attestationQuestionsCorrectCount++;
+        }
     }
 }
 
@@ -104,6 +129,7 @@ function showQuestion() {
         submitButton.addEventListener("click", submitNumericAnswer);
         numericInput.addEventListener("keydown", event => {
             if (event.key === "Enter") {
+                event.preventDefault();
                 submitNumericAnswer();
             }
         });
@@ -191,12 +217,11 @@ function checkNumericAnswer(input, submitButton, correctAnswer) {
     input.classList.add(isCorrect ? "correctAnswer" : "incorrectAnswer");
 
     if (isCorrect) {
-        numCorrect++;
+        recordCorrectAnswer();
     }
 
     numCurrent += 1;
     nextButton.disabled = false;
-    nextButton.focus();
     totalSpan.forEach(span => {
         span.textContent = shuffledQuestions.length;
     });
@@ -223,7 +248,7 @@ function checkAnswer(e) {
     const isCorrect = shuffledQuestions[currentQuestionIndex].answers.find(answer => answer.text === selectedButton.textContent).correct;
 
     if (isCorrect) {
-        numCorrect++;
+        recordCorrectAnswer();
         selectedButton.style.backgroundColor = "green";
     } else {
         correctBtn.style.backgroundColor = "green";
@@ -249,6 +274,14 @@ function showResults() {
     questionContainer.hidden = true;
     resultsContainer.hidden = false;
     footer.hidden = true;
+
+    const isAttestation = selectedMode === "attestation";
+    resultsContainer.querySelector("p").hidden = isAttestation;
+    attestationResults.hidden = !isAttestation;
+    if (isAttestation) {
+        attestationQuestionsCorrect.textContent = attestationQuestionsCorrectCount;
+        attestationTasksCorrect.textContent = attestationTasksCorrectCount;
+    }
 }
 
 function showMenu() {
@@ -289,14 +322,25 @@ function startQuiz() {
         return;
     }
 
-    shuffledQuestions = [...sourceData];
-    shuffleArray(shuffledQuestions);
-    if (selectedMode === "random") {
-        shuffledQuestions = shuffledQuestions.slice(0, 30);
+    if (selectedMode === "attestation") {
+        // 27 случайных теоретических вопросов и 3 случайные задачи.
+        shuffledQuestions = [
+            ...getRandomItems(quizData, 27),
+            ...getRandomItems(taskData, 3),
+        ];
+        shuffleArray(shuffledQuestions);
+    } else {
+        shuffledQuestions = [...sourceData];
+        shuffleArray(shuffledQuestions);
+        if (selectedMode === "random") {
+            shuffledQuestions = shuffledQuestions.slice(0, 30);
+        }
     }
     currentQuestionIndex = 0;
     numCorrect = 0;
     numCurrent = 0;
+    attestationQuestionsCorrectCount = 0;
+    attestationTasksCorrectCount = 0;
     startScreen.hidden = true;
     questionContainer.hidden = false;
     resultsContainer.hidden = true;

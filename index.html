@@ -20,6 +20,7 @@
 
         <section class="start-screen">
             <h2>Выберите режим теста</h2>
+            <button class="startBtn" data-mode="attestation">Аттестация</button>
             <button class="startBtn" data-mode="random">30 случайных вопросов</button>
             <button class="startBtn" data-mode="all">Все доступные вопросы</button>
             <button class="startBtn" data-mode="tasks">Задачи</button>
@@ -31,6 +32,10 @@
         <section class="results" hidden>
             <h2>Результаты</h2>
             <p>Вы ответили верно на <span id="correct">0</span> из <span class="total">0</span> вопросов</p>
+            <div id="attestationResults" hidden>
+                <p>Правильно отвечено на вопросы: <span id="attestationQuestionsCorrect">0</span> из 27</p>
+                <p>Правильно решено задач: <span id="attestationTasksCorrect">0</span> из 3</p>
+            </div>
             <div class="results-actions">
                 <button id="restart">Перезапустить</button>
                 <button id="menuBtn">Вернуться на главную</button>
